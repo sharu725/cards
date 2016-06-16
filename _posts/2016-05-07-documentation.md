@@ -29,11 +29,11 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda cards jekyll theme](/images/webjeda-cards-jekyll-theme-1.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/webjeda-cards-jekyll-theme-1.png)
 
 This theme is responsive.
 
-![webjeda cards responsive jekyll theme](/images/webjeda-cards-responsive-jekyll-theme-2.png)
+![webjeda cards responsive jekyll theme]({{site.baseurl}}/images/webjeda-cards-responsive-jekyll-theme-2.png)
 {: .text-center}
 
 
