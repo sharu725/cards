@@ -1,9 +1,9 @@
 <div class="col-md-4 mt20">
         <div class="row post-img">
            {% if page.img %}
-            <img src="/images/{{page.img}}" alt="{{page.title}}">
+            <img src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
             {% else %}
-            <img src="/images/webjeda-logo-big.jpg" alt="webjeda">
+            <img src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="webjeda">
             {% endif %}
         </div>
             
@@ -14,7 +14,7 @@
                 {% for post in site.related_posts limit:3 %}
 
                       <li>
-                      <p><a href="{{ post.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
                       </li>
 
                 {% endfor %}

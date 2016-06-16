@@ -15,9 +15,9 @@ layout: default
                     <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
                   </div>
                   {% if post.img %}
-                  <img width="100%" src="/images/{{post.img}}" alt="{{post.title}}">
+                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
-                  <img width="100%" src="/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
                   {% endif %}
                   <div class="panel-body"><small>
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</small>
