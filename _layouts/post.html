@@ -18,10 +18,10 @@ layout: default
     <div class="row">
             <ul class="pager">
              {% if page.next.url %}
-                    <li><a class="next" href="{{page.next.url}}">&laquo; {{page.next.title}}</a></li>
+                    <li><a class="next" href="{{page.next.url | prepend: site.baseurl}}">&laquo; {{page.next.title}}</a></li>
               {% endif %}
               {% if page.previous.url %}
-                <li><a class="previous" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a></li>
+                <li><a class="previous" href="{{page.previous.url | prepend: site.baseurl}}">{{page.previous.title}} &raquo;</a></li>
               {% endif %}
             </ul>
     </div>
