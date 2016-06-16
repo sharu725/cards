@@ -7,14 +7,14 @@ Watch my video on instlallation
 ## How to delete old **gh-pages** branch?
 After forking the repository, click on **branches**.
 
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch.png)
+![delete gh-pages branch](/images/delete-github-branch.png)
 
 Delete ``gh-pages`` branch.
-![delete gh-pages branch]({{site.baseurl}}/images/delete-github-branch-2.png)
+![delete gh-pages branch](/images/delete-github-branch-2.png)
 
 You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
 
-![create gh-pages branch]({{site.baseurl}}/images/create-gh-pages-branch.JPG)
+![create gh-pages branch](/images/create-gh-pages-branch.JPG)
 
 Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
 
@@ -22,12 +22,12 @@ This process will host the theme as a **Project Page**. You can also download th
 
 Default theme will look like this
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/webjeda-cards-jekyll-theme-1.png)
+![webjeda cards jekyll theme](/images/webjeda-cards-jekyll-theme-1.png)
 
 This theme is responsive.
 
-![webjeda cards responsive jekyll theme]({{site.baseurl}}/images/webjeda-cards-responsive-jekyll-theme-2.png)
-{: .text-center}
+![webjeda cards responsive jekyll theme](/images/webjeda-cards-responsive-jekyll-theme-2.png)
+
 
 
 # Development
