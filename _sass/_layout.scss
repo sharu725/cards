@@ -37,7 +37,11 @@ footer {
     list-style: none;
     display: inline;
     margin-left: 10px;
+    padding: 5px 8px;
     }
+.social:hover {
+     opacity: 0.7;
+}
 .social img {
     width: 20px;
 }
