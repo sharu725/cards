@@ -37,6 +37,8 @@ fb-app-id: 549480635219583
 fb-page-url: https://www.facebook.com/webjeda/
 fb-page-title: webjeda
 
+analytics: UA-71358787-1
+
 sass:
   style: compressed
 
