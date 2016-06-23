@@ -42,4 +42,5 @@ analytics: UA-71358787-1
 sass:
   style: compressed
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
+
