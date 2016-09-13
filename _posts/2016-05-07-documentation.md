@@ -43,3 +43,12 @@ Make changes to the **master** branch and create a pull request. Do not use **gh
 
 # License
 MIT License
+
+# Changelog
+<pre>
+version 1.0 - SEO, disqus, page-speed enhancement, compressed html.
+
+version 0.9 - Sidebar default image and other minor improvements.  
+  
+version 0.8 - Bootstrap based cards layout theme.
+</pre>

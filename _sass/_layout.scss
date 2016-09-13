@@ -13,7 +13,12 @@ img {
     margin-top: 10px;
 }
 .navbar-brand {
-  line-height: 3;
+    font-weight: 900;
+    font-size: 1.85em;
+    padding: 10px;
+    @media screen and (max-width: $on-palm) {
+        font-size: 1.5em;
+    }
 }
 .post-meta {
     color: $grey-color;

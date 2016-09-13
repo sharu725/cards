@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 
@@ -14,6 +17,24 @@
     </div>
 
     {% include footer.html %}
+    
+    <script>
+    (function() {
+        var font = document.createElement('link'); 
+        var font2 = document.createElement('link'); 
+        font.type = 'text/css'; 
+        font2.type = 'text/css'; 
+        font.rel = 'stylesheet';
+        font2.rel = 'stylesheet';
+        font.href = '{{site.baseurl}}/css/syntax-highlighting.css';
+        font2.href = '{{site.baseurl}}/css/bootstrap.min.css';
+        var s = document.getElementsByTagName('link')[0]; 
+        var t = document.getElementsByTagName('link')[0]; 
+        s.parentNode.insertBefore(font, s);
+        t.parentNode.insertBefore(font2, t);
+      })();
+</script>
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
  {% if site.analytics %}{% include analytics.html %}{% endif %}
