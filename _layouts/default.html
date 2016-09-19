@@ -21,17 +21,11 @@ layout: compress
 <script async>
     (function() {
         var font = document.createElement('link'); 
-        var font2 = document.createElement('link'); 
         font.type = 'text/css'; 
-        font2.type = 'text/css'; 
         font.rel = 'stylesheet';
-        font2.rel = 'stylesheet';
-        font.href = '{{site.baseurl}}/css/bootstrap.min.css';
-        font2.href = '//fonts.googleapis.com/css?family=Raleway:400,700';
+        font.href = '//fonts.googleapis.com/css?family=Raleway:400,700';
         var s = document.getElementsByTagName('link')[0]; 
-        var t = document.getElementsByTagName('link')[0]; 
         s.parentNode.insertBefore(font, s);
-        t.parentNode.insertBefore(font2, t);
       })();
 </script>
     
