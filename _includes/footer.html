@@ -2,8 +2,10 @@
   <footer class="container">
 
   <div class="row mt20">
-  
-  <div class="col-md-4 text-center">All rights reserved by <a target="_blank" href="http://webjeda.com">WebJeda</a></div>
+  {% if site.copyright.name %}
+  <div class="col-md-4 text-center">All rights reserved by <a target="_blank" href="{{site.copyright.link}}">{{site.copyright.name}}</a></div>
+    {% endif %}
+    
   <div class="col-md-4 text-center" >
   {% if site.built-by %}
   <a target="_blank" href="http://webjeda.com"><img src="https://img.shields.io/badge/Built%20by-webjeda-blue.svg" alt="{{site.built-by}}"></a>

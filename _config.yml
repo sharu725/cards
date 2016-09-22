@@ -21,6 +21,9 @@ default-image: webjeda-logo-big.jpg # If there is no featured image in a post th
 
 #footer
 built-by: webjeda
+copyright:
+   name: webjeda
+   link: 'http://blog.webjeda.com'
 
 # Build settings
 markdown: kramdown
@@ -28,7 +31,10 @@ permalink: /:title/
 paginate: 9
 paginate_path: /page:num/
 
+# Tracker
 analytics: UA-83979019-1
+
+# Comments
 disqus-shortname: webjeda-demo
 
 #social
@@ -42,9 +48,10 @@ fb-app-id: 549480635219583
 fb-page-url: https://www.facebook.com/webjeda/
 fb-page-title: webjeda
 
-
+# Sass style
 sass:
   style: compressed
 
+# Ruby Gems
 gems: [jekyll-paginate, jekyll-seo-tag]
 
