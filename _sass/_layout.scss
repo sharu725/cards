@@ -76,10 +76,16 @@ footer {
 
 
 .pack {
+
+
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .card {
     float: none;
+
 }
