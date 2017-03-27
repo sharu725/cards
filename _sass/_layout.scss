@@ -28,6 +28,12 @@ img {
 .mt10 {
     margin-top: 10px;
 }
+.mt25 {
+    margin-top: 0;
+    @include media-query($on-palm) {
+        margin-top: 25px;
+    }
+}
 
 .p20{
     padding: 20px 0;
