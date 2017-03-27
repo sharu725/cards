@@ -1,4 +1,4 @@
-Demo: [http://webjeda.com/cards](http://webjeda.com/bare-minimum)
+Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
 
 ## Installation
 * Fork the repository
