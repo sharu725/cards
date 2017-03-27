@@ -1,3 +1,19 @@
+html,body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
 img {
     max-width: 100%;
 }
@@ -12,6 +28,10 @@ img {
 .mt10 {
     margin-top: 10px;
 }
+
+.p20{
+    padding: 20px 0;
+}
 .navbar-brand {
     font-weight: 900;
     font-size: 1.85em;
@@ -25,12 +45,14 @@ img {
 }
 
 .panel {
-    border:none;
-    box-shadow: 0px 0px 1px $grey-color;
+    
+   border-radius: 0;
+   border: 1px solid #eee;
+   transition: all 0.3s ease;
 }
 
 .panel:hover {
-    box-shadow: 0px 0px 6px $grey-color;
+    box-shadow: 0px 0px 4px #ddd;
 }
 
 
@@ -88,4 +110,8 @@ footer {
 .card {
     float: none;
 
+}
+
+.post-title {
+    line-height: 2;
 }

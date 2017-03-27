@@ -1,5 +1,11 @@
+---
+---
+
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
 // Our variables
-$base-font-family: Georgia, "Times New Roman", Times, serif;
+$base-font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -41,5 +47,6 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "layout",
-        "custom"
+        "custom",
+        "syntax-highlighting"
 ;
