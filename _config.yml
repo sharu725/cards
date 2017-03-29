@@ -8,10 +8,8 @@
 # Site settings
 title: "CUSP 2017 cohorts"
 email: your-email@domain.com
-description: > Projects space for CUSP 2017 cohorts.
-  
-  
-  
+description: "Projects space for CUSP 2017 cohorts."
+
 baseurl: # the subpath of your site, e.g. /blog
 url: "http://cusp2017.github.io" # the base hostname & protocol for your site
 
