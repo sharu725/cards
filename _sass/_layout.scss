@@ -3,6 +3,10 @@ html,body {
     font-size: $base-font-size;
 }
 
+
+.col-md-9 {
+    padding-left: 0;
+}
 .navbar {
     border-radius: 0;
 }
@@ -12,6 +16,15 @@ html,body {
     background-color: transparent;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
+}
+
+.navbar-brand.header-logo {
+    padding: 15px 0px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 img {
@@ -111,6 +124,7 @@ footer {
     display: inline-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
+    margin: 0 -15px;
 }
 
 .card {

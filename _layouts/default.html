@@ -4,18 +4,18 @@ layout: compress
 
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   {% include head.html %}
 
   <body>
-
+    <div class="container">
     {% include header.html %}
 
-    <div class="container">
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
 
     {% include footer.html %}
     
@@ -23,6 +23,7 @@ layout: compress
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
  {% if site.analytics %}{% include analytics.html %}{% endif %}
+  </div>
   </body>
 
 </html>

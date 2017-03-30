@@ -3,6 +3,45 @@ layout: default
 ---
 
 <div class="home">
+
+    
+    <div class="row" >
+                
+      <div class="w3-mobile w3-display-container">
+        <img class="mySlides" src="images/image-1.png" style="height: 200px; display: block; margin: 0 auto; margin-top: 40px">
+        <img class="mySlides" src="images/image-2.png" style="height: 200px; display: block; margin: 0 auto; margin-top: 40px">
+        <img class="mySlides" src="images/image-3.png" style="height: 200px; display: block; margin: 0 auto; margin-top: 40px">
+        <img class="mySlides" src="images/image-4.png" style="height: 200px; display: block; margin: 0 auto; margin-top: 40px">
+
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        <br></br>
+        
+          <p style="font-size:0.8em; color=black"> <b>CUSP 2017 cohorts </b> are group of urban data scientisit in training at NYU. 
+
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+    </div> 
+
+
+
  
   
     <div class="row pack">
@@ -29,6 +68,8 @@ layout: default
           {% endfor %}
 
     </div> 
+
+
     
 <div class="row">
     <div class="col-md-4">  </div>
