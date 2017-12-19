@@ -4279,7 +4279,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-
+   
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -5455,8 +5455,7 @@ button.list-group-item-danger.active:focus {
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
 }
 .panel-body {
   padding: 15px;
@@ -6860,8 +6859,8 @@ legend {
   font-weight: normal;
 }
 .panel {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+/*   -webkit-box-shadow: none;
+  box-shadow: none; */
 }
 .panel-default .close {
   color: #333333;
