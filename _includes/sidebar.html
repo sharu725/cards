@@ -20,9 +20,11 @@
                 {% endfor %}
               </ul>
         </div>
-        
+        {% if site.fb-like-box %}
         <div class="mt10">
             <div class="fb-page" data-href="https://www.facebook.com/webjeda/" data-width="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webjeda/" class="fb-xfbml-parse-ignore"><a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a></blockquote></div>
         </div>
+        {% endif %}
+        <br>
 
 </div>
