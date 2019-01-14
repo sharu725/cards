@@ -1,8 +1,14 @@
-Demo: [http://webjeda.com/cards](http://webjeda.com/cards)
+# Grin Tech Notes
 
-## Installation
-* Fork the repository
-* Go to settings and set Github Pages source as master.
-* Your new site should be ready.
+## Setup locally
 
-For more themes visit - [https://jekyll-themes.com](https://jekyll-themes.com)
+```
+$ bundle install # install dependencies
+$ bundle exec jekyll s # serve
+```
+
+## Add an article
+
+1. Fork it.
+2. Make a pull request.
+3. Wait for a review and merge.
