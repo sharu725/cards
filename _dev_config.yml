@@ -56,5 +56,8 @@ email: jessicatemporal@gmail.com
 sass:
   style: compressed
 
+# Include list
+include: [.well-known, EnJtResume.pdf, folium]
+
 # Ruby Gems
 plugins: [jekyll-paginate, jekyll-seo-tag]

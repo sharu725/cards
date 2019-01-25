@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/temporal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jtemporal.com
+  * I am temporal (https://keybase.io/temporal) on keybase.
+  * I have a public key with fingerprint 3655 232A BC54 0BE6 474F  E3DB 228A 965A 1717 398C
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01205f5c9d017572cb00a443464fbd2ac648242b5d6bfcdfd8e8d0baf28080c8c55b0a",
+            "fingerprint": "3655232abc540be6474fe3db228a965a1717398c",
+            "host": "keybase.io",
+            "key_id": "228a965a1717398c",
+            "kid": "0101e38f132b41b2b3024f03fbb4d8b465a256df979a3a006a37249d324ed4ae18a80a",
+            "uid": "e4540a7c8404b1becfed2f0ca242be19",
+            "username": "temporal"
+        },
+        "service": {
+            "hostname": "jtemporal.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1489712555,
+    "expire_in": 157680000,
+    "prev": "76cc37be12c1a9b3422f0ebf9818f905641dbef4c32b25e8062a9967498f4b4d",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.66
+Comment: https://keybase.io/crypto
+
+yMNuAnicbVJ7UFRVHF6UlwStKeSkwjR3nAgH4T7OfYFtGvYaAhGbUcRmu+fec5fL
+Y3e5u8v7kRKVDRowQRrQTBSDCYmkTiCCPO0BWmIwasrOZGohlCUiMqDdy8h/nX/O
+nN/5vu983zenP2Cpwc8D+7B616pVfJnHYM9Bl2HnIN2Uj0GblItF5WNpaGFD6RJy
+OM1pioRFYThB4rRMi7yEEyzNkiLEcQEACjBAhhIpiAzgSEBCWmKgLEqyxCFOwqEg
+kxzO4SIn0jTEBSwckxWrBal2VbE6NVmKoWmSIgUo0gCHiAEskBElQZLkBJ6hBYIl
+WIrnRI2YYnPoDM0cFBwoQrFpM+1gXrD3P/hF3ziBKE4mKBICApKQwkkg45QMIZA4
+CDQOSTOSzLO8QAk4zggUSwJeokiAJCAgghO4Bd+uBTkENJ8CK3IAB5CASJSRRMq4
+KOjZEcHrQAdSrUIG0tBOlGG3qUI6VhiOadMsRUR6sXqSx4jURUiEaMvQyHbV5rSJ
+tnTtKsXptEfpTGeuXYdmI2h+LGKGilXSetQIWUh1KDYrFkVoSNGp6KoE4HiWIGma
+DsdQjl1RkVnRETTLcLi29GdQlibJMqJIsZpvUiQEHlKA1LIgKPMcwck8TjOAkCCS
+gaiVR9KIwxlS4HmGBTwnA60/TI+VabVp2oTmU7Bomg7FYhWcLhVhhb09uz0NHn4G
+b68l+gcz+C1bvvjtPi8yzgd7JrNNfU/EWl5LMFhST21xfH0vd032z7/f6Uw6P3Z2
+bQ2ee0cwDYwdLqnhyq0h/jdPulvKj1+eMgfXqRtmSq56ht4QL+wO/DSste7M92/X
+J5moI5+YZyMDi8dbHlz+Nr/06onje9Vkn3fPe3tHf5UQ69zhrnm6752X2/KLU8Z3
+nnLvyR+KHhp1Z57ZfmX5+v6Y3mdrN39herW9YBcd8s8om7RtY3HXm8/5XhjyKZjJ
+M3U6EsOqw95ze825/vrodNXNA60fGzvwZtoVhqWuvPXUkv1XDkznVYVuURr46wZ/
+C4o95h9ypLRN5jw3Zb6Y0D0fZ/R5ZOwra7z2wSbTK6G1gYepHeN+wXO+csjEZOtI
+QXZJr3vfd/dbTZXGQurayuQ9g7/+suLYWDhoql3dHxFn+Ls9rfTstGnWGfvWn+WT
+FV4bjp6bqncdHWmfnvzx+m8xWztej6x+sviniakVCfNdyiPfqrQXHvbc+oMZu3cb
+BJUkz3ZMb6xuboiPLOqO6zn0zOai0z7sCKgoHJhgib1LYxq7H9j3t8Nv5kZzXhqv
+PMl12j1vtB06EbT6YGS9ur3s7kVj7/qqS8S6iOjhgNmLiV/KFWyzkpVY7Fob60+1
+xNcNqeD5um1rmpK7vAK9beUZRZYfzuXNFr1/P3OgsTvIfDvgYXnGMt9LxeuGK2FS
+fMO/w3ff6M75bOvMf+5iwvk=
+=z69N
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/temporal
+
+==================================================================
+
