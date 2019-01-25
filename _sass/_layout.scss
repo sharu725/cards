@@ -112,6 +112,9 @@ footer {
     list-style: none;
     padding: 0;
     text-align: justify;
+    a {
+        text-decoration: underline;
+    }
 }
 
 .recent {
@@ -141,7 +144,6 @@ footer {
 
 .post-title {
     line-height: 2;
-    text-decoration: underline;
 }
 
 .index-anchor {
