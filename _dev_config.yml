@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jessica Temporal
+email: jessicatemporal@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+#sidebar
+default-image: logo.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: jtemporal
+
+copyright:
+   name: jtemporal
+   link: 'https://jtemporal.com'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
+
+# Tracker
+analytics:
+
+# Comments
+disqus: yes
+disqus-shortname: jtemporal
+
+#social
+#facebook: http://facebook.com/webjeda
+#quora: http://quora.com/sharathdt
+twitter: http://twitter.com/jesstemporal
+github: http://github.com/jtemporal
+email: jessicatemporal@gmail.com
+
+#facebook like box
+#fb-like-box: yes
+#fb-app-id: 549480635219583
+#fb-page-url: https://www.facebook.com/webjeda/
+#fb-page-title: webjeda
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]
