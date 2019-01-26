@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
   
   
-baseurl: "https://jtemporal.com" # the subpath of your site, e.g. /blog
+baseurl: "https://jtemporal.github.io" # the subpath of your site, e.g. /blog
 url: "/cards" # the base hostname & protocol for your site
 
 #sidebar
