@@ -1102,7 +1102,6 @@ textarea {
 }
 a {
   color: #383838;
-  text-decoration: none;
 }
 a:hover,
 a:focus {
@@ -4279,7 +4278,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-width: 1px 0 0;
 }
 .navbar-brand {
-   
+
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4327,6 +4326,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin: 10.75px -15px;
 }
 .navbar-nav > li > a {
+  text-decoration: none;
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 22px;
@@ -4500,6 +4500,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #dddddd;
 }
 .navbar-default .navbar-brand {
+  text-decoration: none;
   color: #383838;
 }
 .navbar-default .navbar-brand:hover,

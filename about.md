@@ -1,17 +1,17 @@
 ---
 layout: page
-title: About
+title: Sobre
+img: logo.png
 permalink: /about/
 ---
 
 
+Com uma formação exótica em Informática Biomédica, me apaixonei pela ciência de dados ainda na faculdade quando aprendi a buscar informações em dados de sequenciamento genético usando R.
 
+Ainda na faculdade, após um breve flerte em desenvolvimento web (Python e Django) e já participando da comunidade Python, voltei a analisar dados para [o meu TCC onde processei tweets com ajuda do NLTK](https://jtemporal.com/jessie).
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="_blank"} for jekyll tutorials. 
+Ao me formar, me juntei ao projeto [Operação Serenata de Amor](https://serenata.ai) e durante um ano ajudei encontrar gastos irregulares analisando os dados abertos do governo brasileiro e dei várias palestras pelo mundo.
 
-For more themes, visit [jekyll-themes](https://jekyll-themes.com){: target="_blank"}
+Hoje, depois de passar um ano como desenvolvedora na Nuveo, voltei a esbanjar meu amor por dados no time de dados do Grupo Globo.
 
-**Does the theme deserve a star?**
-
-<a class="github-button" href="https://github.com/sharu725/cards" data-style="mega" data-count-href="/sharu725/cards/stargazers" data-count-api="/repos/sharu725/cards#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/cards on GitHub">Star</a>
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+Ainda acho tempo para cultivar maravilhosos cachos avermelhados, continuar contribuindo e mantendo projetos de código aberto no GitHub, gravar episódios do primeiro e mais querido podcast de ciência de dados do Brasil o [Pizza de Dados](https://pizzadedados.com) e escrever posts técnicos aqui no meu blog e [na revista do Pizza](https://medium.com/pizzadedados)
