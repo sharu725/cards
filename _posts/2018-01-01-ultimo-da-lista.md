@@ -2,6 +2,7 @@
 title: "O último da lista com Python"
 layout: post
 date: '2018-01-01 10:00:00'
+img: colinha.png
 tags:
 - colinha
 - python

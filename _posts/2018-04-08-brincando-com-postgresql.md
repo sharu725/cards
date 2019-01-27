@@ -2,7 +2,7 @@
 title: "Brincando com o PostgreSQL"
 layout: post
 date: '2018-04-08 01:00:00'
-tutorial: true
+img: tutorial.png
 tags:
 - tutorial
 - banco de dados

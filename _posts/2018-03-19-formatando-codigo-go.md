@@ -2,6 +2,7 @@
 title: "Formatando código Go usando o próprio Go pra isso"
 layout: post
 date: '2018-03-19 05:00:00'
+img: colinha.png
 tags:
 - colinha
 - go

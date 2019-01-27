@@ -2,6 +2,7 @@
 title: "Python e suas versões: pyenv parte 2"
 layout: post
 date: '2018-01-02 10:00:00'
+img: colinha.png
 tags:
 - colinha
 - python

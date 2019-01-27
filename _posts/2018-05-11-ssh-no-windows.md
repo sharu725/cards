@@ -1,7 +1,6 @@
 ---
 title: Usando o chaves SSH no Windows
 layout: post
-tutorial: true
 date: '2018-05-11 00:00:00'
 img: click-2.png
 tags:

@@ -2,6 +2,7 @@
 title: "Escolhendo um tema Jekyll"
 layout: post
 date: '2018-01-07 08:00:00'
+img: colinha.png
 tags:
 - colinha
 - jekyll

@@ -2,6 +2,7 @@
 title: "Ambientes virtuais Python: venv"
 layout: post
 date: '2017-12-30 00:00:00'
+img: colinha.png
 tags:
 - colinha
 - python

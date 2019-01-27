@@ -1,7 +1,7 @@
 ---
 title: Fazendo deploy de uma API para o Heroku
 layout: post
-tutorial: true
+img: tutorial.png
 date: '2018-04-15 00:00:00'
 tags:
 - tutorial
