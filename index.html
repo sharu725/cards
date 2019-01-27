@@ -13,9 +13,9 @@ layout: default
                 <div class="panel panel-default">
                   
                   {% if post.img %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
-                  <img width="100%" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{site.title}}">
+                  <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
                   
                   <div class="panel-body">

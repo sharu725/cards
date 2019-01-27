@@ -1,9 +1,9 @@
 <div class="col-md-4 mt20">
         <div class="post-img">
            {% if page.img %}
-            <img width="600" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
+           <img width="600" src="{{site.baseurl}}{{site.url}}/images/{{page.img}}" alt="{{page.title}}">
             {% else %}
-            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="foto da channel">
+                 <img width="600" src="{{site.baseurl}}{{site.url}}/images/{{site.default-image}}" alt="foto da channel">
             {% endif %}
         </div>
 
