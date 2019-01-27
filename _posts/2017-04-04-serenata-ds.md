@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: Cloud Girls Meetup
 date: 2017-04-04
+img: palestra.png
 comments: false
 ---
 

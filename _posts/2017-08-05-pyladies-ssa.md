@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "Ciências de Dados com o Serenata de Amor: Pyladies SSA"
 date: 2017-08-05
+img: palestra.png
 comments: false
 ---
 

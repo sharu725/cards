@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "4º Pyladies Floripa"
 date: 2017-04-27
+img: palestra.png
 comments: false
 ---
 

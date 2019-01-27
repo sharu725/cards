@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "Workshop Mineração de Dados e Inteligência Artificial"
 date: 2017-04-20
+img: palestra.png
 comments: false
 ---
 

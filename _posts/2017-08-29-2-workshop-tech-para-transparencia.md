@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "II Workshop Tecnologia para Transparência"
 date: 2017-08-29
+img: palestra.png
 comments: false
 ---
 

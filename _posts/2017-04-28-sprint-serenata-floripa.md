@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "Sprint Operação Serenata de Amor"
 date: 2017-04-28
+img: palestra.png
 comments: false
 ---
 

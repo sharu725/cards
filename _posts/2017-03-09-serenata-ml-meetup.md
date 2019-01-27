@@ -4,6 +4,7 @@ type: talk
 title: "Serenata de Amor: Machine Learning Meetup"
 date: 2017-03-09
 talk: true
+img: palestra.png
 comments: false
 ---
 

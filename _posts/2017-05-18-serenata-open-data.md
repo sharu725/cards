@@ -3,6 +3,7 @@ layout: post
 type: talk
 title: "Meetup - Mecanismos de prevenção e combate a corrupção"
 date: 2017-05-18
+img: palestra.png
 comments: false
 ---
 
