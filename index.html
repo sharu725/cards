@@ -39,25 +39,25 @@ layout: default
         {% if paginator.total_pages > 1 %}
         <ul class="pagination">
           {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Ant</a></li>
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Anterior</a></li>
           {% else %}
-            <li><span>&laquo; Ant</span></li>
+            <li><span>&laquo; Anterior</span></li>
           {% endif %}
 
           {% for page in (1..paginator.total_pages) %}
             {% if page == paginator.page %}
               <li class="active"><span><em>{{ page }}</em></span></li>
             {% elsif page == 1 %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' }}">{{ page }}</a></li>
+            <li><a href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}">{{ page }}</a></li>
             {% else %}
             <li><a href="{{ site.paginate_path | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
             {% endif %}
           {% endfor %}
 
           {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Próx &raquo;</a></li>
+            <li><a href="{{ paginator.next_page_path | prepend: site.url | replace: '//', '/' }}">Próxima &raquo;</a></li>
           {% else %}
-            <li><span >Próx &raquo;</span></li>
+            <li><span >Próxima &raquo;</span></li>
           {% endif %}
           </ul>
         {% endif %}
