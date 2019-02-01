@@ -8,7 +8,8 @@ tags:
 - python
 - serenata
 - serenata de amor
-- banco de dados
+- database
+- english
 - inglês
 comments: true
 ---
@@ -106,6 +107,11 @@ Tests cancelled.
 ```
 
 You'll need to make another modification on jarbas role to give it permissions to create a database:
+
+```
+$ psql -d postgres
+=> ALTER ROLE jarbas CREATEDB;
+```
 
 After that, tests beautifully pass:
 
