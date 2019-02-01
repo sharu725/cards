@@ -2,7 +2,7 @@
 title: "Even core devs have hiccups ¯\\_(ツ)_/¯"
 layout: post
 date: '2017-02-01 00:00:00'
-img: click-2.png
+img: tutorial.png
 tags:
 - postgres
 - python
@@ -48,9 +48,8 @@ TCP/IP connections on port 5432?
 
 That's when you ask yourself: _Wait, what? What kind of error is that_?
 
-<center>
+
 ![travolta perdido gif](https://media.giphy.com/media/6uGhT1O4sxpi8/giphy.gif)
-</center>
 
 After a few minutes searching I came across this [wonderful Stackoverflow thread](https://stackoverflow.com/a/28249245). I'll break it down for you: After you install PostgreSQL probably (like me), you'll have to start the service **and** initialize a database for you to use. I won't copy here the steps described on the thread but there you'll see it gives you two choices at a given moment:
 
@@ -93,9 +92,7 @@ $ psql -d postgres
 
 Again with the migrate command and voilà:
 
-<center>
 ![all ok](https://i.imgur.com/2nhYU2P.png)
-</center>
 
 And then you get to the point where you might think: _How the hell am I supposed to know if everything is working properly?_ Well, Jarbas has test suites so you might try to run tests and they will fail:
 
@@ -112,6 +109,4 @@ You'll need to make another modification on jarbas role to give it permissions t
 
 After that, tests beautifully pass:
 
-<center>
 ![jarbas tests passing gif](https://media.giphy.com/media/xUA7bjcqhnBpgOvHig/giphy.gif)
-</center>
