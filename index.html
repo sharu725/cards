@@ -48,14 +48,14 @@ layout: default
             {% if page == paginator.page %}
               <li class="active"><span><em>{{ page }}</em></span></li>
             {% elsif page == 1 %}
-            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' }}">{{ page }}</a></li>
             {% else %}
-            <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            <li><a href="{{ site.paginate_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
             {% endif %}
           {% endfor %}
 
           {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url | replace: '//', '/' }}">Next &raquo;</a></li>
           {% else %}
             <li><span >Next &raquo;</span></li>
           {% endif %}
