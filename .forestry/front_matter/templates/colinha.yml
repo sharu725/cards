@@ -1,35 +1,36 @@
 ---
 label: colinha
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: Título
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: 2019-02-21 03:00:00 +0000
 - name: img
   label: Img
   type: file
   hidden: false
-  default: ''
+  default: "/images/colinha.png"
 - name: comments
   label: Comments
   type: boolean
   hidden: false
-  default: ''
+  default: true
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
-  default: ''
+  default:
+  - colinha
