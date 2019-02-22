@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: document
+  path: _drafts
+  label: Drafts
+  match: "**/*"
 - type: heading
   label: JTemporal
 - type: jekyll-posts
