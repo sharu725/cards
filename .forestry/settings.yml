@@ -6,12 +6,14 @@ webhook_url:
 sections:
 - type: heading
   label: JTemporal
-- type: document
-  path: _drafts
-  label: Drafts
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _drafts
+  label: drafts
+  create: documents
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
