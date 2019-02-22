@@ -13,7 +13,7 @@ sections:
   path: _drafts
   label: Drafts
   create: documents
-  match: "**/*.md"
+  match: "*.md"
 - type: jekyll-pages
   label: Pages
   create: all
