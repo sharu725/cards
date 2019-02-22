@@ -10,10 +10,10 @@ sections:
   label: Posts
   create: all
 - type: directory
-  path: _drafts/_posts
+  path: _drafts
   label: Drafts
   create: documents
-  match: "**/*"
+  match: "**/*.md"
 - type: jekyll-pages
   label: Pages
   create: all
