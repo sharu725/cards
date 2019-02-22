@@ -6,10 +6,7 @@ img: "/images/colinha.png"
 comments: true
 tags:
 - colinha
-- blog
-- jekyll
-- cms
-- content manager
+published: false
 
 ---
-Essa colinha é mais um dica e quase um teste de usabilidade na verdade! 
+Essa colinha é mais um dica e quase um teste de usabilidade na verdade!
