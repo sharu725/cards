@@ -11,7 +11,7 @@ sections:
   create: all
 - type: directory
   path: _drafts/_posts
-  label: drafts
+  label: Drafts
   create: documents
   match: "**/*"
 - type: jekyll-pages
