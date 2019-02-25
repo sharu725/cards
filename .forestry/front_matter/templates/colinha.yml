@@ -35,6 +35,4 @@ fields:
   default:
   - colinha
 pages:
-- _drafts/_posts/título.md
-- _drafts/servidores-http-com-python.md
 - _posts/estou-usando-um-cms-e-você-deveria-também.md
