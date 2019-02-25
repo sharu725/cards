@@ -6,6 +6,12 @@ img: "/images/colinha.png"
 comments: true
 tags:
 - colinha
+- blog
+- blogging
+- jekyll
+- CMS
+- content manager system
+- sistema de gerenciamento de conteudo
 published: false
 
 ---
