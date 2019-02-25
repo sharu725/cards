@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Título
+title: Estou usando um CMS e você deveria estar também!
 date: 2019-02-21 03:00:00 +0000
 img: "/images/colinha.png"
 comments: true
