@@ -4,13 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: JTemporal
 - type: directory
   path: _drafts
   label: Drafts
   create: documents
   match: "**/*"
-- type: heading
-  label: JTemporal
 - type: jekyll-posts
   label: Posts
   create: all
