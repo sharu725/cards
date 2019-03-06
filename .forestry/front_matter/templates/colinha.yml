@@ -35,6 +35,7 @@ fields:
   default:
   - colinha
 pages:
+- _drafts/_posts/fazendo-o-descritivo-de-clusters.md
 - _drafts/_posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
 - _posts/estou-usando-um-cms-e-você-deveria-também.md
 - _posts/estou-usando-um-cms-e-você-deveria-também.md
