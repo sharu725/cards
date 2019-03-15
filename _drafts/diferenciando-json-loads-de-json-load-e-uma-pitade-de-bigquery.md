@@ -33,7 +33,7 @@ Dentre os vários métodos, existem dois que são o foco dessa colinha de hoje `
 
 Mas antes de começar, vamos pegar alguns dados. Esses dias eu tava dando uma olhada no [BigQuery](https://cloud.google.com/bigquery/), que entre muitas coisas legais que a ferramenta permite fazer, também da acesso a uma enormidade de dados públicos. Dentre eles dados do GitHub. Muitos desses dados estão disponíveis via API do próprio GitHub, mas se quiser aprender a mexer no BigQuery, eles já disponibilizam os dados lá dentro pra gente:
 
-![](/bq-github.png)
+![](/images/bq-github.png)
 
 Muito fofo né? Dá pra ver pela imagem acima que o conjunto de dados `github_repos` contém 9 tabelas. Dentre elas uma tabela chamada `languages`:
 
@@ -49,7 +49,7 @@ Com o BigQuery eh possivel exportar dados para a sua conta do GoogleDrive. E foi
 
 E dentro dessa pasta um arquivo com o mesmo nome de extensao `.json`.
 
-Eu escolhi esssa tabela por trazer dados de um dominio conhecido por mim. Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON. 
+Eu escolhi esssa tabela por trazer dados de um dominio conhecido por mim. Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON.
 
     SELECT * FROM `bigquery-public-data.github_repos.languages` LIMIT 100
 
