@@ -43,7 +43,11 @@ Essa tabela embora grande tem poucas colunas, apenas 4 para ser mais exata:
 
 ![](/bq-github-languages-schema.png)
 
-Com o BigQuery eh possivel exportar dados
+Com o BigQuery eh possivel exportar dados para a sua conta do GoogleDrive. E foi isso que eu fiz. Ao exportar esses dados o BigQuery cria uma pasta no seu Drive:
+
+![](/2019-03-15 19.16.34.png)
+
+E dentro dessa pasta um arquivo com o mesmo nome de extensao `.json`.
 
 Eu escolhi esssa tabela por trazer dados de um dominio conhecido por mim. Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON. 
 
