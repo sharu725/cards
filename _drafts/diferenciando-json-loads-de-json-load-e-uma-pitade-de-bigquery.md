@@ -17,21 +17,21 @@ Se você nunca entendeu a diferença entre `json.loads()` e `json.load()` chegou
 
 ## JSON
 
-Se você chegou até aqui, provavelmente já sabe o que é o JSON. Mas caso não saiba, bora recapitular: O JSON (JavaScript Object Notation ou Notação de Objetos JavaScript) é um formato leve de troca de dados. É fácil de ler e escrever, o que ajuda a ser usado por humanos além de também ser fácil de ser criado e interpretado por máquinas.
+Se você chegou até aqui, provavelmente já sabe o que é o JSON. Mas caso não saiba, bora recapitular: [O JSON (JavaScript Object Notation ou Notação de Objetos JavaScript)](http://json.org/json-pt.html) é um formato leve de troca de dados. É fácil de ler e escrever, o que ajuda a ser usado por humanos além de também ser fácil de ser criado e interpretado por máquinas.
 
 Se você já usou APIs provavelmente trocou dados com elas usando este formato. A maioria das linguagens de programação moderna oferece suporte de alguma forma a JSON. No caso do Python, existe uma estrutura que é quase a mesma coisa que um objeto JSON: o dicionário.
 
 ## Módulo JSON no Python
 
-Além de uma estrutura de dados, Python também traz de fábrica um módulo para manipulação de JSONs. Para utilizar esse módulo basta fazer o seguinte:
+Além de uma estrutura de dados, Python também traz de fábrica [um módulo para manipulação de JSONs](https://docs.python.org/3.5/library/json.html). Para utilizar esse módulo basta fazer o seguinte:
 
     import json
 
-Dentre os vários métodos, existem dois que são o foco dessa colinha de hoje .loads() e .load() que apesar de muito semelhantes em resultado, são diferentes em modo de funcionamento.
+Dentre os vários métodos, existem dois que são o foco dessa colinha de hoje `.loads()` e `.load()` que apesar de muito semelhantes em resultado, são diferentes em modo de funcionamento.
 
 ## Dados
 
-Mas antes de começar, vamos pegar alguns dados. Esses dias eu tava dando uma olhada no BigQuery, que entre muitas coisas legais que a ferramenta permite fazer, também da acesso a uma enormidade de dados públicos. Dentre eles dados do GitHub. Muitos desses dados estão disponíveis via API do próprio GitHub, mas se quiser aprender a mexer no BigQuery, eles já disponibilizam os dados lá dentro pra gente:
+Mas antes de começar, vamos pegar alguns dados. Esses dias eu tava dando uma olhada no [BigQuery](https://cloud.google.com/bigquery/), que entre muitas coisas legais que a ferramenta permite fazer, também da acesso a uma enormidade de dados públicos. Dentre eles dados do GitHub. Muitos desses dados estão disponíveis via API do próprio GitHub, mas se quiser aprender a mexer no BigQuery, eles já disponibilizam os dados lá dentro pra gente:
 
 ![](/bq-github.png)
 
@@ -43,7 +43,9 @@ Essa tabela embora grande tem poucas colunas, apenas 4 para ser mais exata:
 
 ![](/bq-github-languages-schema.png)
 
-Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON.
+Com o BigQuery eh possivel exportar dados
+
+Eu escolhi esssa tabela por trazer dados de um dominio conhecido por mim. Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON. 
 
     SELECT * FROM `bigquery-public-data.github_repos.languages` LIMIT 100
 
