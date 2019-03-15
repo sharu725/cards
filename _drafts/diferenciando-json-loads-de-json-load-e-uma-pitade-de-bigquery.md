@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Diferenciando json.loads de json.load e uma pitade de BigQuery
+title: Diferenciando json.loads de json.load e uma pitada de BigQuery
 date: 2019-03-15 00:00:00 -0300
 img: "/images/colinha.png"
 comments: true
@@ -37,11 +37,11 @@ Mas antes de começar, vamos pegar alguns dados. Esses dias eu tava dando uma ol
 
 Muito fofo né? Dá pra ver pela imagem acima que o conjunto de dados `github_repos` contém 9 tabelas. Dentre elas uma tabela chamada `languages`:
 
-![](/bq-github-languages.png)
+![](/images/bq-github-languages.png)
 
 Essa tabela embora grande tem poucas colunas, apenas 4 para ser mais exata:
 
-![](/bq-github-languages-schema.png)
+![](/images/bq-github-languages-schema.png)
 
 Com o BigQuery eh possivel exportar dados para a sua conta do GoogleDrive. E foi isso que eu fiz. Ao exportar esses dados o BigQuery cria uma pasta no seu Drive:
 
