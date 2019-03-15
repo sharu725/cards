@@ -43,16 +43,29 @@ Essa tabela embora grande tem poucas colunas, apenas 4 para ser mais exata:
 
 ![](/images/bq-github-languages-schema.png)
 
-Com o BigQuery eh possivel exportar dados para a sua conta do GoogleDrive. E foi isso que eu fiz. Ao exportar esses dados o BigQuery cria uma pasta no seu Drive:
-
-![](/2019-03-15 19.16.34.png)
-
-E dentro dessa pasta um arquivo com o mesmo nome de extensao `.json`.
-
-Eu escolhi esssa tabela por trazer dados de um dominio conhecido por mim. Sabendo disso, eu escolhi a tabela de O que eu fiz foi baixar uma amostrinha desses dados com apenas 100 registros, no formato JSON.
+Com o BigQuery eh possivel exportar dados para a sua conta do GoogleDrive. E foi isso que eu fiz, primeiro eu selecionei 100 observacoes da tabela usando a consulta SQL abaixo:
 
     SELECT * FROM `bigquery-public-data.github_repos.languages` LIMIT 100
 
-### .load()
+E apos a _query_ ter sido executada eu cliquei na telinha do proprio BigQuery para exportar os resultados. Ao exportar esses dados o BigQuery cria uma pasta no seu Drive:
 
-### .loads()
+![](/images/2019-03-15 19.16.34.png)
+
+E dentro dessa pasta um arquivo com o mesmo nome de extensao `.json`. Se voce abrir esse arquivo voce vai notar uma coisa que pode ser curiosa: Ao inves de ter uma lista de varios JSONs, o arquivo traz na verdade varios JSONs separados. Um JSON para cada observacao da tabela e isso nos traz ao nosso primeiro metodo.
+
+## .load()
+
+O `json.load()` recebe um algo que seja _"readble"_ ou seja, qualquer estrutura Python que tenha o metodo `.read()` embutido. Podemos encontrar esse comportamento por exemplo, em arquivos.
+
+Entao, se o nosso arquivo tivesse um grande JSON contendo as nossas observacoes, poderiamos usar esse metodo assim:
+
+    with open('arquivo.json') as file_data:
+        data = json.load(file_data)
+
+Se voce tentar fazer isso para carregar os dados do nosso arquivo, voce ira dar de cara com um erro:
+
+TK erro
+
+O que faz total sentindo ja que nao temos apenas um JSON no nosso arquivo e sim uma colecao deles, nao eh mesmo?
+
+## .loads()
