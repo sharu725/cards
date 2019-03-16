@@ -1,11 +1,23 @@
 ---
-title: "A Lei de Benford e a beleza dos números"
+title: A Lei de Benford e a beleza dos números
 layout: post
-date: 2017-11-23
-tags: [data science, ciencia de dados, analise de dados, r, r-lang, benford, lei de benford, português, git, open source, código]
+date: 2017-11-23 00:00:00 +0000
+tags:
+- data science
+- ciencia de dados
+- analise de dados
+- r
+- r-lang
+- benford
+- lei de benford
+- português
+- git
+- open source
+- código
 comments: true
----
+img: "/variados.png"
 
+---
 Conte o número de habitantes de cada cidade brasileira. Coloque isso numa tabela e me diga, quantas vezes cada número (de 1 a 9) se repete como primeiro dígito da contagem. Tá, nós temos 5570 municípios no Brasil, contar a frequência de cada primeiro dígito vai cansar então pode chutar vai, eu deixo. Me diz qual a probabilidade de encontrar o 1 como primeiro dígito? E qual a probabilidade de encontrar o 2 como primeiro dígito?
 
 [![gif da cena de contas do filme se beber nao case](https://media.giphy.com/media/BmmfETghGOPrW/giphy.gif)](https://media.giphy.com/media/BmmfETghGOPrW/giphy.gif)
