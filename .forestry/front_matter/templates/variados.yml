@@ -32,3 +32,5 @@ fields:
   type: tag_list
   hidden: false
   default: ''
+pages:
+- _posts/diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
