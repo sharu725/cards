@@ -50,7 +50,9 @@ E após a _query_ ter sido executada eu cliquei na telinha do próprio BigQuery 
 
 ![](/images/2019-03-15 19.16.34.png)
 
-E dentro dessa pasta um arquivo com o mesmo nome de extensão `.json`. Se você abrir esse arquivo você vai notar uma coisa que pode ser curiosa: Ao invés de ter uma lista de vários JSONs, o arquivo traz na verdade vários JSONs separados. Um JSON para cada observação da tabela e isso nos traz ao nosso primeiro método.
+E dentro dessa pasta um arquivo com o mesmo nome de extensão `.json`. Eu baixei esse arquivo e renomeei ele para `bq-github-languages.json` só para ser um nome mais indicativo do dado que ele contém.
+
+Se você abrir esse arquivo você vai notar uma coisa que pode ser curiosa: Ao invés de ter um único JSON, o arquivo traz na verdade vários JSONs separados - um JSON para cada observação da tabela e isso nos traz ao nosso primeiro método.
 
 ## .load()
 
@@ -58,13 +60,22 @@ O `json.load()` recebe um algo que seja _"readable"_ ou seja, qualquer estrutura
 
 Então, se o nosso arquivo tivesse um grande JSON contendo as nossas observações, poderíamos usar esse método assim:
 
-    with open('arquivo.json') as file_data:
+    with open('bq-github-languages.json') as file_data:
         data = json.load(file_data)
 
 Se você tentar fazer isso para carregar os dados do nosso arquivo, você ira dar de cara com um erro:
 
     JSONDecodeError: Extra data: line 2 column 1
 
-O que faz total sentindo já que não temos apenas um JSON no nosso arquivo e sim uma coleção deles, não é mesmo?
+O que faz total sentindo já que não temos apenas um JSON no nosso arquivo e sim uma coleção deles, não é mesmo? Isso gera a obrigação de ler cada linha do arquivo assim:
+
+    with open('bq-github-languages.json') as file_data:
+        data = file_data.readlines()
+
+E tudo bem, mas essa ação traz o seguinte resultado: no lugar de ter uma lista com vários dicionários, você acaba com uma lista de _strings_. E se a ideia era manipular esses dados, _strings_ não são a estrutura de dados mais indicadas. O que nos leva ao próximo método,
 
 ## .loads()
+
+Eu costumava confundir muito o funcionamento dos dois métodos. Até que, recentemente, algo clicou. Quando você tem _strings_, você deve usar `.loads()`. Você pode usar a dica que vem do próprio nome `s` de _string_.
+
+[72qACkR.gifv](http://i.imgur.com/72qACkR.gifv "72qACkR.gifv") 
