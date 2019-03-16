@@ -1,11 +1,18 @@
 ---
 layout: post
-title: "Meu medo de formulários"
-date: 2017-02-09
-tags: [português, síndrome do impostor, formulários, django girls, django, pessoal]
+title: Meu medo de formulários
+date: 2017-02-09 00:00:00 +0000
+tags:
+- português
+- síndrome do impostor
+- formulários
+- django girls
+- django
+- pessoal
 comments: true
----
+img: "/pessoal.png"
 
+---
 ### Hoje, entre um build e outro, preenchi mais um.
 
 Vou começar contando uma história pra vocês — como faço quase sempre — era uma vez…
