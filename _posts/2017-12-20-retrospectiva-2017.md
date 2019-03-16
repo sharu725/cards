@@ -6,7 +6,7 @@ tags:
 - pessoal
 - português
 comments: true
-img: "/images/pessoal.png"
+img: "/pessoal.png"
 
 ---
 Eu decidi fazer uma coisa nova esse fim de ano: analisar o meu crescimento e escrever isso em algum lugar. Uma visão geral dum ano tão carregado das coisas que fiz/deixei de fazer.
