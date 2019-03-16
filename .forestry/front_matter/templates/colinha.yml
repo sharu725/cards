@@ -36,6 +36,7 @@ fields:
   - variados
   - miscelanea
 pages:
+- _posts/2018-08-24-post-mortem-pyse-2018.md
 - _posts/diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _drafts/_posts/fazendo-o-descritivo-de-clusters.md
 - _drafts/_posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
