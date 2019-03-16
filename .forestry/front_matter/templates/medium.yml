@@ -21,7 +21,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: ''
+  default: "/pessoal.png"
 - name: comments
   label: Comments
   type: boolean
