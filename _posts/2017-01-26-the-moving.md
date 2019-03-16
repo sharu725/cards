@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "The moving"
-date: 2017-01-26
-tags: [personal, love, friends, english]
+title: The moving
+date: 2017-01-26 00:00:00 +0000
+tags:
+- personal
+- love
+- friends
+- english
 comments: true
----
+img: "/pessoal.png"
 
+---
 ### A letter to my friends
 
 I move a lot. At least a lot considering that most of the people I met lived in one city or maybe two. So far I moved to 7 cities. I lived in 11 houses. And I still haven’t figured out the whole “having friends that live far away” part.
