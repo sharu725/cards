@@ -16,7 +16,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2019-03-15 00:00:00 -0300
+  default: 2019-03-15 03:00:00 +0000
 - name: img
   label: Img
   type: file
@@ -33,7 +33,7 @@ fields:
   hidden: false
   default: ''
 pages:
+- _posts/2019-03-15-diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
 - _posts/2017-11-23-benford-law.md
-- _posts/2019-03-15-diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md

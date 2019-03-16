@@ -16,7 +16,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2019-03-15 00:00:00 -0300
+  default: 2019-03-15 03:00:00 +0000
 - name: img
   label: Img
   type: file
@@ -34,6 +34,6 @@ fields:
   default:
   - medium
 pages:
-- _posts/2019-02-13-indo-além-no-schematics-personalizando-nossos-modelos-e-validações.md
-- _posts/2019-03-15-frequência.md
 - _posts/2019-03-13-um-passeio-pelo-backstage-de-um-podcast.md
+- _posts/2019-03-15-frequência.md
+- _posts/2019-02-13-indo-além-no-schematics-personalizando-nossos-modelos-e-validações.md

@@ -11,7 +11,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2019-03-15 00:00:00 -0300
+  default: 2019-03-15 03:00:00 +0000
 - name: img
   label: Img
   type: file
