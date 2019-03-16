@@ -21,7 +21,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "/images/variados.png"
+  default: "/variados.png"
 - name: comments
   label: Comments
   type: boolean
