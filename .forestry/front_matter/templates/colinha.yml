@@ -34,5 +34,6 @@ fields:
   default:
   - colinha
 pages:
+- _posts/copiando-arquivos-para-dentro-do-container.md
 - _posts/estou-usando-um-cms-e-você-deveria-também-1.md
 - _posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
