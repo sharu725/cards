@@ -26,9 +26,11 @@ Para essa colinha você vai precisar de:
 
 ### Descobrindo o container
 
-Dependendo de como você inicie o seu container você não vai saber o nome dele, então vamos primeiro conferir isso. Como trabalho com ciência e análise de dados, é muito comum me encontrar com um container do Jupyter rodando, é esse que vou usar aqui. Para pegar o nome do container vamos listar os containers que estão de pé:
+Dependendo de como você inicie o seu container você não vai saber o nome dele, então vamos primeiro conferir isso. Como trabalho com ciência e análise de dados, é muito comum me encontrar com um container do Jupyter rodando, é esse que vou usar aqui. Para pegar o nome do container precisamos listar os containers que estão de pé, daquele jeito que eu ensinei na colinha de listagem de containers:
 
-    docker ps -a --format "table {{.ID}}/t{{.Name}}"
+    docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Name}}"
+
+docker ps
 
 docker ps -a para pegar o nome do container
 
