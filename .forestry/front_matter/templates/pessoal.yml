@@ -2,33 +2,34 @@
 label: Pessoal
 hide_body: false
 fields:
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: ''
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: titulo
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: 2019-03-15 00:00:00 -0300
 - name: img
   label: Img
   type: file
   hidden: false
-  default: ''
-- name: comments
-  label: Comments
-  type: boolean
-  hidden: false
-  default: ''
+  default: "/pessoal.png"
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
-  default: ''
+  default:
+  - pessoal
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
