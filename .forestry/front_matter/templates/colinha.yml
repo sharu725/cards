@@ -1,5 +1,5 @@
 ---
-label: colinha
+label: variados
 hide_body: false
 fields:
 - name: layout
@@ -21,7 +21,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "/images/colinha.png"
+  default: "/images/variados.png"
 - name: comments
   label: Comments
   type: boolean
@@ -32,7 +32,9 @@ fields:
   type: tag_list
   hidden: false
   default:
-  - colinha
+  - artigo
+  - variados
+  - miscelanea
 pages:
 - _posts/diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _drafts/_posts/fazendo-o-descritivo-de-clusters.md
