@@ -33,3 +33,5 @@ fields:
   hidden: false
   default:
   - colinha
+pages:
+- _posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
