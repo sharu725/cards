@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "What I wanted to say but 1024 characters wouldn’t let me"
-date: 2017-01-23
-tags: [personal, python, pycon, english]
+title: What I wanted to say but 1024 characters wouldn’t let me
+date: 2017-01-23 00:00:00 +0000
+tags:
+- personal
+- python
+- pycon
+- english
 comments: true
----
+img: "/pessoal.png"
 
+---
 As I was filling out PyCon’s financial aid form, I came across the following
 question: **Your Involvement**. It wasn’t really a question it was more of a
 statement followed by a white text box and in smaller faded letters this description

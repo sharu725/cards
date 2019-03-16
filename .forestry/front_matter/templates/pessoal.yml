@@ -34,5 +34,6 @@ fields:
   hidden: false
   default: post
 pages:
+- _posts/2017-01-23-I-wanted-to-say.md
 - _posts/2016-10-13-its-alive.md
 - _posts/2017-05-10-comunidade-python-rio.md
