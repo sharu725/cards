@@ -1,5 +1,5 @@
 ---
-label: variados
+label: colinha
 hide_body: false
 fields:
 - name: layout
@@ -11,17 +11,17 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: Título
+  default: Titulo
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: 2019-02-21 03:00:00 +0000
+  default: 2019-03-15 00:00:00 -0300
 - name: img
   label: Img
   type: file
   hidden: false
-  default: "/variados.png"
+  default: "/images/colinha.png"
 - name: comments
   label: Comments
   type: boolean
@@ -32,13 +32,4 @@ fields:
   type: tag_list
   hidden: false
   default:
-  - artigo
-  - variados
-  - miscelanea
-pages:
-- _posts/2018-08-24-post-mortem-pyse-2018.md
-- _posts/diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
-- _drafts/_posts/fazendo-o-descritivo-de-clusters.md
-- _drafts/_posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
-- _posts/estou-usando-um-cms-e-você-deveria-também.md
-- _posts/estou-usando-um-cms-e-você-deveria-também.md
+  - colinha
