@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Indo além no Schematics: Personalizando nossos modelos e validações'
-date: 2019-03-15 00:00:00 -0300
+date: 2019-02-13 00:00:00 -0200
 img: "/click-2.png"
 comments: true
 tags:
