@@ -33,3 +33,5 @@ fields:
   hidden: false
   default:
   - medium
+pages:
+- _posts/um-passeio-pelo-backstage-de-um-podcast.md
