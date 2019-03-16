@@ -1,11 +1,16 @@
 ---
 layout: post
-title: "O que 1024 caracteres não me deixaram falar"
-date: 2017-01-23
-tags: [pessoal, python, pycon, português]
+title: O que 1024 caracteres não me deixaram falar
+date: 2017-01-23 00:00:00 +0000
+tags:
+- pessoal
+- python
+- pycon
+- português
 comments: true
----
+img: "/pessoal.png"
 
+---
 Enquanto eu estava preenchendo o formulário de apoio financeiro da [PyCon](https://us.pycon.org/2017/),
 me deparei com a seguinte pergunta: **Your Involvement** ('Seu Envolvimentor'
 em tradução livre). Não era bem uma pergunta. Estava mais para um enunciado
