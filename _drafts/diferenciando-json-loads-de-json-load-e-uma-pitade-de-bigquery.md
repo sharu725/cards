@@ -2,10 +2,9 @@
 layout: post
 title: Diferenciando json.loads de json.load e uma pitada de BigQuery
 date: 2019-03-15 00:00:00 -0300
-img: "/images/colinha.png"
+img: "/images/variados.png"
 comments: true
 tags:
-- colinha
 - python
 - bigquery
 - sql
