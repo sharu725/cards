@@ -76,4 +76,17 @@ E tudo bem, mas essa ação traz o seguinte resultado: no lugar de ter uma lista
 
 ## .loads()
 
-Eu costumava confundir muito o funcionamento dos dois métodos. Até que, recentemente, algo clicou. Quando você tem _strings_, você deve usar `.loads()`. Você pode usar a dica que vem do próprio nome `s` de _string_.
+Eu costumava confundir muito o funcionamento dos dois métodos. Até que, recentemente, algo clicou. Quando você tem _strings_, você deve usar `.loads()`. Você pode usar a dica que vem do próprio nome: `s` de _string_.
+
+![](https://media.giphy.com/media/IWOTlIqnWzTFe/giphy.gif)
+
+Aí depois de ler o arquivo linha a linha com o `.readlines()` você pode passar item a item da sua lista de _strings_ e transformar ela num dicionário:
+
+    for i, item in enumerate(data):
+        data[i] = json.loads(item)
+
+ou até mesmo usar _list comprehensions_ pra isso:
+
+    data = [json.loads(d) for d in data]
+
+Massa né? Bem, por hoje é só!
