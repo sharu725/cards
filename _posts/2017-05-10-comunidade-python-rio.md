@@ -1,11 +1,18 @@
 ---
 layout: post
-title: "Comunidade Python e Rio de Janeiro"
-date: 2017-05-10
-tags: [português, python, comunidade, rio de janeiro, eventos, pessoal]
+title: Comunidade Python e Rio de Janeiro
+date: 2017-05-10 00:00:00 +0000
+tags:
+- português
+- python
+- comunidade
+- rio de janeiro
+- eventos
+- pessoal
 comments: true
----
+img: "/pessoal.png"
 
+---
 ### Uma história de amor
 
 Uma frase que eu ouvi desde o primeiro dia que conheci parte da galera de Python em Ribeirão Preto e não demorei muito tempo pra entender:
