@@ -34,4 +34,5 @@ fields:
   default:
   - 'pessoal '
 pages:
+- _posts/2017-12-20-retrospectiva-2017.md
 - _posts/2018-12-30-retrospectiva-2018.md

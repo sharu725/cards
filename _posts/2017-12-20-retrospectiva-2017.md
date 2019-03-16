@@ -1,13 +1,14 @@
 ---
-title: "Retrospectiva 2017: Um momento de reflexão"
+title: 'Retrospectiva 2017: Um momento de reflexão'
 layout: post
 date: '2017-12-20 10:00:00'
 tags:
 - pessoal
 - português
 comments: true
----
+img: "/images/pessoal.png"
 
+---
 Eu decidi fazer uma coisa nova esse fim de ano: analisar o meu crescimento e escrever isso em algum lugar. Uma visão geral dum ano tão carregado das coisas que fiz/deixei de fazer.
 
 O principal motivo de anotar tudo isso por aqui é: Esse ano foi díficil.
