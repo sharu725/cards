@@ -1,5 +1,5 @@
 ---
-label: medium
+label: pessoal
 hide_body: false
 fields:
 - name: layout
@@ -21,7 +21,7 @@ fields:
   label: Img
   type: file
   hidden: false
-  default: "/images/click-2.png"
+  default: "/images/pessoal.png"
 - name: comments
   label: Comments
   type: boolean
