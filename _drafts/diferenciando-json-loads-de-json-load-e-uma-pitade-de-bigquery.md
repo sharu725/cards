@@ -77,5 +77,3 @@ E tudo bem, mas essa ação traz o seguinte resultado: no lugar de ter uma lista
 ## .loads()
 
 Eu costumava confundir muito o funcionamento dos dois métodos. Até que, recentemente, algo clicou. Quando você tem _strings_, você deve usar `.loads()`. Você pode usar a dica que vem do próprio nome `s` de _string_.
-
-[72qACkR.gifv](http://i.imgur.com/72qACkR.gifv "72qACkR.gifv") 
