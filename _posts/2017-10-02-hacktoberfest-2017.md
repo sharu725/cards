@@ -1,9 +1,18 @@
 ---
 layout: post
-title: "Ajude algum projeto, ganhe uma camiseta e dê o primeiro passo no mundo do código aberto"
-date: 2017-10-02
-tags: [github, git, digital ocean, hacktoberfest, open source, português]
+title: Ajude algum projeto, ganhe uma camiseta e dê o primeiro passo no mundo do código
+  aberto
+date: 2017-10-02 00:00:00 +0000
+tags:
+- github
+- git
+- digital ocean
+- hacktoberfest
+- open source
+- português
 comments: true
+img: "/variados.png"
+
 ---
 ![hacktoberfest banner promocional](https://nyc3.digitaloceanspaces.com/hacktoberfest/Hacktoberfest17-TWFB-02.png)
 ### Esse texto é especialmente pra você que nunca contribuiu com algum projeto open source antes
