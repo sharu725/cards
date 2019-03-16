@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Diferenciando json.loads de json.load e uma pitada de BigQuery
-date: 2019-03-15 00:00:00 -0300
+date: 2019-03-15 03:00:00 +0000
 img: "/variados.png"
 comments: true
 tags:
@@ -90,5 +90,16 @@ Aí depois de ler o arquivo linha a linha com o `.readlines()` você pode passar
 ou até mesmo usar _list comprehensions_ pra isso:
 
     data = [json.loads(d) for d in data]
+
+E aí podemos ver o resultado disso, `data[0]` vai trazer algo parecido com isso:
+
+    {'repo_name': 'gopz4u/ready',
+     'language': [{'name': 'C#', 'bytes': '27779'},
+      {'name': 'C++', 'bytes': '28415'},
+      {'name': 'CSS', 'bytes': '6475'},
+      {'name': 'HTML', 'bytes': '34293'},
+      {'name': 'Java', 'bytes': '117831'},
+      {'name': 'JavaScript', 'bytes': '205287'},
+      {'name': 'Objective-C', 'bytes': '118096'}]}
 
 Massa né? Bem, por hoje é só!
