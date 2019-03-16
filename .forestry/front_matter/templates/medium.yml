@@ -31,6 +31,7 @@ fields:
   label: Tags
   type: tag_list
   hidden: false
-  default: ''
+  default:
+  - 'pessoal '
 pages:
 - _posts/2018-12-30-retrospectiva-2018.md
