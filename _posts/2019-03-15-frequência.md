@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Frequência
-date: 2019-03-15 00:00:00 -0300
+date: 2018-12-12 00:00:00 -0200
 img: "/click-2.png"
 comments: true
 tags:
