@@ -1,13 +1,14 @@
 ---
-title: "Retrospectiva 2018: Você cresceu esse ano?"
+title: 'Retrospectiva 2018: Você cresceu esse ano?'
 layout: post
 date: '2018-12-30 10:00:00'
 tags:
 - pessoal
 - português
 comments: true
----
+img: "/images/pessoal.png"
 
+---
 Eu tenho uma mania de achar que andei em círculos o ano inteiro e acabei no mesmo lugar que estava em dezembro do ano passado. Então assim como no ano passado decidi fazer uma retrospectiva rápida das coisas que aconteceram esse ano… Ano passado eu viajei bastante e esse ano eu quis ter mais equilíbrio na vida, conseguir focar em projetos mais perto de mim e em mim mesma. Então assim como no ano passado, vamos brincar de retrospectiva. A brincadeira é a seguinte:
 
 - Escolha um tema: O seu tema pode ser qualquer coisa, desde que você considere que ele tenha um peso importante no seu ano. Esse ano escolhi Projetos pessoais. Ah e se você não quiser escolher um tema só tudo bem também 😉
