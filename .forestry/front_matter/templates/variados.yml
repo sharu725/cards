@@ -6,27 +6,27 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: title
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: 2019-03-15 00:00:00 -0300
 - name: img
   label: Img
   type: file
   hidden: false
-  default: ''
+  default: "/variados.png"
 - name: comments
   label: Comments
   type: boolean
   hidden: false
-  default: ''
+  default: true
 - name: tags
   label: Tags
   type: tag_list
