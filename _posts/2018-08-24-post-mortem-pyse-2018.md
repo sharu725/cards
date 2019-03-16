@@ -9,7 +9,7 @@ tags:
 - python sudeste
 - português
 comments: true
-img: "/images/variados.png"
+img: "/variados.png"
 
 ---
 Finalmente saiu o _post mortem_ da Python Sudeste 2018. Lembrando que este relatório contém os fatos do meu ponto de vista e que eu tentei ser o mais fiel aos acontecimentos possível. Ele tá longo! Mas muita coisa aconteceu e todo mundo que tenha interesse merece saber ;)
