@@ -34,4 +34,5 @@ fields:
   default:
   - medium
 pages:
+- _posts/frequência.md
 - _posts/2019-03-13-um-passeio-pelo-backstage-de-um-podcast.md
