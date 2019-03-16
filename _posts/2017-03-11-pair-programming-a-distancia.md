@@ -1,11 +1,19 @@
 ---
 layout: post
-title: "Uma história de Pair Programming a longa distância"
-date: 2017-03-11
-tags: [português, tmux, tmate, vim, pair programming, parear, código]
+title: Uma história de Pair Programming a longa distância
+date: 2017-03-11 00:00:00 +0000
+tags:
+- português
+- tmux
+- tmate
+- vim
+- pair programming
+- parear
+- código
 comments: true
----
+img: "/variados.png"
 
+---
 Pair programming, parear, escrever código em dupla. Quem escreve código, alguma
 vez na vida já pareou, e se não o fez ainda, provavelmente irá fazer isso em algum
 momento da vida. Para os estudantes da arte da programação que escrevem código em
