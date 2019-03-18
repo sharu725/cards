@@ -24,7 +24,7 @@ Para essa colinha você vai precisar de:
 * Um arquivo que você quer copiar para dentro do Docker
 * Conhecimentos básicos de Docker
 
-### Descobrindo o container
+## Descobrindo o container
 
 Dependendo de como você inicie o seu container você não vai saber o nome dele, então vamos primeiro conferir isso. Como trabalho com ciência e análise de dados, é muito comum me encontrar com um container do Jupyter rodando, é esse que vou usar aqui. Para pegar o nome do container precisamos listar os containers que estão de pé:
 
@@ -36,6 +36,8 @@ Aqui no meu caso, temos um resultado assim:
     11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
 
 Eu expliquei como montar esse comando que só mostra o ID do container, a imagem sendo usada e o nome do container [nessa colinha aqui](https://jtemporal.com/brincando-com-a-listagem-de-containers-docker/). Com isso sabemos que o meu container de interesse se chama `relaxed_hypatia`.
+
+## Finalmente copiando os dados
 
 docker cp dados.csv containernome:caminho/para/o/arquivo/dados.csv
 
