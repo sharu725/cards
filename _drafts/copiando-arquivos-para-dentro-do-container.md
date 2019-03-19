@@ -37,6 +37,12 @@ Aqui no meu caso, temos um resultado assim:
 
 Eu expliquei como montar esse comando que só mostra o ID do container, a imagem sendo usada e o nome do container [nessa colinha aqui](https://jtemporal.com/brincando-com-a-listagem-de-containers-docker/). Com isso sabemos que o meu container de interesse se chama `relaxed_hypatia`.
 
+## Descobrindo para onde mandar os dados
+
+Bem se, como eu, você normalmente mapearia volumes para compartilhar os dados com seu container provavelmente já sabe para onde mandar os dados. No entanto, se você não faz isso ou é uma imagem nova que você está usando pela primeira vez, sua missão é descobrir para onde mandar os arquivos. Geralmente essa informação está na documentação da imagem.
+
+No caso das imagens do Projeto Jupyter, existe uma pasta tradicional para mapear os volumes que essa: `/home/jovyan/work`. Vou mandar os dados pra lá.
+
 ## Finalmente copiando os dados
 
 docker cp dados.csv containernome:caminho/para/o/arquivo/dados.csv
