@@ -65,7 +65,7 @@ E dá para fazer a mesma coisa com o container. O Docker tem a versão dele cham
 
 E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso eu tô rodando um container do Jupyter eu consigo ver esse arquivo lá na minha interface:
 
-![](/dados_docker_cp.png)
+![](/images/dados_docker_cp.png)
 
 Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos. Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar em manter backup dos seus dados. Afinal depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
 
