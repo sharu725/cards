@@ -56,7 +56,7 @@ E que eu quero copiar o `arquivo_A.txt` para a `pasta2`, tudo isso pelo terminal
 
 E o resultado disso seria:
 
-    pasta1/						pasta2/
+    pasta1/					pasta2/
     └── arquivo_A.txt			└── arquivo_A.txt
 
 E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino é formado assim: `nome_do_container:caminho/de/destino`. Então vamos copiar o arquivo `dados.csv` para dentro do meu `relaxed_hypatia`:
