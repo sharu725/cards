@@ -28,7 +28,7 @@ Para essa colinha você vai precisar de:
 
 Dependendo de como você inicie o seu container você não vai saber o nome dele, então vamos primeiro conferir isso. Como trabalho com ciência e análise de dados, é muito comum me encontrar com um container do Jupyter rodando, é esse que vou usar aqui. Para pegar o nome do container precisamos listar os containers que estão de pé:
 
-    docker ps --format "table {{.ID}}\t{{.Image}}\t{{.Name}}"
+<script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
 Aqui no meu caso, temos um resultado assim:
 
@@ -41,9 +41,25 @@ Eu expliquei como montar esse comando que só mostra o ID do container, a imagem
 
 Bem se, como eu, você normalmente mapearia volumes para compartilhar os dados com seu container provavelmente já sabe para onde mandar os dados. No entanto, se você não faz isso ou é uma imagem nova que você está usando pela primeira vez, sua missão é descobrir para onde mandar os arquivos. Geralmente essa informação está na documentação da imagem.
 
-No caso das imagens do Projeto Jupyter, existe uma pasta tradicional para mapear os volumes que essa: `/home/jovyan/work`. Vou mandar os dados pra lá.
+No caso das imagens do Projeto Jupyter, existe uma pasta tradicional para mapear os volumes que essa: `/home/jovyan/work`. Vou mandar os dados pra lá, então quando você tiver rodando aí pro seu container, lembre-se de substituir esse caminho, para o caminho do seu container.
 
 ## Finalmente copiando os dados
+
+Agora que você já descobriu o lugar para onde quer mandar os dados e o nome do container, chegou a hora de finalmente colocar os dados lá no container. Se você brinca de copiar arquivos pra lá e pra cá pelo terminal, deve ter o costume de usar o comando `cp`. Mas caso não tenha, o `cp` (de _copy_) é o Ctrl+C Ctrl+V do terminal, ele faz um cópia de um arquivo em um lugar para outro lugar. Por exemplo, vamos supor que tenho a seguinte situação:
+
+    pasta1/						pasta2/
+    └── arquivo_A.txt			
+
+E que eu quero copiar o `arquivo_A.txt` para a `pasta2`, tudo isso pelo terminal. Então eu poderia fazer apenas o seguinte:
+
+    cp pasta1/arquivo_A.txt pasta2
+
+E o resultado disso seria:
+
+    pasta1/						pasta2/
+    └── arquivo_A.txt			└── arquivo_A.txt
+
+E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino do arquivo precisa ser formado pelo `nome_do_containers`
 
 docker cp dados.csv containernome:caminho/para/o/arquivo/dados.csv
 
