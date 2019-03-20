@@ -39,7 +39,11 @@ Além de remover os containers que ficam sujando nosso ambiente, às vezes eu pr
 
 Aí que entra a mágica de formatar o resultado do `docker ps`. A flag `--format` que comanda o show dessa vez. Ela aceita um [template Go](https://golang.org/pkg/text/template/). Se você não conhece templates Go, aqui vai uma explicação super rápida e superficial: muito utilizados para criação de sites estáticos, um template é uma _string_ que é "preenchida" com informações sendo guiada por variáveis.
 
-Por exemplo, o template `"Oi meu nome é: {{.Name}}."` poderia ser preenchido com qualquer nome que estivesse contido na variável `Name`. Para identificar variáveis em templates basta encontrar a palavra precedida por um ponto (`.`) e dentro de chaves duplas (`{{ }}`). Se quiser saber mais sobre [templates Go da uma olhada nesse artigo](https://gopher.pro.br/post/http-uso-de-templates/) do grupo de estudos que fala muito bem sobre o tema.
+Por exemplo, o template:
+
+<script src="https://gist.github.com/jtemporal/ba346fb6a05b6b5badb07a5928240d1c.js"></script>
+
+poderia ser preenchido com qualquer nome que estivesse contido na variável `Name`. Para identificar variáveis em templates basta encontrar a palavra precedida por um _ponto_ e dentro de _chaves duplas_. Se quiser saber mais sobre [templates Go da uma olhada nesse artigo](https://gopher.pro.br/post/http-uso-de-templates/) do grupo de estudos que fala muito bem sobre o tema.
 
 Então, pra começar cada uma das informações que aparecem na tela você pode chamar seguindo esse mapa:
 
@@ -53,13 +57,13 @@ Então, pra começar cada uma das informações que aparecem na tela você pode 
 
 Como eu geralmente só quero ver o nome, a imagem e o ID dos containers que estão rodando, meu comando acaba sendo esse:
 
-    docker ps -a --format "table {{.ID}}\t{{.Image}}\t{{.Names}}"
+<script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
 Que me da um resultado assim:
-
+```
     CONTAINER ID        IMAGE                          NAMES
     11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
-
+```
 ***
 
 Legal né? E aí, você já listou os seus containers hoje?
