@@ -59,8 +59,16 @@ E o resultado disso seria:
     pasta1/						pasta2/
     └── arquivo_A.txt			└── arquivo_A.txt
 
-E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino é formado assim: `nome_do_container:caminho/de/destino`.
+E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino é formado assim: `nome_do_container:caminho/de/destino`. Então vamos copiar o arquivo `dados.csv` para dentro do meu `relaxed_hypatia`:
 
-docker cp dados.csv containernome:caminho/para/o/arquivo/dados.csv
+    docker cp dados.csv relaxed_hypatia:/home/jovyan/work/dados.csv
 
-[https://stackoverflow.com/a/31971697](https://stackoverflow.com/a/31971697 "https://stackoverflow.com/a/31971697")
+E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso eu tô rodando um container do Jupyter eu consigo ver esse arquivo lá na minha interface:
+
+![](/dados_docker_cp.png)
+
+Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos. Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar em manter backup dos seus dados. Afinal depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
+
+***
+
+Por hoje é só pessoal. Xêro!
