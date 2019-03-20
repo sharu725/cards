@@ -59,7 +59,7 @@ E o resultado disso seria:
     pasta1/						pasta2/
     └── arquivo_A.txt			└── arquivo_A.txt
 
-E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino do arquivo precisa ser formado pelo `nome_do_containers`
+E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino é formado assim: `nome_do_container:caminho/de/destino`.
 
 docker cp dados.csv containernome:caminho/para/o/arquivo/dados.csv
 
