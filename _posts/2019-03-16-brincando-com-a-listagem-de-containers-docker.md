@@ -35,7 +35,7 @@ Passando a _flag_ `-q` faz com que, o resultado do `docker ps` mostre apenas os 
 
 ## Formatando a lista de containers
 
-Além de remover os containers que ficam sujando nosso ambiente, às vezes eu preciso de algumas informações sobre algum dos containers que estão rodando. Normalmente quando o `docker ps` vemos informações como ID do container, o comando que você rodou para iniciar ele, a imagem que está sendo usada e outras coisas mais... Mas às vezes ver todas essas informações na tela pode ser uma sobrecarga de informações.
+Além de remover os containers que ficam sujando nosso ambiente, às vezes eu preciso de algumas informações sobre algum dos containers que estão rodando. Normalmente quando usamos o `docker ps` vemos informações como ID do container, o comando que você rodou para iniciar ele, a imagem que está sendo usada e outras coisas mais... Mas às vezes ver todas essas informações na tela pode ser uma sobrecarga de informações.
 
 Aí que entra a mágica de formatar o resultado do `docker ps`. A flag `--format` que comanda o show dessa vez. Ela aceita um [template Go](https://golang.org/pkg/text/template/). Se você não conhece templates Go, aqui vai uma explicação super rápida e superficial: muito utilizados para criação de sites estáticos, um template é uma _string_ que é "preenchida" com informações sendo guiada por variáveis.
 
@@ -60,10 +60,10 @@ Como eu geralmente só quero ver o nome, a imagem e o ID dos containers que est�
 <script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
 Que me da um resultado assim:
-```
-    CONTAINER ID        IMAGE                          NAMES
-    11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
-```
+
+        CONTAINER ID        IMAGE                          NAMES
+        11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
+
 ***
 
 Legal né? E aí, você já listou os seus containers hoje?
