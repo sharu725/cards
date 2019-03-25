@@ -66,11 +66,13 @@ E dá para fazer a mesma coisa com o container. O Docker tem a versão dele cham
 E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso eu tô rodando um container do Jupyter eu consigo ver esse arquivo lá na minha interface:
 
 <center>
-![](/images/dados_docker_cp.png)
+<img src="/images/dados_docker_cp.png"/>
 </center>
 
 Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos. Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar em manter backup dos seus dados. Afinal depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
 
 ***
+
+Um amigo me ensinou que existe mais um motivo para copiar arquivos para dentro do container e de la para a sua maquina local: manter volumes atualizados quando seu container faz muitos processos de leitura e escrita eh extremamente custoso. Entao se voce tem um arquivo grande que nao muda, por exemplo um arquivo de dados ou um processo que faz muita leitura e escrita, vale a pena considerar copiar os arquivos para dentro do container, ou ate mesmo fazer uma imagem ja com esses arquivos. Lembre-se de levar isso em conisderacao na proxima vez que for usar containers e volumes.
 
 Por hoje é só pessoal. Xêro!
