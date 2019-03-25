@@ -69,10 +69,14 @@ E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso
 <img src="/images/dados_docker_cp.png"/>
 </center>
 
-Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos. Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar em manter backup dos seus dados. Afinal depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
+Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos.
+
+## Consideracoes finais
+
+Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar que esta mantendo um backup dos seus dados. Afinal, depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
+
+Outra motivo que um amigo me ensinou recentemente a favor de copiar os dados para dentro do containereh que manter volumes atualizados quando seu container faz muitos processos de leitura e escrita eh extremamente custoso. Entao se voce tem um arquivo grande que nao muda, por exemplo um arquivo de dados ou um processo que faz muita leitura e escrita, como um servidor rails, vale a pena considerar entre copiar os arquivos para dentro do container ou ate mesmo fazer uma imagem ja com esses arquivos. Lembre-se de levar isso em conisderacao na proxima vez que for usar containers e volumes.
 
 ***
-
-Um amigo me ensinou que existe mais um motivo para copiar arquivos para dentro do container e de la para a sua maquina local: manter volumes atualizados quando seu container faz muitos processos de leitura e escrita eh extremamente custoso. Entao se voce tem um arquivo grande que nao muda, por exemplo um arquivo de dados ou um processo que faz muita leitura e escrita, vale a pena considerar copiar os arquivos para dentro do container, ou ate mesmo fazer uma imagem ja com esses arquivos. Lembre-se de levar isso em conisderacao na proxima vez que for usar containers e volumes.
 
 Por hoje é só pessoal. Xêro!
