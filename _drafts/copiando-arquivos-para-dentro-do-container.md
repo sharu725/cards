@@ -71,7 +71,7 @@ E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso
 
 Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos.
 
-## Consideraçoes finais
+## Considerações finais
 
 Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar que esta mantendo um backup dos seus dados. Afinal, depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
 
