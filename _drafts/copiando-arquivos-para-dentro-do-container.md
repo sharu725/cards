@@ -75,7 +75,7 @@ Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do c
 
 Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar que esta mantendo um backup dos seus dados. Afinal, depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
 
-Outra motivo que um amigo me ensinou recentemente a favor de copiar os dados para dentro do container eh que manter volumes atualizados quando seu container faz muitos processos de leitura e escrita eh extremamente custoso. Então, se voce tem um arquivo grande que nao muda, por exemplo um arquivo de dados ou um processo que faz muita leitura e escrita, como um servidor rails, vale a pena considerar entre copiar os arquivos para dentro do container ou ate mesmo fazer uma imagem ja com esses arquivos. Lembre-se sempre de pesar os pontos a favor e os pontos contra volumes na proxima vez que for usar containers.
+Outra motivo que um amigo me ensinou recentemente a favor de copiar os dados para dentro do container é que manter volumes atualizados quando seu container faz muitos processos de leitura e escrita é extremamente custoso. Então, se você tem um arquivo grande que não muda, como um arquivo de dados, ou um processo que faz muita leitura e escrita, como um servidor rails, vale a pena considerar entre copiar os arquivos para dentro do container ou até mesmo fazer uma imagem ja com esses arquivos. Lembre-se sempre de pesar os pontos a favor e os pontos contra volumes na próxima vez que for usar containers.
 
 ***
 
