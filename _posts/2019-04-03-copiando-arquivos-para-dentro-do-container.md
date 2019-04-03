@@ -6,6 +6,9 @@ img: "/colinha.png"
 comments: true
 tags:
 - colinha
+- docker
+- container
+- containers
 
 ---
 Às vezes volumes não funcionam e a gente precisa copiar coisas para dentro do container. É sério! Você deve estar se perguntando, "_como uma tecnologia que todo mundo usa, não funciona?!"_
