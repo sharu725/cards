@@ -26,6 +26,12 @@ Discovering the number of clusters is a challenge especially when we are dealing
 
 The idea is pretty basic: define the optimal amount of clusters that can be found even though we don't know the answer in advance. Seems like magic, doesn't it? But I promise you it isn't.
 
+***
+
+The code that I'm going to use from now on [can be found in this GitHub repository](https://github.com/jtemporal/kmeans_e_cotovelo).
+
+***
+
 So to begin, we need data! We will use the Iris dataset. There's a genre of flowers called Iris, it is a group of around 300 flower species with different petal and sepal sizes. Biological curiosity aside, the dataset is used to demonstrate how machine learning  and clustering algorithms work a lot. I mean A LOT!
 
 This dataset holds 150 samples of three Iris species (Iris setosa, Iris virginica and Iris versicolor) that even though are very similar,  are distinguishable using a model developed by the biologist and statistician Ronald Fisher.
