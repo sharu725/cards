@@ -33,3 +33,5 @@ fields:
   hidden: false
   default:
   - tutorial
+pages:
+- _posts/how-to-define-the-optimal-number-of-clusters-for-kmeans.md
