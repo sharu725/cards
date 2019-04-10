@@ -36,4 +36,9 @@ So to begin, we need data! We will use [the Iris dataset](https://en.wikipedia.o
 
 This dataset holds 150 samples of three Iris species ([_Iris setosa_](https://en.wikipedia.org/wiki/Iris_setosa "Iris setosa"), [_Iris virginica_](https://en.wikipedia.org/wiki/Iris_virginica "Iris virginica") and [_Iris versicolor_](https://en.wikipedia.org/wiki/Iris_versicolor "Iris versicolor")) that even though are very similar,  are distinguishable using a model developed by the biologist and statistician Ronald Fisher.
 
-This dataset is so widely used that data science libraries usually have it built-in so it can be used in demonstrations and examples. Let's take a peek at the first lines of our dataset, to start we need to import it, I prefer the version that comes in the seaborn library:
+This dataset is so widely used that data science libraries usually have it built-in so it can be used in demonstrations and examples. Let's take a peek at the first lines of our dataset, to start we need to import it, I prefer the version that comes in [the seaborn library](https://seaborn.pydata.org/):
+
+    import seaborn as sns
+    iris = sns.load_dataset('iris')
+
+E ao olhar para as primeiras linhas do nosso conjunto você pode perguntar, _mas Jess, as respostas já estão ali na coluna_ `_species_`_, a gente não ia fazer agrupamento não supervisionado?_
