@@ -41,4 +41,18 @@ This dataset is so widely used that data science libraries usually have it built
     import seaborn as sns
     iris = sns.load_dataset('iris')
 
-E ao olhar para as primeiras linhas do nosso conjunto você pode perguntar, _mas Jess, as respostas já estão ali na coluna_ `_species_`_, a gente não ia fazer agrupamento não supervisionado?_
+Glancing at the first 5 rows of our dataset you might ask me: _"But Jess, the answers were are seeking is right there in the_ `_species_` _column, weren't we going to do unsupervised clustering?"_
+
+First 5 rows of the Iris dataset, the result of the iris.head() command
+
+Okay, yes! We have the answers in our dataset but for the purpose of this tutorial, we are going to forget that we already know the species of our samples and we are going to try to group them using KMeans.
+
+## KMeans
+
+If you aren't familiarized with KMeans yet, you must know that to use this method you'll need to inform an initial amount of clusters before you start. Thinking of the version implemented in scikit-learn in particular, if you don't inform an initial number of clusters by default it will try to find 8 distinct groups.
+
+When we don't know how many clusters our samples are going to form we need a way to validate what is being encountered instead of just guessing.
+
+## The elbow method
+
+And that's where the Elbow method comes into action. The idea is to run KMeans for many different amounts of clusters and say which one of those amounts is the optimal number of clusters. What usually happens is that as we increase the quantities of clusters the differences between clusters gets smaller while the differences between samples inside clusters increase as well. So the goal is to find a balance point in which the samples in a group are the most homogeneous possible and the clusters are the most different from one another.
