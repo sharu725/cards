@@ -1,23 +1,24 @@
 ---
 layout: post
 title: How to define the optimal number of clusters for KMeans
-date: 2019-04-10 00:00:00 -0300
+date: 2019-04-13 00:00:00 -0300
 img: "/tutorial.png"
 comments: true
 tags:
 - tutorial
-- travis
-- " docker "
-- container
-- containers
-- ci
-- ci cd
-- cd
-- continuous integration
-- integração continua
-- continous delivery
-- entrega continua
-- docker hub
+- data science
+- ciencia de dados
+- kmeans
+- cluster
+- clusters
+- clusterizacao
+- clustering
+- clusterization
+- unsupervised learning
+- unsupervised
+- unsupervised clustering
+- analysis
+- nao supervisionado
 
 ---
 One of the most famous methods to find clusters in data in an unsupervised way is using KMeans. But what do we do when we have absolutely no idea how many clusters the data is going to form? We can't just guess.
