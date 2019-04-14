@@ -34,6 +34,7 @@ fields:
   default:
   - medium
 pages:
+- _posts/serenata-pelo-brasil-a-fora.md
 - _posts/2017-01-16-uma-semana-de-serenata.md
 - _posts/2019-03-13-um-passeio-pelo-backstage-de-um-podcast.md
 - _posts/2019-03-15-frequência.md
