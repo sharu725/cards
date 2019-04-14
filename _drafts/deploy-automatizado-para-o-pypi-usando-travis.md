@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Versionamento semântico: um passo além do Git'
-date: 2017-08-14 00:00:00 -0300
+date: 2017-09-28 00:00:00 -0300
 img: "/click-2.png"
 comments: true
 tags:
@@ -15,18 +15,26 @@ tags:
 - git
 - semantic versioning
 - versionamento semantico
+- deploy
+- travis
+- ci
+- cd
+- continuous integration
+- continous delivery
+- integracao continua
+- travis ci
 
 ---
-> “No mundo de gerenciamento de software existe algo terrível conhecido como inferno das dependências (“dependency hell”). Quanto mais o sistema cresce, e mais pacotes são adicionados a ele, maior será a possibilidade de, um dia, você encontrar-se neste poço de desespero.” — [Versionamento Semântico 2.0](http://semver.org/lang/pt-BR/)
+Como o Travis pode te ajudar a automatizar o lançamento de novas versões de um pacote Python para o Python Package Index.
 
-Pacotes, sejam eles escritos em Python, Ruby ou JavaScript, além de terem seu código versionado por sistema como o git, _podem_ possuir mais um nível de controle de versão: o **versionamento semântico**.
+Pessoas que escrevem bons códigos normalmente seguem a filosofia DRY (_“don’t repeat yourself”_ ou não se repita). Além de fazer isso em código, muitas fazem o mesmo para tarefas que vão ter que ser repetidas com certa frequência: subir uma nova máquina virtual, configurar o ambiente de trabalho ou até mesmo o _deploy_ de novas versões de código. Evitar repetições e automatizar processos se torna algo muito presente no nosso trabalho diário principalmente por ser uma das essências da computação.
 
 ***
 
-Pra continuar lendo esse artigo e saber como funciona o versionamento semântico, corre lá para a revista do Serenata de Amor 👇
+Pra continuar lendo esse artigo e saber como funciona o deploy automatizado do Serenata Toolbox usando o Travis, corre lá para a revista do Serenata de Amor 👇
 
 <center>
-<a href="https://medium.com/serenata/versionamento-sem%C3%A2ntico-um-passo-al%C3%A9m-do-git-53e466d0f21a">
+<a href="https://medium.com/serenata/deploy-automatizado-para-o-pypi-usando-travis-ci-159e86e5d979">
 
 <img src="/images/clique-aqui-para-ler.png" />
 
