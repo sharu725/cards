@@ -9,6 +9,9 @@ tags:
 - kmeans
 - clustering
 - clusterizacao
+- unsupervised learning
+- unsupervised clustering
+- clusterizacao nao supervisionada
 
 ---
 Um dos métodos mais famosinhos pra achar agrupamentos em dados de forma não supervisionada é utilizando o KMeans. Mas e quando você não tem ideia de quantos clusters seus dados possam formar, como faz?
