@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Indo além no Schematics: Personalizando nossos modelos e validações'
-date: 2019-02-13 02:00:00 +0000
+title: Como definir o número de clusters para o seu KMeans
+date: 2019-04-10 00:00:00 -0300
 img: "/click-2.png"
 comments: true
 tags:
