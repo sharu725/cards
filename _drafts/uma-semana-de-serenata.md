@@ -26,7 +26,9 @@ E foi isso que me deu a ideia de escrever esse post pra contar um pouquinho sobr
 
 Pra continuar lendo esse artigo e saber mais como foi isso de participar de um time maravilhoso lá para a revista do Serenata de Amor 👇
 
-<center><img src="/images/clique-aqui-para-ler.png" /> </center>
+<center>
+  <img src="/images/clique-aqui-para-ler.png" />
+</center>
   
   
 [![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/serenata/uma-semana-de-serenata-de-amor-f65febeb981d)
