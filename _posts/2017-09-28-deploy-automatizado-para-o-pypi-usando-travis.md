@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Versionamento semântico: um passo além do Git'
+title: Deploy automatizado para o PyPI usando Travis-CI
 date: 2017-09-28 00:00:00 -0300
 img: "/click-2.png"
 comments: true
