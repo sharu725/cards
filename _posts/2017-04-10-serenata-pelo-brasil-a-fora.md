@@ -6,6 +6,13 @@ img: "/click-2.png"
 comments: true
 tags:
 - medium
+- serenata
+- serenata de amor
+- data science
+- ciencia de dados
+- open source
+- comunidade
+- eventos
 
 ---
 Durante o mês de março, estivemos presentes em vários eventos espalhados pelo Brasil e gostaríamos de contar um pouco mais sobre como foi cada um deles.
