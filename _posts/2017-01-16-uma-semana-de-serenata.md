@@ -31,6 +31,3 @@ Pra continuar lendo esse artigo e saber mais como foi isso de participar de um t
   <img src="/images/clique-aqui-para-ler.png" />
   </a>
 </center>
-  
-  
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/serenata/uma-semana-de-serenata-de-amor-f65febeb981d)
