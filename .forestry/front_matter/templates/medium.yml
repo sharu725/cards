@@ -34,7 +34,7 @@ fields:
   default:
   - medium
 pages:
-- _posts/kmeans-e-cotovelo.md
+- _posts/2019-04-10-kmeans-e-cotovelo.md
 - _posts/2017-09-28-em-quem-voce-pensa-quando-te-pedem-uma-indicação.md
 - _posts/2017-09-28-deploy-automatizado-para-o-pypi-usando-travis.md
 - _posts/2017-08-14-versionamento-semantico-um-passo-alem-do-git.md
