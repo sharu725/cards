@@ -34,7 +34,7 @@ fields:
   default:
   - medium
 pages:
-- _posts/uma-semana-de-serenata-de-amor.md
+- _posts/uma-semana-de-serenata.md
 - _posts/2019-03-13-um-passeio-pelo-backstage-de-um-podcast.md
 - _posts/2019-03-15-frequência.md
 - _posts/2019-02-13-indo-além-no-schematics-personalizando-nossos-modelos-e-validações.md
