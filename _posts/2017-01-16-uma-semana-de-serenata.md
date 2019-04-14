@@ -2,7 +2,7 @@
 layout: post
 title: Uma semana de Serenata de Amor
 date: 2017-01-16 00:00:00 -0200
-img: "/images/click-2.png"
+img: "/click-2.png"
 comments: true
 tags:
 - medium
@@ -29,6 +29,3 @@ Pra continuar lendo esse artigo e saber mais como foi isso de participar de um t
 <center>
   <img src="/images/clique-aqui-para-ler.png" />
 </center>
-  
-  
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/serenata/uma-semana-de-serenata-de-amor-f65febeb981d)
