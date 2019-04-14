@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Serenata Toolbox no PyPI
-date: 2017-07-27 00:00:00 -0300
+title: 'Versionamento semântico: um passo além do Git'
+date: 2017-08-14 00:00:00 -0300
 img: "/click-2.png"
 comments: true
 tags:
@@ -12,19 +12,21 @@ tags:
 - pip install
 - pypi
 - serenata toolbox
+- git
+- semantic versioning
+- versionamento semantico
 
 ---
-Um roadmap para liberar um módulo no Python Package Index ;)
+> “No mundo de gerenciamento de software existe algo terrível conhecido como inferno das dependências (“dependency hell”). Quanto mais o sistema cresce, e mais pacotes são adicionados a ele, maior será a possibilidade de, um dia, você encontrar-se neste poço de desespero.” — [Versionamento Semântico 2.0](http://semver.org/lang/pt-BR/)
 
-
-Eventualmente pessoas que desenvolvem software chegam num momento que possuem um projeto que pode ser empacotado e distribuído para a comunidade. Para quem programa em Python é comum rodar um `pip install` — semelhante ao `gem install` do Ruby e ao `npm install` do Node — e instalar módulos Python disponíveis no [PyPI](https://pypi.org/). Pra quem não conhece, o PyPI é a casa mais famosa de pacotes Python, o index de pacotes Python.
+Pacotes, sejam eles escritos em Python, Ruby ou JavaScript, além de terem seu código versionado por sistema como o git, _podem_ possuir mais um nível de controle de versão: o **versionamento semântico**.
 
 ***
 
-Pra continuar lendo esse artigo e saber como foi colocar a Serenata Toolbox no PyPI corre lá para a revista do Serenata de Amor 👇
+Pra continuar lendo esse artigo e saber como funciona o versionamento semântico, corre lá para a revista do Serenata de Amor 👇
 
 <center>
-<a href="https://medium.com/serenata/serenata-toolbox-no-pypi-2713e3dd4d42">
+<a href="https://medium.com/serenata/versionamento-sem%C3%A2ntico-um-passo-al%C3%A9m-do-git-53e466d0f21a">
 
 <img src="/images/clique-aqui-para-ler.png" />
 
