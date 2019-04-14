@@ -34,7 +34,7 @@ fields:
   default:
   - medium
 pages:
-- _posts/serenata-toolbox-no-pypi.md
+- _posts/versionamento-semantico-um-passo-alem-do-git.md
 - _posts/2017-07-27-serenata-toolbox-no-pypi.md
 - _posts/2017-04-10-serenata-pelo-brasil-a-fora.md
 - _posts/2017-01-16-uma-semana-de-serenata.md
