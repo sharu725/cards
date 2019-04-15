@@ -82,6 +82,8 @@ When we use the function written above to calculate the within clusters sum-of-s
 
 ![](https://cdn-images-1.medium.com/max/800/1*BeBON5cT5jXuTvXRJ8GhTw.png)
 
+<center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares</small></i></center>
+
 Cada ponto laranja é uma quantidade de clusters, note que começamos em 2 e vamos até 20 clusters. E aí pode vir a primeira dúvida: _Qual desses pontos é o que simboliza de fato a quantidade ótima de clusters? Será que é o a2, ou a3 ou até mesmo o a4?_
 
 #### Que a matemática nos salve
