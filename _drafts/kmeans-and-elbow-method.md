@@ -62,7 +62,7 @@ Since KMeans calculates the distances between samples and the center of the clus
 
 ## Usando o scikit-learn
 
-Scikit-learn's KMeans already calculates the `wcss` and its named `inertia`. There are two negative points to be considered when we talk about inertia: 
+Scikit-learn's KMeans already calculates the `wcss` and its named `inertia`. There are two negative points to be considered when we talk about inertia:
 
 1. Inertia is a metric that assumes that your clusters are convex and isotropic, which means that if your clusters have alongated or irregular shapes this is a bad metric;
 2. Also, the inertia isn't normalized, so if you have space with many dimensions you'll probably face the "dimensionality curse" since the distances tend to [get inflated in multidimensional spaces](https://scikit-learn.org/stable/modules/clustering.html#k-means).
@@ -91,8 +91,6 @@ Cada ponto laranja é uma quantidade de clusters, note que começamos em 2 e vam
 E se eu te disser que existe uma fórmula matemática pra ajudar a gente nisso?
 
 ![](https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif)
-
-“Esse é o poder da matemática pessoal!”
 
 Acontece que o ponto que indica o equilíbrio entre maior homogeneidade dentro do cluster e a maior diferença entre clusters, é o ponto da curva mais distante de uma reta traçada entre os pontos `a0` e `a18`. E pasme! Existe uma fórmula que faz justamente o cálculo da distância entre um ponto e uma reta! É essa aqui:
 
