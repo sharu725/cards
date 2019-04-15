@@ -84,4 +84,66 @@ When we use the function written above to calculate the within clusters sum-of-s
 
 Cada ponto laranja é uma quantidade de clusters, note que começamos em 2 e vamos até 20 clusters. E aí pode vir a primeira dúvida: _Qual desses pontos é o que simboliza de fato a quantidade ótima de clusters? Será que é o a2, ou a3 ou até mesmo o a4?_
 
-#### 
+#### Que a matemática nos salve
+
+E se eu te disser que existe uma fórmula matemática pra ajudar a gente nisso?
+
+![](https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif)
+
+“Esse é o poder da matemática pessoal!”
+
+Acontece que o ponto que indica o equilíbrio entre maior homogeneidade dentro do cluster e a maior diferença entre clusters, é o ponto da curva mais distante de uma reta traçada entre os pontos `a0` e `a18`. E pasme! Existe uma fórmula que faz justamente o cálculo da distância entre um ponto e uma reta! É essa aqui:
+
+![](https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png)
+
+Fórmula para o cálculo entre um ponto e uma reta que passa por P0 e P1
+
+Não se assuste, no nosso caso _P0_ é o nosso _a0_ e o _P1_ é o nosso _a18_, veja:
+
+![](https://cdn-images-1.medium.com/max/800/1*5VTBI6T5c7De-GtKTBaNNA.png)
+
+e o par `(x,y)` representa as coordenadas de qualquer ponto que a gente queira calcular a distância. Vamos olhar mais uma vez para o nosso gráfico de cotovelo:
+
+![](https://cdn-images-1.medium.com/max/800/1*5AILcLRFN7UzhLCKw6MaYQ.png)
+
+Suponha que queremos calcular a distância entre o ponto `a1` e a reta que passa por `a0`e `a18`, aqui as informações que precisamos:
+
+![](https://cdn-images-1.medium.com/max/800/1*ifUwiwpotxsqPaRp8q8E3w.png)
+
+Substituindo os valores acima na fórmula do cálculo da distância temos o seguinte:
+
+![](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
+
+![](https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png)
+
+#### Matemática e Python, o casalzão que todo mundo ama
+
+Imagino que você concorda comigo quando eu digo que _“Ninguém merece ficar fazendo essas continhas na mão”._ Então vamos usar um método pra isso, em resumo é só transcrever a fórmula do cálculo da distância entre um ponto e uma reta para código, ficou assim:
+
+Esse método `optimal_number_of_clusters()` recebe uma lista contendo as somas dos quadrados para cada quantidade de clusters que calculamos usando `calculate_wcss()` e, como resultado, retorna a quantidade ótima de clusters. Agora que sabemos como calcular a quantidade ótima de clusters podemos finalmente usar o KMeans com tranquilidade:
+
+#### Comparando antes e depois
+
+Depois de _clusterizar_ os dados devemos dar uma olhada nos descritivos estatísticos de cada cluster:
+
+![](https://cdn-images-1.medium.com/max/1200/1*6b4p4aw1EMAp00xlEsFpfA.png)
+
+Descritivo estatístico agrupado por cluster
+
+Nada mal se compararmos com o descritivos dos dados originais que coloquei aqui em baixo né?
+
+![](https://cdn-images-1.medium.com/max/1200/1*6LLgj9Jgz44Z7rZegS9V_w.png)
+
+Descritivo estatístico agrupado por espécie
+
+#### Conclusão
+
+Óbvio que nenhuma clusterização vai ter 100% de acurácia principalmente quando nós temos clusters possuem características que são bem similares umas das outras. Eu particularmente gosto bastante da versão visual da clusterização. Vamos colocar as duas _features_ de pétala no gráfico e colorir de acordo com os clusters — e também de acordo com as espécies:
+
+![](https://cdn-images-1.medium.com/max/800/1*Rnz35jPaqoARWQYZir_5iQ.png)
+
+Conseguimos ver no gráfico que aquelas 12 observações que “mudaram” de classificação poderia fazer facilmente parte de qualquer um dos clusters.
+
+Por fim, ainda vale salientar que o método do cotovelo não é a única forma de dizer a quantidade ótima de clusters. Existe ainda uma forma usando, por exemplo, o [_coeficiente de silhueta_](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html). Mas hoje, ficamos por aqui.
+
+Xêro e boa _clusterização_.
