@@ -114,13 +114,11 @@ Suppose we want to calculate the distance between the point `a1` and the line th
 
 <center><img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B80%7D%20%5Chuge%20%5Cbegin%7Bcenter%7D%20%5Ctext%7Bpoints%20that%20define%20the%20line%7D%5C%5C%20a_0%20%3D%28x_0%2C%5C%20y_0%29%3D%282%2C%5C%20152.34%29%5C%5C%20a_%7B18%7D%20%3D%28x_1%2C%5C%20y_1%29%3D%2820%2C%5C%2014.73%29%5C%5C%20%5C%20%5C%5C%20%5Ctext%7Bour%20point%20of%20interest%7D%5C%5C%20a_1%20%3D%28x%2C%5C%20y%29%3D%283%2C%5C%2078.85%29%5C%5C%20%5Cend%7Bcenter%7D" /></center>
 
-<!--![](https://cdn-images-1.medium.com/max/800/1*ifUwiwpotxsqPaRp8q8E3w.png)-->
-
 Substituting the values above into the distance formula we have the following:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
 
-<center><img src="https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png" style="max-width: 75%;"/></center>
+<center><br><img src="https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png" style="max-width: 75%;"/></center>
 
 ## Math and Python, the power couple everyone loves
 
