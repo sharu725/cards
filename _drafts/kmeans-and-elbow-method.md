@@ -60,7 +60,7 @@ And that's where the Elbow method comes into action. The idea is to run KMeans f
 
 Since KMeans calculates the distances between samples and the center of the cluster from which sample belongs, the ideal is that this distance is the smallest possible. Mathematically speaking we are searching for a number of groups that the within clusters sum of squares (`wcss`) is closest to `0`, being zero the optimal result.
 
-## Usando o scikit-learn
+## Using scikit-learn
 
 Scikit-learn's KMeans already calculates the `wcss` and its named `inertia`. There are two negative points to be considered when we talk about inertia:
 
@@ -78,19 +78,23 @@ Now that you are aware of all that, let's look at our data: we have only 4 dimen
     
     return wcss
 
-When we use the function written above to calculate the within clusters sum-of-squares for our Iris data and plot the result, we find a plot like this:
+When we use the function written above to calculate the within clusters sum-of-squares for our Iris dataset and plot the result, we find a plot like this:
 
 ![](https://cdn-images-1.medium.com/max/800/1*BeBON5cT5jXuTvXRJ8GhTw.png)
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares</small></i></center>
 
-Cada ponto laranja é uma quantidade de clusters, note que começamos em 2 e vamos até 20 clusters. E aí pode vir a primeira dúvida: _Qual desses pontos é o que simboliza de fato a quantidade ótima de clusters? Será que é o a2, ou a3 ou até mesmo o a4?_
+When we use the function written above to calculate the within clusters sum-of-squares for our Iris data and plot the result, we find a plot like this:
 
-#### Que a matemática nos salve
+Each orange point is a cluster quantity, note that we start in two and go up to 20 clusters. And there where we might get the first doubt: _Which of these points is exactly the optimal cluster amount? Is it the point a2 or a3 or even the a4?_
 
-E se eu te disser que existe uma fórmula matemática pra ajudar a gente nisso?
+## May math save us all
 
-![](https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif)
+What if I told you that there's a mathematical formula to helps us out?
+
+<center>
+<img src="https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif" />
+</center>
 
 Acontece que o ponto que indica o equilíbrio entre maior homogeneidade dentro do cluster e a maior diferença entre clusters, é o ponto da curva mais distante de uma reta traçada entre os pontos `a0` e `a18`. E pasme! Existe uma fórmula que faz justamente o cálculo da distância entre um ponto e uma reta! É essa aqui:
 
