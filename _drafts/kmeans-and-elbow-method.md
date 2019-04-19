@@ -124,6 +124,8 @@ Substituting the above values into the distance formula we have the following:
 
 I imagine you agree with me when I say _"No one deserves to calculate all of this by hand"_. So let's use a method for that. In short, we are just going to transcribe the formula that calculates the distance between a point and a line to code, the result is something like this:
 
+<script src="https://gist.github.com/jtemporal/e248bbd974c4cc24a482780fe45c6851.js"></script>
+
 The method optimal_number_of_clusters() takes a list containing the within clusters sum-of-squares for each number of clusters that we calculated using the calculate_wcss() method, and as a result, it gives back the optimal number of clusters. Now that we know how to calculate the optimal number of clusters we can finally use KMeans:
 
 Esse método `optimal_number_of_clusters()` recebe uma lista contendo as somas dos quadrados para cada quantidade de clusters que calculamos usando `calculate_wcss()` e, como resultado, retorna a quantidade ótima de clusters. Agora que sabemos como calcular a quantidade ótima de clusters podemos finalmente usar o KMeans com tranquilidade:
