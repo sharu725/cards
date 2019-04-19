@@ -5,3 +5,10 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: default
+- type: text
+  name: img
+  label: img
+  config:
+    required: true
+  default: https://avatars2.githubusercontent.com/u/6595551?s=400&v=4
