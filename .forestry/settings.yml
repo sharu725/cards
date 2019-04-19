@@ -14,6 +14,12 @@ sections:
   create: all
 - type: heading
   label: tema
+- type: directory
+  path: _layouts
+  label: Layouts
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".html"
 upload_dir: images
 public_path: ''
 front_matter_path: ''
