@@ -98,13 +98,17 @@ It turns out that the point that indicates the balance between greater homogenei
 
 <center> <br><img src="https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png"/> <small><br><i>Formula that calculates the distance between a point and a line that passes through P0 and P1</i></small> </center>
 
-Não se assuste, no nosso caso _P0_ é o nosso _a0_ e o _P1_ é o nosso _a18_, veja:
+Don't be scared, in this case, _P0_ is our `a0` and _P1_ is our `a18`:
 
 ![](https://cdn-images-1.medium.com/max/800/1*5VTBI6T5c7De-GtKTBaNNA.png)
 
-e o par `(x,y)` representa as coordenadas de qualquer ponto que a gente queira calcular a distância. Vamos olhar mais uma vez para o nosso gráfico de cotovelo:
+<center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares, the green line is the base line to calculate the distance</small></i></center>
+
+and the pair `(x,y)` represents the coordinates of any point that we might want to calculate the distance to the line. Let's look at our elbow plot one more time:
 
 ![](https://cdn-images-1.medium.com/max/800/1*5AILcLRFN7UzhLCKw6MaYQ.png)
+
+<center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares, the green line is the base line to calculate the distance</small></i></center>
 
 Suponha que queremos calcular a distância entre o ponto `a1` e a reta que passa por `a0`e `a18`, aqui as informações que precisamos:
 
