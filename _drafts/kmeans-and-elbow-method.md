@@ -96,6 +96,8 @@ What if I told you that there's a mathematical formula to helps us out?
 <img src="https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif" />
 </center>
 
+What happens is
+
 Acontece que o ponto que indica o equilíbrio entre maior homogeneidade dentro do cluster e a maior diferença entre clusters, é o ponto da curva mais distante de uma reta traçada entre os pontos `a0` e `a18`. E pasme! Existe uma fórmula que faz justamente o cálculo da distância entre um ponto e uma reta! É essa aqui:
 
 ![](https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png)
