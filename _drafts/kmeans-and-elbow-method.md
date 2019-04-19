@@ -132,26 +132,36 @@ The method `optimal_number_of_clusters()` takes a list containing the within clu
 
 ## Comparing before and after
 
-Depois de _clusterizar_ os dados devemos dar uma olhada nos descritivos estatísticos de cada cluster:
+After clustering the data we should take a look at the statistical description of each cluster:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*6b4p4aw1EMAp00xlEsFpfA.png)
 
-Descritivo estatístico agrupado por cluster
+<center><small><i>Statistical description grouped by cluster</i></small></center>
 
-Nada mal se compararmos com o descritivos dos dados originais que coloquei aqui em baixo né?
+Not bad if compared to the statistical description of the original data that I show below, right?
 
 ![](https://cdn-images-1.medium.com/max/1200/1*6LLgj9Jgz44Z7rZegS9V_w.png)
 
-Descritivo estatístico agrupado por espécie
+<center><small><i>Statistical description grouped by species</i></small></center>
 
-## Conclusão
+## Conclusion
 
-Óbvio que nenhuma clusterização vai ter 100% de acurácia principalmente quando nós temos clusters possuem características que são bem similares umas das outras. Eu particularmente gosto bastante da versão visual da clusterização. Vamos colocar as duas _features_ de pétala no gráfico e colorir de acordo com os clusters — e também de acordo com as espécies:
+Obviously, no clustering will be 100% accurate especially when we have clusters that present very similar characteristics. I particularly like the visual version of a good clusterization. Let's put two petal features in the plot and color the points based on the cluster each sample was given and also based on the species they belong to:
 
 ![](https://cdn-images-1.medium.com/max/800/1*Rnz35jPaqoARWQYZir_5iQ.png)
 
-Conseguimos ver no gráfico que aquelas 12 observações que “mudaram” de classificação poderia fazer facilmente parte de qualquer um dos clusters.
+We can see in the plot those 12 observations that "migrated" in classification could easily be a part of any of the two clusters.
 
-Por fim, ainda vale salientar que o método do cotovelo não é a única forma de dizer a quantidade ótima de clusters. Existe ainda uma forma usando, por exemplo, o [_coeficiente de silhueta_](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html). Mas hoje, ficamos por aqui.
+Is also worth mentioning that the elbow method isn't the only way to infer the optimal cluster amount. There's also a method that uses, for instance, the [_silhouette coefficient_](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html). But today, that's all folks.
 
-Xêro e boa _clusterização_.
+xoxo and good clusterization.
+
+Extra reading
+
+The article comparing the Ward method and the K-mean in grouping milk producers. In the third topic, there's a great explanation of clustering methods.
+
+One article in Wikipedia that explains in great detail the method to calculate distances from where I copied the formula that I should earlier.
+
+There are slides from Professor André Backes class on clustering (in Portuguese).
+
+The code that I used in this post can be found in this GitHub repository.
