@@ -12,6 +12,8 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: heading
+  label: tema
 upload_dir: images
 public_path: ''
 front_matter_path: ''
