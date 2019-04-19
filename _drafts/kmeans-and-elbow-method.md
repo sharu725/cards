@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to define the optimal number of clusters for KMeans
-date: 2019-04-13 00:00:00 -0300
+date: 2019-04-13 03:00:00 +0000
 img: "/tutorial.png"
 comments: true
 tags:
@@ -94,7 +94,7 @@ What if I told you that there's a mathematical formula to helps us out?
 <img src="https://cdn-images-1.medium.com/max/800/1*1qNRC20LzjzP5C6MNsfiVQ.gif" />
 </center>
 
-Acontece que o ponto que indica o equilíbrio entre maior homogeneidade dentro do cluster e a maior diferença entre clusters, é o ponto da curva mais distante de uma reta traçada entre os pontos `a0` e `a18`. E pasme! Existe uma fórmula que faz justamente o cálculo da distância entre um ponto e uma reta! É essa aqui:
+It turns out that the point that indicates the balance between greater homogeneity within the cluster and the greater difference between clusters is the point in the curve that is most distant of a line drawn between points `a0` and `a18`. And guess what! There is a formula that calculates the distance between a point and a line! And it is this one below:
 
 ![](https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png)
 
