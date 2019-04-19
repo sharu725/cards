@@ -26,6 +26,12 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: html
+- type: directory
+  path: _sass
+  label: _sass
+  create: all
+  match: "**/*"
+  new_doc_ext: ".scss"
 upload_dir: images
 public_path: ''
 front_matter_path: ''
