@@ -120,7 +120,7 @@ Substituting the values above into the distance formula we have the following:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
 
-![](https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png)
+<center><img src="https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png" style="max-width: 75%;"/></center>
 
 ## Math and Python, the power couple everyone loves
 
