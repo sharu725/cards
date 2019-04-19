@@ -130,7 +130,7 @@ The method `optimal_number_of_clusters()` takes a list containing the within clu
 
 <script src="https://gist.github.com/jtemporal/3bab2a8e2001ce1a3cea6395c88ebbea.js"></script>
 
-#### Comparando antes e depois
+## Comparing before and after
 
 Depois de _clusterizar_ os dados devemos dar uma olhada nos descritivos estatísticos de cada cluster:
 
@@ -144,7 +144,7 @@ Nada mal se compararmos com o descritivos dos dados originais que coloquei aqui 
 
 Descritivo estatístico agrupado por espécie
 
-#### Conclusão
+## Conclusão
 
 Óbvio que nenhuma clusterização vai ter 100% de acurácia principalmente quando nós temos clusters possuem características que são bem similares umas das outras. Eu particularmente gosto bastante da versão visual da clusterização. Vamos colocar as duas _features_ de pétala no gráfico e colorir de acordo com os clusters — e também de acordo com as espécies:
 
