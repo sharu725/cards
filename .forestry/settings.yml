@@ -17,6 +17,7 @@ public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+instant_preview: true
 build:
   preview_command: 'bundle exec jekyll build --config _dev_config.yml --drafts --unpublished
     --future -d _site '
