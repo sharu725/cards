@@ -2,7 +2,12 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}" />
+{% if site.disqus-shortname %}
+  <meta property="og:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}" />
+{% else %}
+  <meta property="og:image" content="https://avatars2.githubusercontent.com/u/6595551?s=400&v=4" />
+{% endif %}
+
 
 
 {% seo %}
