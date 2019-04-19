@@ -34,4 +34,4 @@ fields:
   default:
   - tutorial
 pages:
-- _posts/kmeans-and-elbow-method.md
+- _posts/2019-04-13-kmeans-and-elbow-method.md
