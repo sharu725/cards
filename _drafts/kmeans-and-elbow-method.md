@@ -96,9 +96,12 @@ What if I told you that there's a mathematical formula to helps us out?
 
 It turns out that the point that indicates the balance between greater homogeneity within the cluster and the greater difference between clusters is the point in the curve that is most distant of a line drawn between points `a0` and `a18`. And guess what! There is a formula that calculates the distance between a point and a line! And it is this one below:
 
-![](https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png)
+<center>
+<img src="https://cdn-images-1.medium.com/max/800/1*9J7Wnh5L0eIcHXBeWlzvNA.png"/>
+  <small><i>Formula that calculates the distance between a point and a line that passes through P0 and P1</i></small>
+</center>
 
-Fórmula para o cálculo entre um ponto e uma reta que passa por P0 e P1
+
 
 Não se assuste, no nosso caso _P0_ é o nosso _a0_ e o _P1_ é o nosso _a18_, veja:
 
