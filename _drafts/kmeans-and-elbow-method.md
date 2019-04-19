@@ -84,8 +84,6 @@ When we use the function written above to calculate the within clusters sum-of-s
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares</small></i></center>
 
-When we use the function written above to calculate the within clusters sum-of-squares for our Iris data and plot the result, we find a plot like this:
-
 Each orange point is a cluster quantity, note that we start in two and go up to 20 clusters. And there where we might get the first doubt: _Which of these points is exactly the optimal cluster amount? Is it the point a2 or a3 or even the a4?_
 
 ## May math save us all
