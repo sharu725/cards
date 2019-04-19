@@ -39,8 +39,12 @@ This dataset holds 150 samples of three Iris species ([_Iris setosa_](https://en
 
 This dataset is so widely used that data science libraries usually have it built-in so it can be used in demonstrations and examples. Let's take a peek at the first lines of our dataset, to start we need to import it, I prefer the version that comes in [the seaborn library](https://seaborn.pydata.org/):
 
+{% highlight python %}
+
     import seaborn as sns
     iris = sns.load_dataset('iris')
+
+{% endhighlight %}
 
 Glancing at the first 5 rows of our dataset you might ask me: _"But Jess, the answers were are seeking is right there in the_ `_species_` _column, weren't we going to do unsupervised clustering?"_
 
