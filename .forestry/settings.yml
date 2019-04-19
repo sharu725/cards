@@ -31,7 +31,7 @@ sections:
   label: _sass
   create: all
   match: "**/*"
-  new_doc_ext: ".scss"
+  new_doc_ext: scss
 upload_dir: images
 public_path: ''
 front_matter_path: ''
