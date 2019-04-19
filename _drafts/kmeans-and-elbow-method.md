@@ -110,19 +110,21 @@ and the pair `(x,y)` represents the coordinates of any point that we might want 
 
 <center><i><small>on the x axis: the number of clusters used in the KMeans, and on the y axis: the within clusters sum-of-squares, the green line is the base line to calculate the distance</small></i></center>
 
-Suponha que queremos calcular a distância entre o ponto `a1` e a reta que passa por `a0`e `a18`, aqui as informações que precisamos:
+Suppose we want to calculate the distance between the point `a1` and the line that passes through `a0` and `a18`, here is the data we need:
 
 ![](https://cdn-images-1.medium.com/max/800/1*ifUwiwpotxsqPaRp8q8E3w.png)
 
-Substituindo os valores acima na fórmula do cálculo da distância temos o seguinte:
+Substituting the above values into the distance formula we have the following:
 
 ![](https://cdn-images-1.medium.com/max/1200/1*DYmZL126BCy2xJNPVtoTbg.png)
 
 ![](https://cdn-images-1.medium.com/max/800/1*MhxkB7f42ajRkgJfTa7TAw.png)
 
-#### Matemática e Python, o casalzão que todo mundo ama
+## Math and Python, the power couple everyone loves
 
-Imagino que você concorda comigo quando eu digo que _“Ninguém merece ficar fazendo essas continhas na mão”._ Então vamos usar um método pra isso, em resumo é só transcrever a fórmula do cálculo da distância entre um ponto e uma reta para código, ficou assim:
+I imagine you agree with me when I say _"No one deserves to calculate all of this by hand"_. So let's use a method for that. In short, we are just going to transcribe the formula that calculates the distance between a point and a line to code, the result is something like this:
+
+The method optimal_number_of_clusters() takes a list containing the within clusters sum-of-squares for each number of clusters that we calculated using the calculate_wcss() method, and as a result, it gives back the optimal number of clusters. Now that we know how to calculate the optimal number of clusters we can finally use KMeans:
 
 Esse método `optimal_number_of_clusters()` recebe uma lista contendo as somas dos quadrados para cada quantidade de clusters que calculamos usando `calculate_wcss()` e, como resultado, retorna a quantidade ótima de clusters. Agora que sabemos como calcular a quantidade ótima de clusters podemos finalmente usar o KMeans com tranquilidade:
 
