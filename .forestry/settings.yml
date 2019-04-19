@@ -13,10 +13,16 @@ sections:
   label: Pages
   create: all
 - type: heading
-  label: tema
+  label: Tema
 - type: directory
   path: _layouts
   label: Layouts
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".html"
+- type: directory
+  path: _includes
+  label: Includes
   create: documents
   match: "**/*"
   new_doc_ext: ".html"
