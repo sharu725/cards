@@ -44,7 +44,7 @@ This dataset is so widely used that data science libraries usually have it built
 
 Glancing at the first 5 rows of our dataset you might ask me: _"But Jess, the answers were are seeking is right there in the_ `_species_` _column, weren't we going to do unsupervised clustering?"_
 
-![](https://cdn-images-1.medium.com/max/800/1*rLqNbyrHGZs7NpE6dBl3qg.png "dataset.head") <center><i>First 5 rows of the Iris dataset, the result of the `iris.head()` command</i></center>
+![](https://cdn-images-1.medium.com/max/800/1*rLqNbyrHGZs7NpE6dBl3qg.png "dataset.head") <center><br><i>First 5 rows of the Iris dataset, the result of the `iris.head()` command</i></center>
 
 Okay, yes! We have the answers in our dataset but for the purpose of this tutorial, we are going to forget that we already know the species of our samples and we are going to try to group them using KMeans.
 
