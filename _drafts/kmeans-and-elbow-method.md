@@ -156,12 +156,11 @@ Is also worth mentioning that the elbow method isn't the only way to infer the o
 
 xoxo and good clusterization.
 
-Extra reading
+***
 
-The article comparing the Ward method and the K-mean in grouping milk producers. In the third topic, there's a great explanation of clustering methods.
+## Extra reading
 
-One article in Wikipedia that explains in great detail the method to calculate distances from where I copied the formula that I should earlier.
-
-There are slides from Professor André Backes class on clustering (in Portuguese).
-
-The code that I used in this post can be found in this GitHub repository.
+* The article [comparing the Ward method and the K-mean in grouping milk producers](http://www2.assis.unesp.br/ffrei/Artigos/Compara%C3%A7%C3%A3o%20entre%20o%20m%C3%A9todo%20Ward%20e%20o%20m%C3%A9todo%20K-m%C3%A9dias%20no%20agrupamento%20de%20produtores%20de%20leite.pdf) (in portuguese). In the third topic, there's a great explanation of clustering methods.
+* One [article in Wikipedia that explains in great detail the method to calculate distances](https://en.wikipedia.org/wiki/Distance_from_a_point_to_a_line) from where I copied the formula that I should earlier.
+* There are [slides from Professor André Backes class on clustering](http://www.facom.ufu.br/\~backes/pgc204/Aula09-Agrupamentos.pdf) (in Portuguese).
+* The code that I used in this post [can be found in this GitHub repository](https://github.com/jtemporal/kmeans_e_cotovelo).
