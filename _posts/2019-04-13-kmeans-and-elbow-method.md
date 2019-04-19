@@ -73,16 +73,18 @@ Scikit-learn's KMeans already calculates the `wcss` and its named `inertia`. The
 
 Now that you are aware of all that, let's look at our data: we have only 4 dimensions - length and width of petals and sepals, let's use the elbow with our data, shall we? I wrote a function that receives a dataset as input and calculates the KMeans for 19 different amounts of clusters ranging from 2 to 20 possible groups and finally returns a list with our `wcss`:
 
-```python
-def calculate_wcss(data):
-    wcss = []
-    for n in range(2, 21):
-        kmeans = KMeans(n_clusters=n)
-        kmeans.fit(X=data)
-        wcss.append(kmeans.inertia_)
+{% highlight python %}
 
-return wcss
-```
+    def calculate_wcss(data):
+        wcss = []
+        for n in range(2, 21):
+            kmeans = KMeans(n_clusters=n)
+            kmeans.fit(X=data)
+            wcss.append(kmeans.inertia_)
+    
+        return wcss
+
+{% highlight python %}
 
 When we use the function written above to calculate the within clusters sum-of-squares for our Iris dataset and plot the result, we find a plot like this:
 
