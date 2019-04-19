@@ -84,7 +84,7 @@ Now that you are aware of all that, let's look at our data: we have only 4 dimen
     
         return wcss
 
-{% highlight python %}
+{% endhighlight %}
 
 When we use the function written above to calculate the within clusters sum-of-squares for our Iris dataset and plot the result, we find a plot like this:
 
