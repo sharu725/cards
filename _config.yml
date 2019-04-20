@@ -15,6 +15,10 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "https://jtemporal.com" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
+# reading time
+reading_time: true
+words_per_minute: 200
+
 #sidebar
 default-image: channel-cover.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
 
