@@ -138,9 +138,26 @@ The method `optimal_number_of_clusters()` takes a list containing the within clu
 
 {% highlight python %}
 
-  {% endhighlight %} 
+    import seaborn as sns
+    
+    from sklearn.cluster import KMeans
+    
+    
+    # preparando nossos dados
+    iris = sns.load_dataset('iris')
+    df = iris.drop('species', axis=1)
+    
+    # calculando a soma dos quadrados para as 19 quantidade de clusters
+    sum_of_squares = calculate_wcss(df)
+    
+    # calculando a quantidade ótima de clusters
+    n = optimal_number_of_clusters(sum_of_squares)
+    
+    # rodando o kmeans para nossa quantidade ótima de clusters
+    kmeans = KMeans(n_clusters=n)
+    clusters = kmeans.fit_predict(df)
 
-<script src="https://gist.github.com/jtemporal/3bab2a8e2001ce1a3cea6395c88ebbea.js"></script>
+{% endhighlight %}
 
 ## Comparing before and after
 
