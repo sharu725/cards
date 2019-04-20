@@ -36,53 +36,55 @@ Depending on how you started your container you won't know its name, so let's fi
 
 <script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
-Aqui no meu caso, temos um resultado assim:
+In my case this command shows a result like this:
 
     CONTAINER ID        IMAGE                          NAMES
     11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
 
+I explained how to assemble this command that only shows the ID of the container, the image being used and the name of the container in this other little tutorial here. With the result above we know that the container I'm interested in is called relaxed_hypatia.
+
 Eu expliquei como montar esse comando que só mostra o ID do container, a imagem sendo usada e o nome do container [nessa colinha aqui](https://jtemporal.com/brincando-com-a-listagem-de-containers-docker/). Com isso sabemos que o meu container de interesse se chama `relaxed_hypatia`.
 
-## Descobrindo para onde mandar os dados
+## Finding out where to send the file
 
-Bem se, como eu, você normalmente mapearia volumes para compartilhar os dados com seu container provavelmente já sabe para onde mandar os dados. No entanto, se você não faz isso ou é uma imagem nova que você está usando pela primeira vez, sua missão é descobrir para onde mandar os arquivos. Geralmente essa informação está na documentação da imagem.
+Well if, like me, you usually map volumes to share the data with your container you probably already know where to send the data. However, if you don't do this or it is a new image that you are using for the first time, your mission is to find out where to send the files. Usually, this information is in the documentation of the image.
 
-No caso das imagens do Projeto Jupyter, existe uma pasta tradicional para mapear os volumes que essa: `/home/jovyan/work`. Vou mandar os dados pra lá, então quando você tiver rodando aí pro seu container, lembre-se de substituir esse caminho, para o caminho do seu container.
+For Jupyter Project images, there is a traditional folder to map the volumes that this: `/home/jovyan/work`. I'll send the file there if you are using a different image remember to replace that path, to the path of your container.
 
-## Finalmente copiando os dados
+## Finally copying the file
 
-Agora que você já descobriu o lugar para onde quer mandar os dados e o nome do container, chegou a hora de finalmente colocar os dados lá no container. Se você brinca de copiar arquivos pra lá e pra cá pelo terminal, deve ter o costume de usar o comando `cp`. Mas caso não tenha, o `cp` (de _copy_) é o Ctrl+C Ctrl+V do terminal, ele faz um cópia de um arquivo em um lugar para outro lugar. Por exemplo, vamos supor que tenho a seguinte situação:
+Now that you've figured out where to send the data file and the name of the container, it's time to finally copy the file to the container. If you like play copying files back and forth through the terminal, you should have the custom of using the `cp` command. But if you don't have the habit, `cp` (from _copy_) is Ctrl+C Ctrl+V from the terminal, it makes a copy of a file from somewhere to another place. For example, let's assume I have the following situation:
 
-    pasta1/						pasta2/
-    └── arquivo_A.txt			
+    folder1/						folder2/
+    └── file_A.txt		
 
-E que eu quero copiar o `arquivo_A.txt` para a `pasta2`, tudo isso pelo terminal. Então eu poderia fazer apenas o seguinte:
+And that I want to copy `file_A.txt` to `folder2` using the terminal. I could do the following:
 
-    cp pasta1/arquivo_A.txt pasta2
+    cp folder1/file_A.txt folder2
 
-E o resultado disso seria:
+And the result would be as follows:
 
-    pasta1/					pasta2/
-    └── arquivo_A.txt			└── arquivo_A.txt
+    folder1/					folder2/
+    └── file_A.txt		    	└── file_A.txt
 
-E dá para fazer a mesma coisa com o container. O Docker tem a versão dele chamado `docker cp` que funciona de forma análoga ao `cp` do terminal. Com a pequena diferença que o caminho de destino é formado assim: `nome_do_container:caminho/de/destino`. Então vamos copiar o arquivo `dados.csv` para dentro do meu `relaxed_hypatia`:
+And the same can be done with containers. Docker has its own `cp` version called `docker cp` that works in a way analogous to the terminal `cp`. With the small difference that the destination path is formed like this: `container_name:destination/path`. So let's copy the `dados.csv` file into my `relaxed_hypatia`:
 
     docker cp dados.csv relaxed_hypatia:/home/jovyan/work/dados.csv
 
-E aí eu consigo ver os meus dados lá dentro do meu container. Como no meu caso eu tô rodando um container do Jupyter eu consigo ver esse arquivo lá na minha interface:
+Now I can see the data inside my container. As in my case I'm running a Jupyter container I can see this file there in the Jupyter interface:
 
 <center>
 <img src="/images/dados_docker_cp.png"/>
 </center>
 
-Legal né? Você pode seguir a mesma filosofia para retirar dados de dentro do container para sua máquina local, basta inverter a ordem dos caminhos.
+Cool huh? You can follow the same philosophy to pull data from inside the container to your local machine, just reverse the order of the paths.
 
-## Considerações finais
+## Final considerations
 
-Uma coisa muito importante de lembrar, containers foram feitos para serem efêmeros, então lembre-se de se certificar que esta mantendo um backup dos seus dados. Afinal, depois de removido um container não tem mais como recuperar os dados que estavam lá dentro.
+One very important thing to remember, containers are meant to be ephemeral, so make sure you keep a backup of your data. After all, after removing a container, you no longer have the ability to retrieve the data that was inside.
 
-Outro motivo que um amigo me ensinou recentemente a favor de copiar os dados para dentro do container é que manter volumes atualizados quando seu container faz muitos processos de leitura e escrita é extremamente custoso. Então, se você tem um arquivo grande que não muda, como um arquivo de dados, ou um processo que faz muita leitura e escrita, como um servidor rails, vale a pena considerar entre copiar os arquivos para dentro do container ou até mesmo fazer uma imagem ja com esses arquivos. Lembre-se sempre de pesar os pontos a favor e os pontos contra volumes na próxima vez que for usar containers.
+Another reason a friend recently taught me in favor of copying the data into the container is that keeping volumes up-to-date when your container does a lot of reading and writing is extremely costly. So if you have a large file that does not change, like a data file, or a process that does a lot of reading and writing, like a rails server, it's worth considering whether to copy the files into the container or even make an image already with these files. Always remember to weigh the points in favor and points against volumes the next time you use containers.
 
 ***
 
-Por hoje é só pessoal. Xêro!
+That's all folks! xoxo
