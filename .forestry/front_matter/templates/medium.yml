@@ -8,10 +8,18 @@ fields:
   hidden: false
   default: post
 - name: title
-  label: Title
+  label: Título
   type: text
   hidden: false
   default: título
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtíulo
+  description: max 70 char
+  config:
+    required: true
 - name: date
   label: Date
   type: datetime
@@ -22,17 +30,17 @@ fields:
   type: file
   hidden: false
   default: "/images/click-2.png"
-- name: comments
-  label: Comments
-  type: boolean
-  hidden: false
-  default: true
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
   default:
   - medium
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
 pages:
 - _posts/2017-01-16-uma-semana-de-serenata.md
 - _posts/2017-04-10-serenata-pelo-brasil-a-fora.md
