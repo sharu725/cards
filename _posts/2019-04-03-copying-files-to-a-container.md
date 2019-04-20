@@ -43,8 +43,6 @@ In my case this command shows a result like this:
 
 I explained how to assemble this command that only shows the ID of the container, the image being used and the name of the container in [this other pro tip](https://jtemporal.com/brincando-com-a-listagem-de-containers-docker/). With the result above we know that the container I'm interested in is called `relaxed_hypatia`
 
-Eu expliquei como montar esse comando que só mostra o ID do container, a imagem sendo usada e o nome do container nessa colinha aqui. Com isso sabemos que o meu container de interesse se chama `relaxed_hypatia`.
-
 ## Finding out where to send the file
 
 Well if, like me, you usually map volumes to share the data with your container you probably already know where to send the data. However, if you don't do this or it is a new image that you are using for the first time, your mission is to find out where to send the files. Usually, this information is in the documentation of the image.
