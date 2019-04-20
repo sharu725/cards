@@ -19,7 +19,7 @@ tags:
 - unsupervised clustering
 - analysis
 - nao supervisionado
-subtitle: Learn to calculate the optinam cluster number using the elbow method
+subtitle: Learn to calculate the optimal cluster number using the elbow method
 
 ---
 ***
