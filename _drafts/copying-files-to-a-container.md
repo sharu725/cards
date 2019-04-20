@@ -65,7 +65,7 @@ And that I want to copy `file_A.txt` to `folder2` using the terminal. I could do
 And the result would be as follows:
 
     folder1/                        folder2/
-    └── file_A.txt		            	└── file_A.txt
+    └── file_A.txt                  └── file_A.txt
 
 And the same can be done with containers. Docker has its own `cp` version called `docker cp` that works in a way analogous to the terminal `cp`. With the small difference that the destination path is formed like this: `container_name:destination/path`. So let's copy the `dados.csv` file into my `relaxed_hypatia`:
 
