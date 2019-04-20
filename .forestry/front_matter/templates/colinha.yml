@@ -37,6 +37,10 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: boolean
+  name: reading_time
+  label: Tempo de leitura
+  default: true
 pages:
 - _posts/2019-03-16-brincando-com-a-listagem-de-containers-docker.md
 - _posts/playing-with-dockers-container-listing.md
