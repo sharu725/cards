@@ -4,7 +4,7 @@ title: Copying files into a container
 date: 2019-04-03 03:00:00 +0000
 img: "/pro_tip.png"
 comments: true
-readingtime: true
+
 tags:
 - pro tip
 - docker
