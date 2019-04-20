@@ -37,6 +37,7 @@ paginate_path: /page:num/
 
 # Tracker
 analytics:
+tagmanager:
 
 # Comments
 disqus: yes
