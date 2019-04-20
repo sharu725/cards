@@ -13,6 +13,7 @@ tags:
 - listing
 - image
 subtitle: Let's learn to copy files into a container without using volumes
+reading_time: true
 
 ---
 ***
