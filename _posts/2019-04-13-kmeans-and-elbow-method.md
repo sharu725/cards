@@ -19,6 +19,7 @@ tags:
 - unsupervised clustering
 - analysis
 - nao supervisionado
+subtitle: Learn to calculate the optinam cluster number using the elbow method
 
 ---
 One of the most famous methods to find clusters in data in an unsupervised way is using KMeans. But what do we do when we have absolutely no idea how many clusters the data is going to form? We can't just guess.
