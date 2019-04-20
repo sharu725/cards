@@ -12,7 +12,7 @@ layout: default
               <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
               {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
               
-              • Tempo de leitura<i class="fa fa-clock-o"></i>
+              • <i class="fa fa-clock-o"></i> {% include read-time.html %}
               <!--{% if page.time %} • Tempo de leitura<i class="fa fa-clock-o"></i>
               {% include read-time.html %}
                 {% endif %}-->
