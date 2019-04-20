@@ -12,7 +12,8 @@ tags:
 - unsupervised learning
 - unsupervised clustering
 - clusterizacao nao supervisionada
-subtitle: Aprenda a calcular a quantidade ótima de clusters para o KMeans
+subtitle: Aprenda a calcular a quantidade ótima de clusters para o KMeans usando o
+  método do cotovelo
 
 ---
 Um dos métodos mais famosinhos pra achar agrupamentos em dados de forma não supervisionada é utilizando o KMeans. Mas e quando você não tem ideia de quantos clusters seus dados possam formar, como faz?
