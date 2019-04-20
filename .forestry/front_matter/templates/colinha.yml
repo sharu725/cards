@@ -5,24 +5,26 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: post
 - name: title
-  label: Title
+  label: título
   type: text
   hidden: false
   default: Titulo
 - type: text
   name: subtitle
-  label: SUBTITLE
+  label: subtítulo
   description: max 70 char
+  config:
+    required: true
 - name: date
-  label: Date
+  label: data da publicação
   type: datetime
   hidden: false
   default: 2019-03-15 03:00:00 +0000
 - name: img
-  label: Img
+  label: capa do artigo
   type: file
   hidden: false
   default: "/images/colinha.png"
@@ -33,7 +35,7 @@ fields:
   default:
   - colinha
 - name: comments
-  label: Comments
+  label: comentários
   type: boolean
   hidden: false
   default: true
