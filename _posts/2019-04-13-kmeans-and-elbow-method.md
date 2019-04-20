@@ -22,6 +22,12 @@ tags:
 subtitle: Learn to calculate the optinam cluster number using the elbow method
 
 ---
+***
+
+Leia [esse texto em Português](https://medium.com/pizzadedados/kmeans-e-metodo-do-cotovelo-94ded9fdf3a9) na Revista do Pizza.
+
+***
+
 One of the most famous methods to find clusters in data in an unsupervised way is using KMeans. But what do we do when we have absolutely no idea how many clusters the data is going to form? We can't just guess.
 
 Discovering the number of clusters is a challenge especially when we are dealing with unsupervised machine learning and clustering algorithms. To solve the issue of "how many clusters should I choose" there's a method known as the Elbow Method.
