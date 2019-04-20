@@ -36,3 +36,5 @@ fields:
   name: readingtime
   label: readingtime
   default: true
+pages:
+- _posts/2019-04-03-copying-files-into-a-container.md

@@ -5,7 +5,7 @@ date: 2019-04-03 03:00:00 +0000
 img: "/pro_tip.png"
 comments: true
 tags:
-- colinha
+- pro tip
 - docker
 - container
 - containers
@@ -14,6 +14,7 @@ tags:
 - image
 subtitle: Let's learn to copy files into a container without using volumes
 readingtime: true
+
 ---
 ***
 
