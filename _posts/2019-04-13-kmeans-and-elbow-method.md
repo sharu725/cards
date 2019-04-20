@@ -143,17 +143,17 @@ The method `optimal_number_of_clusters()` takes a list containing the within clu
     from sklearn.cluster import KMeans
     
     
-    # preparando nossos dados
+    # preparing our data
     iris = sns.load_dataset('iris')
     df = iris.drop('species', axis=1)
     
-    # calculando a soma dos quadrados para as 19 quantidade de clusters
+    # calculating the within clusters sum-of-squares for 19 cluster amounts
     sum_of_squares = calculate_wcss(df)
     
-    # calculando a quantidade ótima de clusters
+    # calculating the optimal number of clusters
     n = optimal_number_of_clusters(sum_of_squares)
     
-    # rodando o kmeans para nossa quantidade ótima de clusters
+    # running kmeans to our optimal number of clusters
     kmeans = KMeans(n_clusters=n)
     clusters = kmeans.fit_predict(df)
 
