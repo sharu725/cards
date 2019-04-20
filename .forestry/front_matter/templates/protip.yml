@@ -1,0 +1,28 @@
+---
+label: protip
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: img
+  label: img
+- type: boolean
+  name: comments
+  label: comments
+- type: list
+  name: tags
+  label: tags
+- type: text
+  name: subtitle
+  label: subtitle
+- type: boolean
+  name: readingtime
+  label: readingtime

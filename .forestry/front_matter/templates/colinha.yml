@@ -40,7 +40,7 @@ fields:
   hidden: false
   default: true
 - type: boolean
-  name: reading_time
+  name: readingtime
   label: Tempo de leitura
   default: true
 pages:
