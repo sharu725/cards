@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como definir o número de clusters para o seu KMeans
-date: 2019-04-10 00:00:00 -0300
+date: 2019-04-10 03:00:00 +0000
 img: "/click-2.png"
 comments: true
 tags:
@@ -12,6 +12,7 @@ tags:
 - unsupervised learning
 - unsupervised clustering
 - clusterizacao nao supervisionada
+subtitle: Aprenda a calcular a quantidade ótima de clusters para o KMeans
 
 ---
 Um dos métodos mais famosinhos pra achar agrupamentos em dados de forma não supervisionada é utilizando o KMeans. Mas e quando você não tem ideia de quantos clusters seus dados possam formar, como faz?
