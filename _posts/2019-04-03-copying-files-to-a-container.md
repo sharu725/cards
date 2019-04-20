@@ -12,8 +12,15 @@ tags:
 - pro tip
 - listing
 - image
+subtitle: Let's learn to copy files into a container
 
 ---
+***
+
+Esse texto pode ser encontrado também em Portug
+
+***
+
 Sometimes volumes do not work and you have to copy things into the container. Really! You must be wondering, _"How does a technology that everyone uses, doesn’t work?!”_.
 
 Okay, okay, I know this is looking like those stories of "works on my machine" inverted. But let me explain, earlier this year I was working with a temporary computer. Unfortunately, I did not have administrator powers of that computer, which prevented me from doing certain things, including giving Docker permission to share volumes with the Windows file system.
