@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Copying files to a containe
+title: Copying files to a container
 date: 2019-04-03 03:00:00 +0000
 img: "/colinha.png"
 comments: true
