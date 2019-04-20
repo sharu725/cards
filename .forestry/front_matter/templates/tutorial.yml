@@ -5,13 +5,17 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: post
 - name: title
   label: Title
   type: text
   hidden: false
   default: Título
+- type: text
+  name: subtitle
+  label: Subtiulo
+  description: Max 70 char
 - name: date
   label: Date
   type: datetime
@@ -22,16 +26,16 @@ fields:
   type: file
   hidden: false
   default: "/images/tutorial.png"
-- name: comments
-  label: Comments
-  type: boolean
-  hidden: false
-  default: true
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
   default:
   - tutorial
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
 pages:
 - _posts/2019-04-13-kmeans-and-elbow-method.md
