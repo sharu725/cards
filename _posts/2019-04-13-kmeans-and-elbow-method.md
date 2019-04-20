@@ -136,6 +136,10 @@ I imagine you agree with me when I say _"No one deserves to calculate all of thi
 
 The method `optimal_number_of_clusters()` takes a list containing the within clusters sum-of-squares for each number of clusters that we calculated using the `calculate_wcss()` method, and as a result, it gives back the optimal number of clusters. Now that we know how to calculate the optimal number of clusters we can finally use KMeans:
 
+{% highlight python %}
+
+  {% endhighlight %} 
+
 <script src="https://gist.github.com/jtemporal/3bab2a8e2001ce1a3cea6395c88ebbea.js"></script>
 
 ## Comparing before and after
