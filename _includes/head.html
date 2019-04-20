@@ -10,9 +10,7 @@
 {% else %}
   <meta property="og:image" content="https://avatars2.githubusercontent.com/u/6595551?s=400&v=4" />
 {% endif %}
-{% if site.tags %}
-  <meta property="og:article:tag" content="{{ page.tags }}" />
-{% endif %}
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 
 
 
