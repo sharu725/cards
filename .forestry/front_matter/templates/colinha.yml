@@ -12,6 +12,10 @@ fields:
   type: text
   hidden: false
   default: Titulo
+- type: text
+  name: subtitle
+  label: SUBTITLE
+  description: max 70 char
 - name: date
   label: Date
   type: datetime
@@ -22,17 +26,17 @@ fields:
   type: file
   hidden: false
   default: "/images/colinha.png"
-- name: comments
-  label: Comments
-  type: boolean
-  hidden: false
-  default: true
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
   default:
   - colinha
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
 pages:
 - _posts/playing-with-dockers-container-listing.md
 - _posts/2019-04-03-copying-files-to-a-container.md
