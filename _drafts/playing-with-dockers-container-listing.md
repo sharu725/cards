@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brincando com a listagem de containers Docker
+title: Playing with Docker’s container listing
 date: 2019-03-16 03:00:00 +0000
 img: "/colinha.png"
 comments: true
