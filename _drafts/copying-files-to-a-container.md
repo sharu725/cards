@@ -9,27 +9,30 @@ tags:
 - docker
 - container
 - containers
+- pro tip
+- listing
+- image
 
 ---
-Às vezes volumes não funcionam e a gente precisa copiar coisas para dentro do container. É sério! Você deve estar se perguntando, "_como uma tecnologia que todo mundo usa, não funciona?!"_
+Sometimes volumes do not work and you have to copy things into the container. Really! You must be wondering, _"How does a technology that everyone uses, doesn’t work?!”_.
 
-Tá, tá... Eu sei que isso tá parecendo aquelas histórias de "funciona na minha máquina" invertido. Mas vou explicar, no começo do ano eu estava trabalhando com um computador provisório. Infelizmente, eu não tinha poderes de administrador desse computador, o que me impedia de fazer certas coisas, inclusive de dar permissão ao Docker para compartilhar volumes com o sistema de arquivos do Windows.
+Okay, okay, I know this is looking like those stories of "works on my machine" inverted. But let me explain, earlier this year I was working with a temporary computer. Unfortunately, I did not have administrator powers of that computer, which prevented me from doing certain things, including giving Docker permission to share volumes with the Windows file system.
 
-Ah sim, talvez seja importante mencionar que eu só descobri como copiar arquivos para dentro de container que tá rodando, pois o Windows tem todas essas paradas de permissão.
+Is worth mentioning that I only discovered how to copy files to a running container because windows have these permission issues.
 
-Então bora lá!
+So, let's go!
 
-## Materiais
+## Materials
 
-Para essa colinha você vai precisar de:
+For this little tutorial, you’ll need:
 
-* Um container Docker rodando
-* Um arquivo que você quer copiar para dentro do Docker
-* Conhecimentos básicos de Docker
+* A running Docker container
+* A file to copy to said Docker containerr
+* Basic Docker knowledge
 
-## Descobrindo o container
+## Finding out the container
 
-Dependendo de como você inicie o seu container você não vai saber o nome dele, então vamos primeiro conferir isso. Como trabalho com ciência e análise de dados, é muito comum me encontrar com um container do Jupyter rodando, é esse que vou usar aqui. Para pegar o nome do container precisamos listar os containers que estão de pé:
+Depending on how you started your container you won't know its name, so let's first check it out. Since I work with science and data analysis, it is very common to find myself with a Jupyter container running, this is the one I will use here. To get the name of the container we need to list the containers that are up:
 
 <script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
