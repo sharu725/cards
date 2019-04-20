@@ -34,7 +34,7 @@ fields:
   default:
   - colinha
 pages:
-- _posts/copying-files-to-a-container.md
+- _posts/2019-04-03-copying-files-to-a-container.md
 - _posts/2019-03-16-brincando-com-a-listagem-de-containers-docker.md
 - _posts/2019-04-03-copiando-arquivos-para-dentro-do-container.md
 - _posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
