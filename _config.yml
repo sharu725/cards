@@ -38,6 +38,7 @@ paginate_path: /page:num/
 
 # Tracker
 analytics: UA-89599031-1
+tagmanager: GTM-KKCR3VG
 
 # Comments
 disqus: yes
