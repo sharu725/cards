@@ -5,24 +5,34 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Título
+  config:
+    required: true
+- type: text
+  name: subtitle
+  label: Subtítulo
+  description: max 70 char
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
 - type: file
   name: img
   label: img
-- type: boolean
-  name: comments
-  label: comments
+  default: "/pro_tip.png"
 - type: list
   name: tags
   label: tags
-- type: text
-  name: subtitle
-  label: subtitle
+- type: boolean
+  name: comments
+  label: comments
+  default: true
 - type: boolean
   name: readingtime
   label: readingtime
+  default: true
