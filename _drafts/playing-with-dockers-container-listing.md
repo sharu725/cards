@@ -10,28 +10,27 @@ tags:
 - containers
 
 ---
-Se você usa Docker, provavelmente o terceiro comando que aprendeu foi listar eles, mas você sabe que dá pra tunar a listagem de containers?
+If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
-Pois bem, a colinha de hoje é para mostrar dois truques que eu uso muito:
+1. List filtering;
+2. List formatting.
+3. 
 
-1. filtragem da lista;
-2. formatação da lista.
+Let's take a look at these two cases with care.
 
-Vamos ver esses dois casos com carinho.
+## Filtering the container list
 
-## Filtrando a lista de containers
+I think the first "advanced" command I had to learn was filtering a set of containers. Soon after getting started with Docker it is very common to have a "dirty" environment, that is, to have many containers with exited status `exited` without being removed.
 
-Acho que o primeiro comando "mais avançado" que eu tive que fazer foi filtrar um conjunto de containers. Logo ao começar a mexer com Docker é muito comum ficar com o ambiente "sujo", ou seja, ter muitos containers com _status_ de `exited` parados sem serem removidos.
-
-Por isso, eu aprendi a filtrar tais containers pelo _status_. Dentro do comando tradicional de listar containers (`docker ps`), existe uma _flag_ chamada de `--filter` ou `-f`. Essa _flag_ permite que você indique filtros a serem feitos, por exemplo:
+So I learned how to filter such containers by their status. Within the traditional container listing command (`docker ps`), there is a flag called `--filter` or `-f`. This flag allows you to indicate filters to be made, for example:
 
     docker ps -a -f status=exited
 
-O resultado desse comando vai ser uma lista de containers que deixaram de executar, mas não foram removidos. Como eu falei antes, é bem fácil perder o controle e ter muitos containers parados "sujando" o seu ambiente. Então listar aqueles que não estão em execução pode ser uma mão na roda para remover eles mais facilmente. Eu gosto usar esse comando assim:
+The result of this command will be a list of containers that have stopped running, but have not been removed. As I've said before, it's pretty easy to lose control and have lots of stale containers "dirtying" your environment. So listing those that aren't running can be a helpful hand i removing them more easily. I like to use a command like this:
 
     docker rm -v $(docker ps -a -q -f status=exited)
 
-Passando a _flag_ `-q` faz com que, o resultado do `docker ps` mostre apenas os IDs dos containers, colocando esse comando completo dentro do `$()` faz com que passemos a lista de IDs para o `docker rm` e assim removendo todos os containers parados com apenas um comando. Ah a _flag_ `-v` ali é só pra ter um _feedback_ do que está rolando com o comando, ele vai mostrar o ID de cada container que estiver sendo excluído.
+Passing the `-q` flag causes the `docker ps` result to only show the container IDs, putting this complete command inside `$()` results in us passing the list of IDs to the `docker rm` and thus removing all the containers stopped with only one command. And the flag `-v` there is just to have feedback of what is going on with the command, it will show the ID of each container being deleted.
 
 ## Formatando a lista de containers
 
