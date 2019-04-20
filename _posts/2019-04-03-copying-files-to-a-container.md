@@ -17,7 +17,7 @@ subtitle: Let's learn to copy files into a container
 ---
 ***
 
-Esse texto pode ser encontrado também em Portug
+Se preferir [leia esse texto em Português](https://jtemporal.com/copiando-arquivos-para-dentro-do-container/).
 
 ***
 
