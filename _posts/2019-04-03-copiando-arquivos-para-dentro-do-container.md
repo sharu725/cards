@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Copiando arquivos para dentro do container
-date: 2019-04-03 00:00:00 -0300
+date: 2019-04-03 03:00:00 +0000
 img: "/colinha.png"
 comments: true
 tags:
@@ -9,8 +9,15 @@ tags:
 - docker
 - container
 - containers
+subtitle: Aprenda a copiar arquivos para dentro do container Docker
 
 ---
+***
+
+Read [this post in English](https://jtemporal.com/copying-files-to-a-container/).
+
+***
+
 Às vezes volumes não funcionam e a gente precisa copiar coisas para dentro do container. É sério! Você deve estar se perguntando, "_como uma tecnologia que todo mundo usa, não funciona?!"_
 
 Tá, tá... Eu sei que isso tá parecendo aquelas histórias de "funciona na minha máquina" invertido. Mas vou explicar, no começo do ano eu estava trabalhando com um computador provisório. Infelizmente, eu não tinha poderes de administrador desse computador, o que me impedia de fazer certas coisas, inclusive de dar permissão ao Docker para compartilhar volumes com o sistema de arquivos do Windows.
