@@ -55,7 +55,7 @@ For Jupyter Project images, there is a traditional folder to map the volumes tha
 
 Now that you've figured out where to send the data file and the name of the container, it's time to finally copy the file to the container. If you like play copying files back and forth through the terminal, you should have the custom of using the `cp` command. But if you don't have the habit, `cp` (from _copy_) is Ctrl+C Ctrl+V from the terminal, it makes a copy of a file from somewhere to another place. For example, let's assume I have the following situation:
 
-    folder1/						folder2/
+    folder1/				folder2/
     └── file_A.txt		
 
 And that I want to copy `file_A.txt` to `folder2` using the terminal. I could do the following:
