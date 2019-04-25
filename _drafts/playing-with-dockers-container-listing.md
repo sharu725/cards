@@ -46,19 +46,21 @@ For example, the template:
 
 <script src="https://gist.github.com/jtemporal/13ca6f547d5ab2f86b4f3b019fb26c43.js"></script>
 
-poderia ser preenchido com qualquer nome que estivesse contido na variável `Name`. Para identificar variáveis em templates basta encontrar a palavra precedida por um _ponto_ e dentro de _chaves duplas_. Se quiser saber mais sobre [templates Go da uma olhada nesse artigo](https://gopher.pro.br/post/http-uso-de-templates/) do grupo de estudos que fala muito bem sobre o tema.
+That template could be filled with any name that was stored in the variable `Name`. To identify variables in templates you'll need to find the word that is preceded by a dot and is inside double curly brackets. If you are interested in learning more about Go templates, I'd recommend [you check out this article in the official documentation](https://golang.org/pkg/text/template/) for more information.
 
-Então, pra começar cada uma das informações que aparecem na tela você pode chamar seguindo esse mapa:
+To start our formatting we need to know where the information that shows up on the screen is stored and you can use the table bellow for that:
 
-* `CONTAINER ID`: ID
-* `IMAGE`: Image
-* `COMMAND`: Command
-* `CREATED`: RunningFor
-* `STATUS`: Status
-* `PORTS`: Ports
-* `NAMES`: Names
+| Information | Variable |
+| --- | --- |
+| CONTAINER ID | ID |
+| IMAGE | Image |
+| COMMAND | Command |
+| CREATED | RunningFor |
+| Status | Status |
+| PORTS | Ports |
+| NAMES | Names |
 
-Como eu geralmente só quero ver o nome, a imagem e o ID dos containers que estão rodando, meu comando acaba sendo esse:
+In my case I usually look for the name, the image and the container ID's so my command ends up being the following:
 
 <script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
