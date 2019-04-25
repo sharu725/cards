@@ -5,12 +5,12 @@ date: 2019-03-16 03:00:00 +0000
 img: "/pro_tip.png"
 comments: true
 tags:
+- 'docker '
 - container
 - listing
 - protip
 - pro tip
 - docker ps
-- 'docker '
 - containers
 subtitle: Learn to list and filter containers from the list
 
@@ -36,7 +36,7 @@ The result of this command will be a list of containers that have stopped runnin
 
 Passing the `-q` flag causes the `docker ps` result to only show the container IDs, putting this complete command inside `$()` results in us passing the list of IDs to the `docker rm` and thus removing all the containers stopped with only one command. And the flag `-v` there is just to have feedback of what is going on with the command, it will show the ID of each container being deleted.
 
-## Formatando a lista de containers
+## Formating the containers list
 
 In addition to removing the containers that are dirting up our environment, sometimes I need some information about some of the containers that are running. Normally when we use the `docker ps` we see information like container ID, the command you ran to start the container, the image being used and a lot of other things... But sometimes seeing all that information on the screen can be an information overload.
 
