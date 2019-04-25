@@ -1,6 +1,6 @@
 ---
 label: colinha
-hide_body: true
+hide_body: false
 display_field: title
 fields:
 - name: layout
