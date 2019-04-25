@@ -38,9 +38,11 @@ Passing the `-q` flag causes the `docker ps` result to only show the container I
 
 ## Formating the containers list
 
-In addition to removing the containers that are dirting up our environment, sometimes I need some information about some of the containers that are running. Normally when we use the `docker ps` we see information like container ID, the command you ran to start the container, the image being used and a lot of other things... But sometimes seeing all that information on the screen can be an information overload.
+In addition to removing the containers that are dirting up our environment, sometimes I need some information about some of the containers that are running. Normally when we use the `docker ps` we see information like container ID, the command you ran to start the container, the image being used and a lot of other things... But sometimes seeing all that information on the screen all at once can be an information overload.
 
-Além de remover os containers que ficam sujando nosso ambiente, às vezes eu preciso de algumas informações sobre algum dos containers que estão rodando. Normalmente quando usamos o `docker ps` vemos informações como ID do container, o comando que você rodou para iniciar ele, a imagem que está sendo usada e outras coisas mais... Mas às vezes ver todas essas informações na tela pode ser uma sobrecarga de informações.
+That's when the magic of formatting the `docker ps` result comes in handy. The flag `--format` that commands the show this time. It accepts a Go template. If you do not know Go templates, here's a super quick and superficial explanation: a lot used for creating static sites, a template is a string that is "filled" with information being driven by variables.
+
+For example, the template:
 
 Aí que entra a mágica de formatar o resultado do `docker ps`. A flag `--format` que comanda o show dessa vez. Ela aceita um [template Go](https://golang.org/pkg/text/template/). Se você não conhece templates Go, aqui vai uma explicação super rápida e superficial: muito utilizados para criação de sites estáticos, um template é uma _string_ que é "preenchida" com informações sendo guiada por variáveis.
 
