@@ -33,4 +33,5 @@ fields:
   label: comments
   default: true
 pages:
+- _posts/playing-with-dockers-container-listing.md
 - _posts/2019-04-03-copying-files-into-a-container.md

@@ -2,19 +2,23 @@
 layout: post
 title: Playing with Docker’s container listing
 date: 2019-03-16 03:00:00 +0000
-img: "/colinha.png"
+img: "/pro_tip.png"
 comments: true
 tags:
-- colinha
+- container
+- listing
+- protip
+- pro tip
+- docker ps
 - 'docker '
 - containers
+subtitle: Learn to list and filter containers from the list
 
 ---
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:
 
 1. List filtering;
 2. List formatting.
-3. 
 
 Let's take a look at these two cases with care.
 
@@ -33,6 +37,8 @@ The result of this command will be a list of containers that have stopped runnin
 Passing the `-q` flag causes the `docker ps` result to only show the container IDs, putting this complete command inside `$()` results in us passing the list of IDs to the `docker rm` and thus removing all the containers stopped with only one command. And the flag `-v` there is just to have feedback of what is going on with the command, it will show the ID of each container being deleted.
 
 ## Formatando a lista de containers
+
+In addition to removing the containers that are dirting up our environment, sometimes I need some information about some of the containers that are running. Normally when we use the `docker ps` we see information like container ID, the command you ran to start the container, the image being used and a lot of other things... But sometimes seeing all that information on the screen can be an information overload.
 
 Além de remover os containers que ficam sujando nosso ambiente, às vezes eu preciso de algumas informações sobre algum dos containers que estão rodando. Normalmente quando usamos o `docker ps` vemos informações como ID do container, o comando que você rodou para iniciar ele, a imagem que está sendo usada e outras coisas mais... Mas às vezes ver todas essas informações na tela pode ser uma sobrecarga de informações.
 
