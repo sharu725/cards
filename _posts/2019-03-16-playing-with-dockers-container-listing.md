@@ -50,15 +50,15 @@ That template could be filled with any name that was stored in the variable `Nam
 
 To start our formatting we need to know where the information that shows up on the screen is stored and you can use the table bellow for that:
 
-| Information | Variable |
-| --- | --- |
-| CONTAINER ID | ID |
-| IMAGE | Image |
-| COMMAND | Command |
-| CREATED | RunningFor |
-| Status | Status |
-| PORTS | Ports |
-| NAMES | Names |
+|   Information  | Variable |
+| -------------- | ---------- |
+| `CONTAINER ID` | ID |
+|     `IMAGE`    | Image |
+|   `COMMAND`    | Command |
+|   `CREATED`    | RunningFor |
+|    `STATUS`    | Status |
+|     `PORTS`    | Ports |
+|    `NAMES`     | Names |
 
 In my case I usually look for the name, the image and the container ID's so my command ends up being the following:
 
