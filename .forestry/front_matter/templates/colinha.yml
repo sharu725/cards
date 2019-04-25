@@ -11,7 +11,9 @@ fields:
   label: título
   type: text
   hidden: false
-  default: Titulo
+  default: ''
+  config:
+    required: true
 - type: text
   name: subtitle
   label: subtítulo
@@ -22,18 +24,21 @@ fields:
   label: data da publicação
   type: datetime
   hidden: false
-  default: 2019-03-15 03:00:00 +0000
+  default: now
+  config:
+    required: true
 - name: img
   label: capa do artigo
   type: file
   hidden: false
-  default: "/images/colinha.png"
+  default: "/colinha.png"
 - name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
   label: Tags
-  type: tag_list
-  hidden: false
-  default:
-  - colinha
 - name: comments
   label: comentários
   type: boolean
