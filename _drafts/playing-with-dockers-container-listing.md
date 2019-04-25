@@ -62,11 +62,11 @@ Como eu geralmente só quero ver o nome, a imagem e o ID dos containers que est�
 
 <script src="https://gist.github.com/jtemporal/6ba7e2a2ac369738bb8278ad58993161.js"></script>
 
-Que me da um resultado assim:
+Will give me a result like this:
 
         CONTAINER ID        IMAGE                          NAMES
         11b8af1aeb43        jupyter/datascience-notebook   relaxed_hypatia
 
 ***
 
-Legal né? E aí, você já listou os seus containers hoje?
+Cool Huh? So have you listed your containers today?
