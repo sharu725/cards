@@ -48,7 +48,7 @@ poderia ser preenchido com qualquer nome que estivesse contido na variável `Nam
 
 Então, pra começar cada uma das informações que aparecem na tela você pode chamar seguindo esse mapa:
 
-|    Information   |  Variable  |
+|    Informação    |  Variável  |
 |------------------|------------|
 |  `CONTAINER ID`  |      ID    |
 |     `IMAGE`      |    Image   |
