@@ -48,13 +48,15 @@ poderia ser preenchido com qualquer nome que estivesse contido na variável `Nam
 
 Então, pra começar cada uma das informações que aparecem na tela você pode chamar seguindo esse mapa:
 
-* `CONTAINER ID`: ID
-* `IMAGE`: Image
-* `COMMAND`: Command
-* `CREATED`: RunningFor
-* `STATUS`: Status
-* `PORTS`: Ports
-* `NAMES`: Names
+|    Information   |  Variable  |
+|------------------|------------|
+|  `CONTAINER ID`  |      ID    |
+|     `IMAGE`      |    Image   |
+|    `COMMAND`     |   Command  |
+|    `CREATED`     | RunningFor |
+|    `Status`      |   Status   |
+|     `PORTS`      |   Ports    |
+|     `NAMES`      |   Names    |
 
 Como eu geralmente só quero ver o nome, a imagem e o ID dos containers que estão rodando, meu comando acaba sendo esse:
 
