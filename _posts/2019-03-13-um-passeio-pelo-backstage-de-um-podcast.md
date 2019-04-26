@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Um passeio pelo backstage de um podcast
-date: 2019-03-13 09:00:00 -0300
+date: 2019-03-13 12:00:00 +0000
 img: "/click-2.png"
 comments: true
 tags:
@@ -10,6 +10,7 @@ tags:
 - pizza de dados
 - podcasting
 - dicas
+subtitle: Veja como o Pizza nasceu e quem sabe se inspire a criar o seu podcast
 
 ---
 Em conversas, algumas pessoas já me falaram a seguinte frase:
@@ -25,4 +26,7 @@ E a minha resposta é sempre a mesma: _Eu te mostro como fizemos com o Pizza e s
 
 Pra continuar lendo esse artigo cheião de dicas vai lá para a revista do Pizza 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/pizzadedados/backstage-de-um-podcast-465f02c2a7e5)
+<center>
+  <a hrer="https://medium.com/pizzadedados/backstage-de-um-podcast-465f02c2a7e5"><img src="/images/clique-aqui-para-ler.png"atl = "botao de clique aqui para ler"/>
+  </a>
+  </center>
