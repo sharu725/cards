@@ -12,6 +12,9 @@ tags:
 - api
 - python3
 - load
+- serialization
+- serialize
+subtitle: Aprenda a diferenciar json.loads de json.load no Python
 
 ---
 Se você nunca entendeu a diferença entre `json.loads()` e `json.load()` chegou a hora de entender! Na colinha de hoje vamos aprender a diferenciar esse métodos deliciosos.
