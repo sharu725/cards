@@ -31,5 +31,3 @@ Pra continuar lendo esse artigo cheião de dicas vai lá para a revista do Pizza
     <img src="/images/clique-aqui-para-ler.png" atl="botao de clique aqui para ler"/>
   </a>
   </center>
-  
-  <center>
