@@ -5,6 +5,7 @@ date: 2019-03-15 03:00:00 +0000
 img: "/variados.png"
 comments: true
 tags:
+- serialização
 - python
 - bigquery
 - sql
