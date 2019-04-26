@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Copying files into a container
-date: 2019-04-03 03:00:00 +0000
+date: 2019-04-03 13:00:00 -0300
 img: "/pro_tip.png"
 comments: true
 tags:
