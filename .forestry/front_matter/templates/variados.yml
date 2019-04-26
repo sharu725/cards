@@ -5,33 +5,42 @@ fields:
 - name: layout
   label: Layout
   type: text
-  hidden: false
+  hidden: true
   default: post
 - name: title
-  label: Title
   type: text
   hidden: false
-  default: title
+  default: ''
+  label: Título
+  config:
+    required: true
+- name: subtitle
+  type: text
+  config:
+    required: true
+  label: Subtítulo
 - name: date
   label: Date
   type: datetime
   hidden: false
   default: 2019-03-15 03:00:00 +0000
 - name: img
-  label: Img
+  label: capa
   type: file
   hidden: false
   default: "/variados.png"
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tags
 - name: comments
   label: Comments
   type: boolean
   hidden: false
   default: true
-- name: tags
-  label: Tags
-  type: tag_list
-  hidden: false
-  default: ''
 pages:
 - _posts/2019-03-15-diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _posts/2017-03-11-pair-programming-a-distancia.md
