@@ -2,7 +2,7 @@
 layout: post
 title: Copying files into a container
 date: 2019-04-03 03:00:00 +0000
-img: ''
+img: "/pro_tip.png"
 comments: true
 tags:
 - pro tip
