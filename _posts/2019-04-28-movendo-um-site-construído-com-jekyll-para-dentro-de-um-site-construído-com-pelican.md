@@ -22,7 +22,7 @@ Ano passado aconteceu a primeira edição do PyLadies BR Conf lá em Natal no Ri
 
 ***
 
-**Nota da autora:** Se você não tiver interesse na jornada que culminou em ter o site no ar, a receita de bolo com os comandos para chegar nesse resultado pode ser encontrada aqui. 😉
+**Nota da autora:** Se você não tiver interesse na jornada que culminou em ter o site no ar, [a receita de bolo com os comandos para chegar nesse resultado pode ser encontrada aqui](https://jtemporal.com/transformando-um-site-jekyll-em-uma-p%C3%A1gina-de-um-site-pelican/). 😉
 
 ***
 
