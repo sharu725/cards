@@ -78,7 +78,7 @@ Com essa alteração o site _buildado_ vai estar configurado para ser servido a 
 
 O comando `build` gera o site da conferência dentro da pasta `_site` e ficamos com uma estrutura assim:
 
-<script src="[https://gist.github.com/jtemporal/71e23ca723a11d2a611de95d4f1df0ee.js](https://gist.github.com/jtemporal/71e23ca723a11d2a611de95d4f1df0ee.js "https://gist.github.com/jtemporal/71e23ca723a11d2a611de95d4f1df0ee.js")"></script>
+<script src="https://gist.github.com/jtemporal/71e23ca723a11d2a611de95d4f1df0ee.js"></script>
 
 Uma subpasta chamada `assets/` com vários arquivos de _script_ do site CSS, JavaScript, imagens e um arquivo `index.html`. É todo esse conteúdo que vamos copiar lá para o site oficial.
 
@@ -86,11 +86,11 @@ Uma subpasta chamada `assets/` com vários arquivos de _script_ do site CSS, Jav
 
 Agora que já temos o site da conferência eu voltei para a pasta do site oficial e criei dentro da pasta `content/extra/` uma pasta chamada `conf-1/` e copiei o conteúdo da pasta `_site/` para `conf-1/` assim:
 
-<script src="[https://gist.github.com/jtemporal/7d1115148a3fd27000e9891a523b6f92.js](https://gist.github.com/jtemporal/7d1115148a3fd27000e9891a523b6f92.js "https://gist.github.com/jtemporal/7d1115148a3fd27000e9891a523b6f92.js")"></script>
+<script src="https://gist.github.com/jtemporal/7d1115148a3fd27000e9891a523b6f92.js"></script>
 
 Depois disso, atualizei o `pelicanconf.py`:
 
-<script src="[https://gist.github.com/jtemporal/05bfd1208412c7641ed0c56d61572c32.js](https://gist.github.com/jtemporal/05bfd1208412c7641ed0c56d61572c32.js "https://gist.github.com/jtemporal/05bfd1208412c7641ed0c56d61572c32.js")"></script>
+<script src="https://gist.github.com/jtemporal/05bfd1208412c7641ed0c56d61572c32.js"></script>
 
 Ao tentar rodar o build do site oficial me deparei com o **segundo erro**: olhando para essas configurações assumi que se eu colocasse a pasta `conf-1/` dentro de `extra/` e adicionasse as configurações no `STATIC_PATHS` e no `EXTRA_PATH_METADATA` seguindo o mesmo padrão que já tinha visto, seria o suficiente apara acessar `localhost:8000/conf-1` e ver o site da conferência, mas ledo engano meu.
 
@@ -100,11 +100,11 @@ Lendo esse post você pode até achar que é óbvio o caminho para resolver esse
 
 Com as configurações que eu fiz, dentro da pasta `output/` eu encontrei uma pasta `extra/` e essa pasta que continha a pasta `conf-1/`. Antes das minhas alterações essa pasta `extra/` não era gerada no site _buildado_. Então, decidi colocar a pasta `conf-1/` dentro de `content/` e no mesmo nível que a pasta `extra/` assim:
 
-<script src="[https://gist.github.com/jtemporal/a5ea16db0249961cd231ecc343d5a2f7.js](https://gist.github.com/jtemporal/a5ea16db0249961cd231ecc343d5a2f7.js "https://gist.github.com/jtemporal/a5ea16db0249961cd231ecc343d5a2f7.js")"></script>
+<script src="https://gist.github.com/jtemporal/a5ea16db0249961cd231ecc343d5a2f7.js"></script>
 
 E também alterando o arquivo `pelicanconf.py` da seguinte forma:
 
-<script src="[https://gist.github.com/jtemporal/6cd27e0682ca98f8a3b197450d8c49b0.js](https://gist.github.com/jtemporal/6cd27e0682ca98f8a3b197450d8c49b0.js "https://gist.github.com/jtemporal/6cd27e0682ca98f8a3b197450d8c49b0.js")"></script>
+<script src="https://gist.github.com/jtemporal/6cd27e0682ca98f8a3b197450d8c49b0.js"></script>
 
 Agora ao fazer o _build_ do site oficial do PyLadies Brasil conseguimos ver a página da conferência como esperado. 🎉 🎉 EBAAA!!
 
