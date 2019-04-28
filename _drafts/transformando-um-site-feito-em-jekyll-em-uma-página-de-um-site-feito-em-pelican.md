@@ -26,7 +26,7 @@ Ano passado aconteceu a primeira edição do PyLadies BR Conf lá em Natal no Ri
 
 ***
 
-#### Contexto
+## Contexto
 
 Para começar os trabalhos você precisa saber que [o site oficial do PyLadies](http://brasil.pyladies.com/) Brasil é construído com um gerador de sites estáticos escrito em Python chamado [Pelican](https://docs.getpelican.com/en/stable/). Eu particularmente não sou fã do Pelican, mas escolhas pessoais à parte, ele tem funcionado muito bem como o site da PyLadies até o momento.
 
@@ -38,7 +38,7 @@ No entanto, agora que estamos organizando a segunda edição do evento, nos depa
 
 Existia várias formas de tornar isso possível, cada uma delas com seus lados positivo e negativo, por exemplo, poderíamos criar um novo repositório para o site desse ano. Mas daqui alguns anos com várias edições do evento tendo acontecido teríamos uma quantidade infindável de repositórios sem atualizações. Com isso uma solução interessante seria colocar o site da primeira edição com uma página do site oficial do PyLadies, assim manteríamos o histórico do evento vivo.
 
-#### Preparando o Pelican
+## Preparando o Pelican
 
 No Pelican é costumeiro encontrar todos os arquivos de conteúdo dentro da pasta `content/`, é nela que encontramos um diretório chamado `extra/` que contém arquivos estáticos como o `robots.txt`.
 
@@ -60,7 +60,7 @@ Algumas horas depois de muitas tentativas falhas e de vasculhar a internet para 
 
 A variável `READERS` serve para indicar _parseadores_ de arquivos, ao criá-la com o valor acima, estamos dizendo para o Pelican não fazer o _parse_ de arquivos `HTML`. Ufa, problema resolvido, tudo funcionando, o Pelican serviu o arquivo perfeitamente: consegui acessar `localhost:8000/teste` e ver o arquivo de _teste_.
 
-#### Gerando o site da conferência localmente
+## Gerando o site da conferência localmente
 
 Primeiro teste feito, chegou a hora de gerar o site localmente. Como eu falei ali em cima, o site da conferência foi feito em Jekyll, um dos motivos para isso era que o próprio GitHub se encarrega de fazer o _build_ do site para colocar ele no ar. Isso é ótimo porém nos impede de ter acesso ao site _buildado_.
 
