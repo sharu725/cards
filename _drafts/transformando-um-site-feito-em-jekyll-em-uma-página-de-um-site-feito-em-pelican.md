@@ -72,7 +72,7 @@ Pra começar eu já tinha o repositório do site da conferência clonado no meu 
 
     baseurl: "/conf-1"url: "https://brasil.pyladies.com"
 
-Com essa alteração o site _buildado_ vai estar configurado para ser servido a partir de `[https://brasil.pyladies.com/conf-1](https://brasil.pyladies.com/conf-1 "https://brasil.pyladies.com/conf-1")`. Então, para fazer o build é só seguir o tradicional:
+Com essa alteração o site _buildado_ vai estar configurado para ser servido a partir de `https://brasil.pyladies.com/conf-1`. Então, para fazer o build é só seguir o tradicional:
 
     $ jekyll build 
 
