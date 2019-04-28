@@ -42,7 +42,7 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/2019-04-28-movendo-um-site-construído-com-jekyll-para-dentro-de-um-site-construído-com-pelican.md
+- _posts/movendo-um-site-construido-com-jekyll-para-dentro-de-um-site-construido-com-pelican.md
 - _posts/2019-03-15-diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _posts/2017-03-11-pair-programming-a-distancia.md
 - _posts/2017-10-02-hacktoberfest-2017.md
