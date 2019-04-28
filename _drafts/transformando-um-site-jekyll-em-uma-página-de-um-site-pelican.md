@@ -11,8 +11,11 @@ tags:
 - ruby
 - gerador de site estático
 - static site generator
+- github pages
+- pyladies
+- pyladies br conf
 comments: true
-subtitle: ''
+subtitle: Comandos para colocar uma página dentro de um site Pelican
 
 ---
 No post _“Movendo um site construído com Jekyll para dentro de um site construído com Pelican”_ eu contei a jornada que foi mover o site do PyLadies BR Conf para dentro do site do PyLadies Brasil. Aqui vai o passo a passo final com comandos que usei tudo isso.
