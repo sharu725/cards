@@ -2,7 +2,7 @@
 layout: post
 title: Transformando um site feito em Jekyll em uma página de um site feito em Pelican
 date: 2019-04-28 00:00:00 -0300
-img: "/images/tutorial.png"
+img: "/tutorial.png"
 tags:
 - tutorial
 - jekyll
