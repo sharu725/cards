@@ -38,5 +38,5 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/2019-04-28-transformando-um-site-jekyll-em-uma-página-de-um-site-pelican.md
+- _posts/transformando-um-site-jekyll-em-uma-pagina-de-um-site-pelican.md
 - _posts/2019-04-13-kmeans-and-elbow-method.md
