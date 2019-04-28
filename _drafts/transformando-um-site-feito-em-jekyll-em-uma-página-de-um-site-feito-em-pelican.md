@@ -44,13 +44,13 @@ No Pelican é costumeiro encontrar todos os arquivos de conteúdo dentro da past
 
 Esses arquivos estáticos e essa pasta `extra/`, assim como a pasta `images/`, precisam ser mapeados dentro de duas variáveis no `pelicanconf.py`. Essa variáveis fazem o controle de arquivos estáticos para que o Pelican, ao fazer o _build_ do site, possa copiar esses arquivos para pasta de _build_. Inicialmente elas estavam assim:
 
-<script src="[https://gist.github.com/jtemporal/33c16fbd43e7d4c1ed6e7b1fc2b8a4aa.js](https://gist.github.com/jtemporal/33c16fbd43e7d4c1ed6e7b1fc2b8a4aa.js "https://gist.github.com/jtemporal/33c16fbd43e7d4c1ed6e7b1fc2b8a4aa.js")"></script>
+<script src="https://gist.github.com/jtemporal/33c16fbd43e7d4c1ed6e7b1fc2b8a4aa.js"></script>
 
 <center>[Fonte](https://github.com/pyladies-brazil/br-pyladies-pelican/pull/237/files#diff-bee76e83181b4a5548a4ffecd1bea88d)</center>
 
 Então ao olhar para isso inferi que se eu colocasse um arquivo `teste.html` dentro da pasta `content/extra/` e mapeasse ele dentro dessas variáveis, eu encontraria o arquivo `teste.html` ele estaria no site buildado. Então alterei as variáveis de controle acrescentando as configurações no mesmo padrão para o arquivo `teste.html`:
 
-<script src="[https://gist.github.com/jtemporal/3099644801ed70e7717fe6cb9e7a318b.js](https://gist.github.com/jtemporal/3099644801ed70e7717fe6cb9e7a318b.js "https://gist.github.com/jtemporal/3099644801ed70e7717fe6cb9e7a318b.js")"></script>
+<script src="https://gist.github.com/jtemporal/3099644801ed70e7717fe6cb9e7a318b.js"></script>
 
 Normalmente, o Pelican tenta interpretar todos os arquivos dentro da pasta `content/` e gerar um arquivo `HTML` de resultado. Por isso, tentei fazer o _build_ do site com essas alterações encontrei o **primeiro erro**:
 
