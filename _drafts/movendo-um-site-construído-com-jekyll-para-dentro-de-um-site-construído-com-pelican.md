@@ -30,7 +30,7 @@ Ano passado aconteceu a primeira edição do PyLadies BR Conf lá em Natal no Ri
 
 Para começar os trabalhos você precisa saber que [o site oficial do PyLadies](http://brasil.pyladies.com/) Brasil é construído com um gerador de sites estáticos escrito em Python chamado [Pelican](https://docs.getpelican.com/en/stable/). Eu particularmente não sou fã do Pelican, mas escolhas pessoais à parte, ele tem funcionado muito bem como o site da PyLadies até o momento.
 
-Já [o site do PyLadies BR Conf](https://pyladies-brazil.github.io/conf/), foi feito usando um gerador de sites estáticos diferente: [o Jekyll,](https://jekyllrb.com/) que é feito em Ruby. Embora não seja feito em Python ele foi escolhido por vários motivos, um deles sendo a ampla [biblioteca de templates prontos](http://jekyllthemes.org/) para uso o que, por sua vez, facilitou o site da conferência de ser customizado e colocado no ar.
+Já [o site do PyLadies BR Conf](https://pyladies-brazil.github.io/conf/), foi feito usando um gerador de sites estáticos diferente: [o Jekyll,](https://jekyllrb.com/) que é feito em Ruby. Embora não seja feito em Python ele foi escolhido por vários motivos, um deles sendo a ampla [biblioteca de templates prontos](http://jekyllthemes.org/), o que facilitou o site da conferência de ser customizado e colocado no ar.
 
 No entanto, agora que estamos organizando a segunda edição do evento, nos deparamos com a seguinte situação:
 
