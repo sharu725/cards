@@ -46,7 +46,7 @@ Esses arquivos estáticos e essa pasta `extra/`, assim como a pasta `images/`, p
 
 <script src="https://gist.github.com/jtemporal/33c16fbd43e7d4c1ed6e7b1fc2b8a4aa.js"></script>
 
-<center>[Fonte](https://github.com/pyladies-brazil/br-pyladies-pelican/pull/237/files#diff-bee76e83181b4a5548a4ffecd1bea88d)</center>
+<center><a href="https://github.com/pyladies-brazil/br-pyladies-pelican/pull/237/files#diff-bee76e83181b4a5548a4ffecd1bea88d">Fonte</a></center>
 
 Então ao olhar para isso inferi que se eu colocasse um arquivo `teste.html` dentro da pasta `content/extra/` e mapeasse ele dentro dessas variáveis, eu encontraria o arquivo `teste.html` ele estaria no site buildado. Então alterei as variáveis de controle acrescentando as configurações no mesmo padrão para o arquivo `teste.html`:
 
