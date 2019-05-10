@@ -3,26 +3,32 @@
            {% if page.img %}
             <img width="600" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
             {% else %}
-            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="webjeda">
+            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="{{page.title}}">
             {% endif %}
         </div>
             
         
         <div class="mt10 recent">
-            <h2>Recent articles</h2>        
+            <h2>Uusimmat</h2>        
              <ul>
+                {% if site.related_posts %}
                 {% for post in site.related_posts limit:3 %}
-
-                      <li>
-                      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                      </li>
-
+                <li>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                </li>
                 {% endfor %}
+                {% else %}
+                {% for post in site.posts limit:3 %}
+                <li>
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                </li>
+                {% endfor %}
+                {% endif %}
               </ul>
         </div>
         {% if site.fb-like-box %}
         <div class="mt10">
-            <div class="fb-page" data-href="https://www.facebook.com/webjeda/" data-width="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webjeda/" class="fb-xfbml-parse-ignore"><a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a></blockquote></div>
+            <div class="fb-page" data-href="{{site.facebook}}" data-width="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webjeda/" class="fb-xfbml-parse-ignore"><a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a></blockquote></div>
         </div>
         {% endif %}
         <br>

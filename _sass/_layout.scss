@@ -5,11 +5,12 @@ html,body {
 
 .navbar {
     border-radius: 0;
+    //background-color: #666666
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: transparent;
+    background-color: transpare nt;
     padding: 10px 0;
     border-bottom: 1px solid #eee;
 }
@@ -41,7 +42,7 @@ img {
     padding: 20px 0;
 }
 .navbar-brand {
-    font-weight: 900;
+    font-weight: normal;
     font-size: 1.85em;
     padding: 10px;
     margin-left: 15px !important;
@@ -84,6 +85,8 @@ img {
 
 footer {
     border-top: 1px solid $grey-color-light;
+
+    
 }
 
 .social {
