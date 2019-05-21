@@ -13,6 +13,8 @@ tags:
 - scrap data
 - data scraping
 - html
+- table
+- tables
 subtitle: E se eu te disser que dá pra raspar dados sem escrever uma linha de código?
 
 ---
