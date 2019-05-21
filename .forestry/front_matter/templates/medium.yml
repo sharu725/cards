@@ -42,6 +42,7 @@ fields:
   hidden: false
   default: true
 pages:
+- _posts/como-definir-o-número-de-clusters-para-o-seu-kmeans.md
 - _posts/2017-01-16-uma-semana-de-serenata.md
 - _posts/2017-08-14-versionamento-semantico-um-passo-alem-do-git.md
 - _posts/2019-04-10-kmeans-e-cotovelo.md
