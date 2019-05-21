@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Movendo um site construído com Jekyll para dentro de um site construído com Pelican
-date: 2019-04-28 00:00:00 -0300
+date: 2019-04-28T03:00:00.000+00:00
 img: "/variados.png"
 tags:
 - jekyll
@@ -112,6 +112,6 @@ Agora ao fazer o _build_ do site oficial do PyLadies Brasil conseguimos ver a p�
 
 Persista nas suas tentativas e mantenha a calma. Mas, ainda mais importante que isso, converse com amigos e amigas sobre o seu problema, isso pode te ajudar a enxergar novas possibilidades. Foi o que eu fiz e me ajudou a exergar a saída para o segundo erro. 😉
 
-Agora que você já leu tudo recomendo ler também o post _“Transformando um site feito em Jekyll em uma página de um site feito em Pelican”_ para ver o passo a passo sem erros para reproduzir o que contei aqui.
+Agora que você já leu tudo recomendo ler também o post [_“Transformando um site feito em Jekyll em uma página de um site feito em Pelican”_](https://jtemporal.com/transformando-um-site-jekyll-em-uma-pagina-de-um-site-pelican/) para ver o passo a passo sem erros para reproduzir o que contei aqui.
 
 Xêro.

@@ -20,7 +20,7 @@ fields:
   label: Date
   type: datetime
   hidden: false
-  default: 2019-02-21 03:00:00 +0000
+  default: '2019-02-21T03:00:00.000+00:00'
 - name: img
   label: Img
   type: file
@@ -38,5 +38,4 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/transformando-um-site-jekyll-em-uma-pagina-de-um-site-pelican.md
 - _posts/2019-04-13-kmeans-and-elbow-method.md
