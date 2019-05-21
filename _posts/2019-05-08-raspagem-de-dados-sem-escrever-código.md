@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como definir o número de clusters para o seu KMeans
+title: Raspagem de dados sem escrever código
 date: 2019-05-08 00:00:00 -0300
 img: "/click-2.png"
 comments: true
