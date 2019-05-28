@@ -34,10 +34,10 @@ fields:
   hidden: false
   default: post
 pages:
-- _posts/2016-10-13-its-alive.md
-- _posts/2017-02-02-virou-purpurina.md
-- _posts/2017-01-26-the-moving.md
-- _posts/2017-02-09-meu-medo-de-formularios.md
-- _posts/2017-01-23-I-wanted-to-say.md
-- _posts/2017-05-10-comunidade-python-rio.md
 - _posts/2017-01-23-eu-quis-dizer.md
+- _posts/2017-05-10-comunidade-python-rio.md
+- _posts/2017-01-23-I-wanted-to-say.md
+- _posts/2017-02-09-meu-medo-de-formularios.md
+- _posts/2017-01-26-the-moving.md
+- _posts/2017-02-02-virou-purpurina.md
+- _posts/2016-10-13-its-alive.md

@@ -13,5 +13,5 @@ fields:
     required: true
   default: https://avatars2.githubusercontent.com/u/6595551?s=400&v=4
 pages:
-- index.html
 - _includes/read-time.html
+- index.html
