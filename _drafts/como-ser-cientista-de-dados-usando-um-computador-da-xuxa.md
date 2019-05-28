@@ -26,7 +26,7 @@ subtitle: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com se
 ---
 ## A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter Notebooks na nuvem? Vaaamoooss!!!
 
-Uns dois anos atrás, enquanto eu estava trabalhando na Operação Serenata de Amor, meus colegas de trabalho costumavam dizer que eu tinha um computador da Xuxa ou algo tipo assim:
+Uns dois anos atrás, enquanto eu estava trabalhando na [Operação Serenata de Amor](https://serenata.ai/), meus colegas de trabalho costumavam dizer que eu tinha um computador da Xuxa ou algo tipo assim:
 
 ![](https://cdn-images-1.medium.com/max/800/1*iu4Fht5QlGZcO-V30SjzxQ.jpeg)[Fonte](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pense_bem.jpg/1200px-Pense_bem.jpg)
 
