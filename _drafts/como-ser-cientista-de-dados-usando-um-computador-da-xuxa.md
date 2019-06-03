@@ -100,9 +100,10 @@ Mas, agora o Jupyter não está rodando no seu computador local então, vamos us
 
 Em termos não técnicos, o _port forwarding_ funciona como um portal.
 
-<center><a href="">Fonte</a></center>
-
-[Fonte](https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif)
+<center>
+  <img src="https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif"/>
+  <a href="https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif">Fonte</a>
+</center>
 
 Se você cria um portal para algum lugar consegue ver o que está acontecendo nesse lugar. Também é assim que a gente consegue estabelecer um canal de comunicação e saber o que está rolando no servidor, criando um túnel (portal) que liga a porta `8080` da minha máquina local a porta `8888` do servidor:
 
