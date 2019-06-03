@@ -60,7 +60,7 @@ A [Ana Schwendler](https://medium.com/u/a84fab589b6c) [já falou aqui sobre como
 
 ![](https://cdn-images-1.medium.com/max/800/1*YK0o59-niSDgu_eCBTsECg.gif)
 
-<center><a href="[https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif](https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif "https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif")[Fonte](https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif)">Fonte</a></center>
+<center><a href="https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif">Fonte</a></center>
 
 O jeito mais prático de acessar uma máquina na nuvem é via conexão SSH. O SSH é um protocolo que[ permite acessar máquinas remotamente de forma segura](https://pt.wikipedia.org/wiki/Secure_Shell). Existem formas de estabelecer uma conexão SSH usando programas como o [PuTTY](https://www.putty.org/) e o [MobaXterm](https://mobaxterm.mobatek.net/), mas se você tiver acesso a um terminal, você também pode fazer isso usando um comando, passando seu usuário na máquina remota e o endereço (host) dessa máquina, algo assim:
 
