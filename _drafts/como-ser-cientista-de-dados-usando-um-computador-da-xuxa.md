@@ -60,6 +60,7 @@ A [Ana Schwendler](https://medium.com/u/a84fab589b6c) [já falou aqui sobre como
 
 
 <center>
+  <br>
   <img src="https://cdn-images-1.medium.com/max/800/1*YK0o59-niSDgu_eCBTsECg.gif"/>
   <br>
   <a href="https://media.giphy.com/media/13bGgH9VnEDsuA/giphy.gif">Fonte</a>
@@ -104,8 +105,9 @@ Mas, agora o Jupyter não está rodando no seu computador local então, vamos us
 Em termos não técnicos, o _port forwarding_ funciona como um portal.
 
 <center>
+  <br>
   <img src="https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif"/>
-  <a href="https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif">Fonte</a>
+  <br><a href="https://media.giphy.com/media/12VWf9OaUMlUyc/giphy.gif">Fonte</a>
 </center>
 
 Se você cria um portal para algum lugar consegue ver o que está acontecendo nesse lugar. Também é assim que a gente consegue estabelecer um canal de comunicação e saber o que está rolando no servidor, criando um túnel (portal) que liga a porta `8080` da minha máquina local a porta `8888` do servidor:
@@ -121,8 +123,8 @@ Com isso você consegue abrir no navegador do seu computador e acessar o `https:
 Depois de colocar seu Jupyter para rodar na nuvem, e acessá-lo usando o túnel, a construção do notebook em si não muda muita coisa. Você irá continuar a fazer suas análises como normalmente faz, com a pequena diferença que agora você tem o poder da nuvem ao seu alcance.
 
 <center>
-  <img src="https://cdn-images-1.medium.com/max/800/1*5pXyE0DGdhS9GcefQgiBoQ.gif"/>
-  <a href="https://media.giphy.com/media/2xFZQFpPwIcs7Rx3ZF/giphy.gif">Fonte</a>
+  <br><img src="https://cdn-images-1.medium.com/max/800/1*5pXyE0DGdhS9GcefQgiBoQ.gif"/>
+  <br><a href="https://media.giphy.com/media/2xFZQFpPwIcs7Rx3ZF/giphy.gif">Fonte</a>
 </center>
 
 Agora vai lá e conquiste a nuvem você também! Xêro.
