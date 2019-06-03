@@ -24,7 +24,7 @@ subtitle: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com se
   Notebooks na nuvem'
 
 ---
-A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter Notebooks na nuvem? Vaaamoooss!!!
+#### A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter Notebooks na nuvem? Vaaamoooss!!!
 
 Uns dois anos atrás, enquanto eu estava trabalhando na [Operação Serenata de Amor](https://serenata.ai/), meus colegas de trabalho costumavam dizer que eu tinha um computador da Xuxa ou algo tipo assim:
 
