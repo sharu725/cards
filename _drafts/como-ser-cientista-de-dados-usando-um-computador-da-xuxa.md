@@ -26,9 +26,7 @@ subtitle: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com se
 ---
 #### A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter Notebooks na nuvem? Vaaamoooss!!!
 
-Uns dois anos atrás, enquanto eu estava trabalhando na [Operação Serenata de Amor](https://serenata.ai/), meus colegas de trabalho costumavam dizer que eu tinha um computador da Xuxa ou algo tipo assim:
-
-![](https://cdn-images-1.medium.com/max/800/1*iu4Fht5QlGZcO-V30SjzxQ.jpeg)[Fonte](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pense_bem.jpg/1200px-Pense_bem.jpg)
+Uns dois anos atrás, enquanto eu estava trabalhando na [Operação Serenata de Amor](https://serenata.ai/), meus colegas de trabalho costumavam dizer que eu tinha um computador da Xuxa ou algo tipo assim: <center><img src="https://cdn-images-1.medium.com/max/800/1*iu4Fht5QlGZcO-V30SjzxQ.jpeg"/><a href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pense_bem.jpg/1200px-Pense_bem.jpg">Fonte</a></center>
 
 Nada contra os computadores da Xuxa ou o Pense Bem, mas se você considerar que no trabalho com ciência de dados, _machine learning_, inteligência artificial e afins, nem o computador da Xuxa, nem o Pense Bem e, nem tão pouco 4GB de RAM, vão ser o suficiente para rodar tarefas que requerem grandes quantidades de dados em memória ao mesmo tempo.
 
