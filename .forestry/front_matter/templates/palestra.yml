@@ -27,3 +27,5 @@ fields:
   type: file
   hidden: false
   default: "/images/palestra.png"
+pages:
+- _posts/ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
