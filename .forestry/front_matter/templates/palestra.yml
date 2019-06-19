@@ -17,6 +17,12 @@ fields:
   type: text
   hidden: false
   default: Título
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: subtitle
+  hidden: false
 - name: date
   label: Date
   type: datetime
