@@ -16,7 +16,9 @@ Você pode [assistir essa palestra aqui](https://videoh.infoq.com/presentations-
 
 ### Apresentação
 
-<br><center>
+<br>
+
+<center>
 
 <iframe src="//slides.com/jtemporal/serenata-devconf/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
