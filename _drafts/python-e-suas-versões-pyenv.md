@@ -21,8 +21,10 @@ Amongst other things, the two best features of pyenv in my humble opinion are:
 2. choose the global Python version.
 
 <center>
-  <img src="https://media.giphy.com/media/10lqVdCCc9812M/giphy.gif"/>
- </center>
+
+<br>
+
+ <img src="https://media.giphy.com/media/10lqVdCCc9812M/giphy.gif"/> </center>
 
 To start you'll need to install pyenv, here I'll demonstrate one of several installation methods, but in the project's _readme_ file [you can find other possibilities](https://github.com/pyenv/pyenv#installation) (and also operational system related details):
 
