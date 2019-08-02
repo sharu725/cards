@@ -13,6 +13,12 @@ comments: true
 subtitle: Aprenda a instalar e gerenciar versões do Python usando pyenv
 
 ---
+***
+
+Author note: You can [read this post in English here](https://jtemporal.com/python-and-it-s-versions/).
+
+***
+
 Uma das primeiras coisas que aprendemos sobre [Python](https://www.python.org/) é que existem mais de uma versão da mesma linguagem funcionando a todo vapor. Isso traz alguns problemas e a inevitável pergunta _"Qual versão eu devo usar?"_. A colinha de hoje mostra uma forma de instalar e manter o controle de várias versões do Python na sua máquina usando o [pyenv](https://github.com/pyenv/pyenv) 😉.
 
 Entre outras coisas, as duas melhores features _pyenv_ na minha humilde opinião são:
