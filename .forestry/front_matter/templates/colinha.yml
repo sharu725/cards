@@ -46,6 +46,7 @@ fields:
   hidden: false
   default: true
 pages:
+- _posts/2017-12-29-pyenv-inicio.md
 - _posts/2019-03-16-brincando-com-a-listagem-de-containers-docker.md
 - _posts/2019-04-03-copiando-arquivos-para-dentro-do-container.md
 - _posts/como-dar-nome-a-pontos-nos-gráficos-do-matplotlib.md
