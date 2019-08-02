@@ -64,16 +64,18 @@ Instalando o caipyra na versão `3.3.0`:
 </center>
 
 Listando novamente os pacotes instalados em cada versão:
-![Imgur](https://i.imgur.com/xBOnYD1.png)
+
 <center>
+<img src="https://i.imgur.com/xBOnYD1.png"/>
+<br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
 
 E finalmente o teste para ver se o pacote fica disponível ou não para outras versões:
 
 <center>
-<img src=https://i.imgur.com/SmUqbsm.png/>
-
+<img src="https://i.imgur.com/SmUqbsm.png"/>
+<br>
 <i>Rodando o import caipyra em todas as versões</i>
 </center>
 
