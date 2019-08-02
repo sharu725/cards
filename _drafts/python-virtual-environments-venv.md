@@ -1,20 +1,22 @@
 ---
-title: 'Ambientes virtuais Python: venv'
+title: 'Python virtual environments: venv'
 layout: post
 date: 2017-12-30 00:00:00
 img: colinha.png
 tags:
-- colinha
+- english
+- virtual environment
+- virtual environments
+- versions
+- protip
+- pro tip
 - python
 - python 3
 - python3
 - venv
-- versoes
-- ambiente virtual
-- ambientes virtuais
 - virtualenv
-- português
 comments: true
+subtitle: Learn how to create virtual environments using Python's module venv
 
 ---
 Depois de aprender que [Python](https://www.python.org/) possui várias versões e [aprender a instalar mais de uma delas com o pyenv](http://jtemporal.com/pyenv-inicio/), a colinha de hoje mostra um próximo passo: utilizar o [venv](https://docs.python.org/3/library/venv.html) para criar ambientes virtuais com o Python 3.
