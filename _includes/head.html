@@ -5,7 +5,8 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!--  
+  {% if page.img %}{% capture img %}{{ page.img }}{% endcapture %}{% unless img contains 'http' %}{% capture img %}{{site.baseurl}}{{site.url}}/images{{ page.img }}{% endcapture %}{% endunless %}-->
 <meta property="og:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}" />
 
 {% if page.tags %}
