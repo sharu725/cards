@@ -1,6 +1,4 @@
----
 
----
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,8 +10,12 @@
   <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% endif %}
   
+<!--  
+{% if page.img %}{% capture img %}{{ page.img }}{% endcapture %}{% unless img contains 'http' %}{% capture img %}{{site.baseurl}}{{site.url}}/images{{ page.img }}{% endcapture %}{% endunless %}
+-->
+  
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}">
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 {% if page.subtitle %}
