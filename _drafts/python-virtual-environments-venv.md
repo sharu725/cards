@@ -19,32 +19,34 @@ comments: true
 subtitle: Learn how to create virtual environments using Python's module venv
 
 ---
-Depois de aprender que [Python](https://www.python.org/) possui várias versões e [aprender a instalar mais de uma delas com o pyenv](http://jtemporal.com/pyenv-inicio/), a colinha de hoje mostra um próximo passo: utilizar o [venv](https://docs.python.org/3/library/venv.html) para criar ambientes virtuais com o Python 3.
+After learning that [Python](https://www.python.org/) has several versions, and after learning how to install any of them using pyenv, today's tip teaches you the next step: how to use [venv](https://docs.python.org/3/library/venv.html) to create virtual environments with Python 3.
 
-No lançamento da versão 3.3 foi anunciado o venv como novo módulo da linguagem. E na versão 3.6 o venv se torna a escolha oficial para criação de ambientes virtuais Python com o script do [pyvenv se tornando _deprecated_](https://docs.python.org/dev/whatsnew/3.6.html#id8).
+At the launch of Python 3.3 venv was announced as a new language module, and in version 3.6, venv became the official choice for creating Python virtual environments with the [deprecation of the pyenv script](https://docs.python.org/dev/whatsnew/3.6.html#id8).
 
-História do surgimento do venv a parte, vamos aos finalmentes. Basta ter qualquer versão do Python apartir da 3.3 que os códigos abaixo devem funcionar `¯\_(ツ)_/¯`.
+History of how venv came to life aside, let's go to what matters. You can use any version equal to or higher than Python's 3.3 that the commands below should work  `¯\_(ツ)_/¯`.
 
-Para criar um ambiente virtual:
-~~~ console
-$ python -m venv meuenv
-~~~
+To create a virtual environment:
 
-E para ativar o ambiente:
-~~~ console
-$ source meuenv/bin/activate
-~~~
+``` console
+$ python -m venv myenv
+```
 
-Agora atenção para uma coisa: essa forma de criar ambientes virtuais não permite que você crie ambientes para outras versões que não aquela que você esteja usando.
+To activate the environment:
 
-~~~ console
+``` console
+$ source myenv/bin/activate
+```
+
+Now pay attention to one thing: this way of creating virtual environments doesn't allow you to create environments to other Python versions than the one you are already using.
+
+``` console
 $ python --version
 # Python 3.3.0
-~~~
+```
 
-Aqui eu estava usando o Python 3.3.0 então o _myenv_ vai ter essa versão. Daí é que fica legal ter o _pyenv_ instalado! Você só precisa trocar a versão para a que você quer e criar o ambiente. Veja:
+Here I was using Python 3.3.0, so my virtual env has that version. That's when having _pyenv_ installed is a good thing! You only have to use pyenv and switch to the version you want then create the environment. Take a look:
 
-~~~ console
+``` console
 $ python --version
 # Python 3.3.0
 $ pyenv local 3.6.4
@@ -52,12 +54,14 @@ $ python --version
 # Python 3.6.4
 $ python -m venv meuoutroenv
 $ source meuoutroenv/bin/activate
-~~~
+```
 
-Uma das vantagens de ter um módulo desses embutido na linguagem é não precisar instalar nada mais para conseguir criar ambientes virtuais. Pra galera evita instalar coisas extras no computador como eu isso é fantástico.
+One of the advantages of having one module of this kind built-in the language is that you don't need to install anything else to create your virtual environments. To the people that avoid installing things on the computer like myself, this is fantastic!
 
-E agora só fazer `pip install` e começar com os códigos ☺️
+Now that you have your virtual environment created you can go ahead, `pip install` all things and start coding. ☺️
 
-----
+***
+
 ## Links
-- [Pontos altos do lançamento da versão 3.3 do Python](https://docs.python.org/dev/whatsnew/3.3.html#summary-release-highlights)
+
+* [Highlights of Python 3.3 version release](https://docs.python.org/dev/whatsnew/3.3.html#summary-release-highlights "Highlights of Python 3.3 version release")
