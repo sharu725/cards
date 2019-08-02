@@ -21,7 +21,7 @@ Entre outras coisas, as duas melhores features _pyenv_ na minha humilde opinião
 
 ![sombrancelhas gif](https://media.giphy.com/media/10lqVdCCc9812M/giphy.gif)
 
-Pra começar você precisa instalar ele, aqui eu vou mostrar um dos métodos de instalação, mas [lá no _readme_ do projeto tem outras](https://github.com/pyenv/pyenv#installation) (e também detalhes específicos de cada sistema operacional):
+Pra começar você precisa instalar o pyenv, aqui eu vou mostrar um dos métodos de instalação, mas [lá no _readme_ do projeto tem outras](https://github.com/pyenv/pyenv#installation) (e também detalhes específicos de cada sistema operacional):
 
 ``` console
 $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
