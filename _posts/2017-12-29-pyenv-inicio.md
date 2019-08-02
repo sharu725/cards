@@ -16,7 +16,7 @@ Uma das primeiras coisas que aprendemos sobre [Python](https://www.python.org/) 
 
 Entre outras coisas, as duas melhores features _pyenv_ na minha humilde opinião são:
 
-1. instalar novas versões do Python;
+1. instalar novas versões do Python facilmente;
 2. escolher a versão global do Python.
 
 ![sombrancelhas gif](https://media.giphy.com/media/10lqVdCCc9812M/giphy.gif)
