@@ -33,7 +33,7 @@ fields:
   label: comments
   default: true
 pages:
-- _posts/python-virtual-environments-venv.md
+- _posts/2017-12-30-python-virtual-environments-venv.md
 - _posts/python-and-it-s-versions.md
 - _posts/2019-03-16-playing-with-dockers-container-listing.md
 - _posts/2019-04-03-copying-files-into-a-container.md
