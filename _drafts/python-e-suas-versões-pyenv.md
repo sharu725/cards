@@ -13,16 +13,16 @@ comments: true
 subtitle: Learn how to install manage Python versions using pyenv
 
 ---
-Uma das primeiras coisas que aprendemos sobre [Python](https://www.python.org/) é que existem mais de uma versão da mesma linguagem funcionando a todo vapor. Isso traz alguns problemas e a inevitável pergunta _"Qual versão eu devo usar?"_. A colinha de hoje mostra uma forma de instalar e manter o controle de várias versões do Python na sua máquina usando o [pyenv](https://github.com/pyenv/pyenv) 😉.
+One of the first things we learn in [Python](https://www.python.org/) is that there is more than one version of the same language working side by side. That can bring a few problems and the inevitable question: _"Which version should I choose?"_. Today's tip teaches you a way to install and manage many Python versions on your machine using [pyenv](https://github.com/pyenv/pyenv) 😉.
 
-Entre outras coisas, as duas melhores features _pyenv_ na minha humilde opinião são:
+Amongst other things, the two best features of pyenv in my humble opinion are:
 
-1. instalar novas versões do Python facilmente;
-2. escolher a versão global do Python.
+1. install new Python versions easily;
+2. choose the global Python version.
 
 ![sombrancelhas gif](https://media.giphy.com/media/10lqVdCCc9812M/giphy.gif)
 
-Pra começar você precisa instalar o pyenv, aqui eu vou mostrar um dos métodos de instalação, mas [lá no _readme_ do projeto tem outras](https://github.com/pyenv/pyenv#installation) (e também detalhes específicos de cada sistema operacional):
+To start you'll need to install pyenv, here I'll demonstrate one of several installation methods, but in the project's _readme_ file [you can find other possibilities](https://github.com/pyenv/pyenv#installation) (and also operational system related details):
 
 ``` console
 $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
@@ -31,22 +31,18 @@ $ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 $ exec "$SHELL"
 ```
 
-Depois desse passo é bem facinho, as outras versões do Python estão a um _install_ de distância:
+After these easy steps, other versions of Python are an install away:
 
 ``` console
 $ pyenv install 3.6.4
 ```
 
-Se estiver em dúvida quais versões você pode instalar só usar a flag `-l` do _install_ que ele vai listar todas as disponíveis:
+When in doubt of which version you can install, just use the install flag `-l` that it lists all versions available:Se estiver em dúvida quais versões você pode instalar só usar a flag `-l` do _install_ que ele vai listar todas as disponíveis:
 
 ``` console
 $ pyenv install -l
 ```
 
-Massa né? Agora é só sair instalando versão adoidado 😂
+Cool huh? Now you can install version like crazy 😂
 
 ***
-
-Links
-
-* [Você pode continuar a ler sobre o pyenv na Parte 2 desse texto](https://jtemporal.com/pyenv-parte2/).
