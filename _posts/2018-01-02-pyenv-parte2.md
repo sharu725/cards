@@ -70,8 +70,10 @@ Listando novamente os pacotes instalados em cada versão:
 </center>
 
 E finalmente o teste para ver se o pacote fica disponível ou não para outras versões:
-![Imgur](https://i.imgur.com/SmUqbsm.png)
+
 <center>
+<img src=https://i.imgur.com/SmUqbsm.png/>
+
 <i>Rodando o import caipyra em todas as versões</i>
 </center>
 
