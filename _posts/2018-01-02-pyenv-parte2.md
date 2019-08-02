@@ -41,8 +41,9 @@ versions
 
 Cada nova versão do Python que você instala usando o pyenv vem com o seu próprio pip. Veja:
 
-![Imgur](https://i.imgur.com/HoWFDf8.png)
 <center>
+<img src="https://i.imgur.com/HoWFDf8.png"/>
+<br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
 Agora, se você setar uma versão do Python usando pyenv e instalar um pacote usando o pip o que acontece? Esse pacote fica disponível para as demais versões?
@@ -51,15 +52,17 @@ Resposta rápida: Não, um pacote instalado numa versão não fica disponível n
 
 Vejamos, vamos usar de exemplo o pacote do [Caipyra](https://github.com/jtemporal/caipyra). Antes de instalá-lo temos:
 
-![Imgur](https://i.imgur.com/VxQK3Hn.png)
 <center>
+<img src="https://i.imgur.com/VxQK3Hn.png"/>
+<br>
 <i>Listagem de pacotes instalados em cada versão</i>
 </center>
 
 Instalando o caipyra na versão `3.3.0`:
 
-![Imgur](https://i.imgur.com/YV5bJD6.png)
 <center>
+<img src="https://i.imgur.com/YV5bJD6.png"/>
+<br>
 <i>Instalação do pacote Caipyra na versão 3.3.0</i>
 </center>
 
