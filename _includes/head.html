@@ -1,4 +1,6 @@
+---
 
+---
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +11,15 @@
 {% if page.tags %}
   <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% endif %}
-
+  
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+{% if page.subtitle %}
+<meta name="twitter:description" content="{{ page.subtitle | markdownify | strip_html | strip_newlines | escape_once }}">
+{% endif %}
+{% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
 {% seo %}
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
