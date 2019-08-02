@@ -34,5 +34,5 @@ fields:
   hidden: false
   default: "/images/palestra.png"
 pages:
-- _posts/ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
 - _posts/2018-09-18-ciência-de-dados-no-mundo-real-com-serenata-de-amor.md
+- _posts/ciência-de-dados-no-mundo-real-com-serenata-de-amor.md

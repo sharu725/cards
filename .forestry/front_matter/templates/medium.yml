@@ -42,14 +42,13 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/raspagem-de-dados-sem-escrever-codigo.md
-- _posts/2017-01-16-uma-semana-de-serenata.md
-- _posts/2017-08-14-versionamento-semantico-um-passo-alem-do-git.md
-- _posts/2019-04-10-kmeans-e-cotovelo.md
 - _posts/2017-04-10-serenata-pelo-brasil-a-fora.md
+- _posts/2019-04-10-kmeans-e-cotovelo.md
 - _posts/2017-09-28-deploy-automatizado-para-o-pypi-usando-travis.md
 - _posts/2017-07-27-serenata-toolbox-no-pypi.md
-- _posts/2017-09-28-em-quem-voce-pensa-quando-te-pedem-uma-indicação.md
-- _posts/2019-03-15-frequência.md
 - _posts/2019-02-13-indo-além-no-schematics-personalizando-nossos-modelos-e-validações.md
+- _posts/2019-03-15-frequência.md
+- _posts/2017-01-16-uma-semana-de-serenata.md
+- _posts/2017-08-14-versionamento-semantico-um-passo-alem-do-git.md
+- _posts/2017-09-28-em-quem-voce-pensa-quando-te-pedem-uma-indicação.md
 - _posts/2019-03-13-um-passeio-pelo-backstage-de-um-podcast.md
