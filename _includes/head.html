@@ -13,9 +13,6 @@
 {% if page.img %}{% capture img %}{{ page.img }}{% endcapture %}{% unless img contains 'http' %}{% capture img %}{{site.baseurl}}{{site.url}}/images{{ page.img }}{% endcapture %}{% endunless %}
 -->
   
-<!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{site.baseurl}}{{site.url}}/images{{ page.img }}">
 
 {% seo %}
 
