@@ -6,12 +6,12 @@ fields:
   name: layout
   label: layout
   default: default
-- type: text
-  name: img
-  label: img
+- name: img
+  type: file
   config:
-    required: true
-  default: https://avatars2.githubusercontent.com/u/6595551?s=400&v=4
+    maxSize: 250
+  label: img
+  default: "/profilepicgh.jpeg"
 pages:
 - index.html
 - _includes/read-time.html
