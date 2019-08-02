@@ -1,15 +1,16 @@
 ---
-title: 'Python e suas versões: pyenv'
+title: 'Python and it''s versions: pyenv'
 layout: post
 date: 2017-12-29 10:00:00
-img: colinha.png
+img: "/pro_tip.png"
 tags:
-- colinha
+- english
+- versions
+- protip
 - python
 - pyenv
-- versoes
-- português
 comments: true
+subtitle: Learn how to install manage Python versions using pyenv
 
 ---
 Uma das primeiras coisas que aprendemos sobre [Python](https://www.python.org/) é que existem mais de uma versão da mesma linguagem funcionando a todo vapor. Isso traz alguns problemas e a inevitável pergunta _"Qual versão eu devo usar?"_. A colinha de hoje mostra uma forma de instalar e manter o controle de várias versões do Python na sua máquina usando o [pyenv](https://github.com/pyenv/pyenv) 😉.
