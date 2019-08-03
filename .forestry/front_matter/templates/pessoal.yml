@@ -12,6 +12,11 @@ fields:
   type: text
   hidden: false
   default: titulo
+- name: description
+  type: text
+  config:
+    required: true
+  label: Subtítulo
 - name: date
   label: Date
   type: datetime

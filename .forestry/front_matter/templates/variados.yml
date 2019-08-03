@@ -14,11 +14,12 @@ fields:
   label: Título
   config:
     required: true
-- name: description
-  type: text
+- type: text
+  name: description
+  label: subtítulo
+  description: max 70 char
   config:
     required: true
-  label: Subtítulo
 - name: date
   label: Date
   type: datetime
