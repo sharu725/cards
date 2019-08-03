@@ -32,7 +32,7 @@ fields:
   label: capa do artigo
   type: file
   hidden: false
-  default: "/colinha.png"
+  default: "/images/colinha.png"
 - name: tags
   type: list
   config:
