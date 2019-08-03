@@ -1,6 +1,6 @@
 ---
 layout: default
-img: "/profilepicgh.jpeg"
+img: "/images/profilepicgh.jpeg"
 
 ---
 <div class="home">
@@ -13,8 +13,8 @@ img: "/profilepicgh.jpeg"
              <a href="{{ post.baseurl | prepend: site.url }}" class="index-anchor">
                 <div class="panel panel-default">
 
-                  {% if post.img %}
-                  <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{post.img}}" alt="{{post.title}}">
+                  {% if post.image   %}
+                  <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{post.image}}" alt="{{post.title}}">
                   {% else %}
                   <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
