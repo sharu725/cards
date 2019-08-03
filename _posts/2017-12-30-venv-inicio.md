@@ -22,7 +22,7 @@ image: "/colinha.png"
 ---
 ***
 
-Author note: You can read this post in English.
+Author note: You [can read this post in English](https://jtemporal.com/python-virtual-environments-venv/).
 
 ***
 
