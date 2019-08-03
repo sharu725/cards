@@ -28,7 +28,7 @@ fields:
   default: now
   config:
     required: true
-- name: img
+- name: image
   label: capa do artigo
   type: file
   hidden: false
