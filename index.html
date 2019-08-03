@@ -4,25 +4,25 @@ img: "/profilepicgh.jpeg"
 
 ---
 <div class="home">
- 
-  
+
+
     <div class="row pack">
 
-        {% for post in paginator.posts %}   
+        {% for post in paginator.posts %}
             <div class="col-md-4 card">
-             <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
+             <a href="{{ post.baseurl | prepend: site.url }}" class="index-anchor">
                 <div class="panel panel-default">
-                  
+
                   {% if post.img %}
                   <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{post.img}}" alt="{{post.title}}">
                   {% else %}
                   <img width="100%" src="{{site.baseurl}}{{site.url}}/images/{{site.default-image}}" alt="{{site.title}}">
                   {% endif %}
-                  
+
                   <div class="panel-body">
                     <h3 class="panel-title pull-left">{{ post.title }}</h3><br><span class="post-meta pull-left"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
                   </div>
-                  
+
                   <div class="panel-body">
                     {% if post.subtitle %}
                       <small>{{ post.subtitle }}</small>
@@ -33,11 +33,11 @@ img: "/profilepicgh.jpeg"
                 </div>
                 </a>
             </div>
-        
+
           {% endfor %}
 
-    </div> 
-    
+    </div>
+
 <div class="row">
     <div class="col-md-4">  </div>
     <div class="col-md-4">

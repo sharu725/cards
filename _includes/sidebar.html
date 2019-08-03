@@ -1,9 +1,9 @@
 <div class="col-md-4 mt20">
         <div class="post-img">
            {% if page.img %}
-           <img width="600" src="{{site.baseurl}}{{site.url}}/images/{{page.img}}" alt="{{page.title}}">
+           <img width="600" src="{{site.url}}{{site.baseurl}}/images/{{page.image}}" alt="{{page.title}}">
             {% else %}
-                 <img width="600" src="{{site.baseurl}}{{site.url}}/images/{{site.default-image}}" alt="foto da channel">
+                 <img width="600" src="{{site.url}}{{site.baseurl}}/images/{{site.default-image}}" alt="foto da channel">
             {% endif %}
         </div>
 
@@ -15,7 +15,7 @@
                 {% for post in site.related_posts limit:3 %}
 
                       <li>
-                      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
+                      <p><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
                       </li>
 
                 {% endfor %}

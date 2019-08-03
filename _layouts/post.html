@@ -13,7 +13,7 @@ layout: default
               {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
               {% if site.reading_time %} • <i class="fa fa-clock-o"></i> {% include read-time.html %}{% endif %}
               </p>
-                 
+
           </header>
 
           <div class="post-content" itemprop="articleBody">
@@ -26,15 +26,15 @@ layout: default
          {% include disqus.html %}
         {% endif %}
     </div>
-    
-    
+
+
     <div class="row">
             <ul class="pager">
              {% if page.next.url %}
-                    <li><a class="next" href="{{page.next.url | prepend: site.baseurl}}">&laquo; {{page.next.title}}</a></li>
+                    <li><a class="next" href="{{page.next.url | prepend: site.url}}">&laquo; {{page.next.title}}</a></li>
               {% endif %}
               {% if page.previous.url %}
-                <li><a class="previous" href="{{page.previous.url | prepend: site.baseurl}}">{{page.previous.title}} &raquo;</a></li>
+                <li><a class="previous" href="{{page.previous.url | prepend: site.url}}">{{page.previous.title}} &raquo;</a></li>
               {% endif %}
             </ul>
     </div>
