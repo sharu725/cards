@@ -24,15 +24,15 @@ Como falei existem uma série de fatores que atrapalham quando se tem um site es
 
 ### Escrever textos em Markdown
 
-Okay eu passei muito tempo procurando um App que tivesse o mínimo de funcionalidade para escrever textos em markdown que tivesse duas features principais:
+Okay eu passei muito tempo procurando um aplicativo que tivesse o mínimo de funcionalidade para escrever textos em markdown que tivesse duas features principais:
 
-1. visualização desses textos num formato bonitinho como o previsualizar do GitHub por exemplo;
-2. e, sincronização desses textos com algum serviço de nuvem para que eu pudesse acessar eles de qualquer lugar independentemente se estivesse com o app perto de mim ou não.
+1. visualização desses textos num formato bonitinho como o pre-visualizar do GitHub por exemplo;
+2. e, sincronização desses textos com algum serviço de nuvem para que eu pudesse acessar eles de qualquer lugar independentemente se estivesse com o aplicativo perto de mim ou não.
 
-Até agora eu não encontrei um App para isso. E considerando que eu gosto de rascunhar meus textos no celular e tablet, a falta de uma ferramenta com essas características é bem limitante.
+Até agora eu não encontrei um aplicativo para isso. E considerando que eu gosto de rascunhar meus textos no celular e tablet, a falta de uma ferramenta com essas características é bem limitante.
 
 1. Visualizar  build do meu site
-2. Comm1i tar novos textos no GitHub
+2. Commitar novos textos no GitHub
 
 ### Build "local" do site
 
