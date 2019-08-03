@@ -27,7 +27,7 @@ sections:
   match: "**/*"
   new_doc_ext: html
 upload_dir: images
-public_path: ''
+public_path: images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
