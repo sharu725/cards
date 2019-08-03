@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Brincando com a listagem de containers Docker
-date: 2019-03-16 03:00:00 +0000
+date: 2019-03-16T03:00:00.000+00:00
 img: "/colinha.png"
 comments: true
 tags:
@@ -9,6 +9,7 @@ tags:
 - 'docker '
 - containers
 subtitle: Aprenda a filtrar e formatar a listagem de containers Docker
+description: Aprenda a turbinar a listagem de containers do Docker
 
 ---
 Se você usa Docker, provavelmente o terceiro comando que aprendeu foi listar eles, mas você sabe que dá pra tunar a listagem de containers?
