@@ -1,7 +1,7 @@
 ---
 title: 'Ambientes virtuais Python: venv'
 layout: post
-date: 2017-12-30 00:00:00
+date: 2017-12-30T00:00:00.000+00:00
 img: colinha.png
 tags:
 - colinha
@@ -16,6 +16,8 @@ tags:
 - português
 comments: true
 subtitle: Aprenda a criar ambientes virtuais Python usando o módulo venv
+description: Aprenda a criar ambientes virtuais Python usando o módulo venv
+image: "/colinha.png"
 
 ---
 ***
