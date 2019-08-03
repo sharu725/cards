@@ -47,7 +47,9 @@ disqus-shortname: jtemporal
 #social
 #facebook: http://facebook.com/webjeda
 #quora: http://quora.com/sharathdt
-twitter: http://twitter.com/jesstemporal
+twitter:
+  username: jesstemporal
+  card: summary_large_image
 github: http://github.com/jtemporal
 email: jessicatemporal@gmail.com
 
