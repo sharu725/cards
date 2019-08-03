@@ -28,7 +28,7 @@ fields:
   type: datetime
   hidden: false
   default: '2019-02-21T03:00:00.000+00:00'
-- name: img
+- name: image
   label: Img
   type: file
   hidden: false

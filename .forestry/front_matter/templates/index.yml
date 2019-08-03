@@ -6,12 +6,12 @@ fields:
   name: layout
   label: layout
   default: default
-- name: img
+- name: image
   type: file
   config:
     maxSize: 250
-  label: img
-  default: "/profilepicgh.jpeg"
+  label: image
+  default: "/images/profilepicgh.jpeg"
 pages:
 - index.html
 - _includes/read-time.html

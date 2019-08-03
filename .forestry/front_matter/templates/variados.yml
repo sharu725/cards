@@ -24,11 +24,11 @@ fields:
   type: datetime
   hidden: false
   default: '2019-03-15T03:00:00.000+00:00'
-- name: img
+- name: image
   label: capa
   type: file
   hidden: false
-  default: "/variados.png"
+  default: "/images/variados.png"
 - name: tags
   type: list
   config:

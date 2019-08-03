@@ -22,9 +22,9 @@ fields:
   name: date
   label: date
 - type: file
-  name: img
-  label: img
-  default: "/pro_tip.png"
+  name: image
+  label: image
+  default: "/images/pro_tip.png"
 - type: list
   name: tags
   label: tags
