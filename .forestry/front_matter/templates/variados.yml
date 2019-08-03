@@ -14,7 +14,7 @@ fields:
   label: Título
   config:
     required: true
-- name: subtitle
+- name: description
   type: text
   config:
     required: true

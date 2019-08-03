@@ -17,11 +17,11 @@ fields:
   type: text
   hidden: false
   default: Título
-- name: subtitle
+- name: description
   type: text
   config:
     required: false
-  label: subtitle
+  label: description
   hidden: false
 - name: date
   label: Date

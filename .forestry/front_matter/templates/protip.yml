@@ -13,7 +13,7 @@ fields:
   config:
     required: true
 - type: text
-  name: subtitle
+  name: description
   label: Subtítulo
   description: max 70 char
   config:
