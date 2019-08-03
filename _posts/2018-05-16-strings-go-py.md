@@ -1,7 +1,7 @@
 ---
 title: "Pegando o começo de uma string com Go ou Python"
 layout: post
-img: colinha.png
+image: "/images/colinha.png"
 date: '2018-05-16 05:00:00'
 tags:
 - colinha

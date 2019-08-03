@@ -2,7 +2,7 @@
 title: "Adicione cores ao compartilhar seu site"
 layout: post
 date: '2017-12-27 10:00:00'
-img: colinha.png
+image: "/images/colinha.png"
 tags:
 - colinha
 - web

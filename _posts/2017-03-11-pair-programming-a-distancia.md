@@ -11,7 +11,7 @@ tags:
 - parear
 - código
 comments: true
-img: "/variados.png"
+image: "/images/variados.png"
 
 ---
 Pair programming, parear, escrever código em dupla. Quem escreve código, alguma

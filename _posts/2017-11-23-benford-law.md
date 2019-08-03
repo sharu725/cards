@@ -15,7 +15,7 @@ tags:
 - open source
 - código
 comments: true
-img: "/variados.png"
+image: "/images/variados.png"
 
 ---
 Conte o número de habitantes de cada cidade brasileira. Coloque isso numa tabela e me diga, quantas vezes cada número (de 1 a 9) se repete como primeiro dígito da contagem. Tá, nós temos 5570 municípios no Brasil, contar a frequência de cada primeiro dígito vai cansar então pode chutar vai, eu deixo. Me diz qual a probabilidade de encontrar o 1 como primeiro dígito? E qual a probabilidade de encontrar o 2 como primeiro dígito?

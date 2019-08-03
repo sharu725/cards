@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: Hackathon da Saúde
 date: 2017-04-07
-img: palestra.png
+image: "/images/palestra.png"
 comments: true
 ---
 

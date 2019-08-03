@@ -2,7 +2,7 @@
 layout: post
 title: 'Versionamento semântico: um passo além do Git'
 date: 2017-08-14 00:00:00 -0300
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

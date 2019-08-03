@@ -2,7 +2,7 @@
 layout: post
 title: Como definir o número de clusters para o seu KMeans
 date: 2019-04-10 03:00:00 +0000
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

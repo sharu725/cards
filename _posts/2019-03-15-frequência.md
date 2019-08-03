@@ -2,7 +2,7 @@
 layout: post
 title: Frequência
 date: 2018-12-12 00:00:00 -0200
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

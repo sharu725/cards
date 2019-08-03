@@ -8,7 +8,7 @@ tags:
 - friends
 - english
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 ### A letter to my friends

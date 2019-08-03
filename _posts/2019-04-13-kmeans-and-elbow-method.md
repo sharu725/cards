@@ -2,7 +2,7 @@
 layout: post
 title: How to define the optimal number of clusters for KMeans
 date: 2019-04-13 03:00:00 +0000
-img: "/tutorial.png"
+image: "/images/tutorial.png"
 comments: true
 tags:
 - tutorial

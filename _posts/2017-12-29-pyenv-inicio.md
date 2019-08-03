@@ -2,7 +2,7 @@
 title: 'Python e suas versões: pyenv'
 layout: post
 date: 2017-12-29T10:00:00.000+00:00
-img: colinha.png
+image: "/images/colinha.png"
 tags:
 - colinha
 - python
@@ -12,7 +12,6 @@ tags:
 comments: true
 subtitle: Aprenda a instalar e gerenciar versões do Python usando pyenv
 description: Aprenda a instalar e gerenciar versões do Python usando pyenv
-image: "/images/colinha.png"
 
 ---
 ***

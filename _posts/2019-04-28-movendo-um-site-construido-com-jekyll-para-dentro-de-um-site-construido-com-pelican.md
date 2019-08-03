@@ -2,7 +2,7 @@
 layout: post
 title: Movendo um site construído com Jekyll para dentro de um site construído com Pelican
 date: 2019-04-28T03:00:00.000+00:00
-img: "/variados.png"
+image: "/images/variados.png"
 tags:
 - jekyll
 - pelican

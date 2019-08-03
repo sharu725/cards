@@ -11,7 +11,7 @@ tags:
 - open source
 - português
 comments: true
-img: "/variados.png"
+image: "/images/variados.png"
 
 ---
 ![hacktoberfest banner promocional](https://nyc3.digitaloceanspaces.com/hacktoberfest/Hacktoberfest17-TWFB-02.png)

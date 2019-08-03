@@ -1,7 +1,7 @@
 ---
 title: "Documentando a história com Sphinx"
 layout: post
-img: tutorial.png
+image: "/images/tutorial.png"
 date: '2017-10-30 10:00:00'
 tags:
 - tutorial

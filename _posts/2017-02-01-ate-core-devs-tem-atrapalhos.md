@@ -2,7 +2,7 @@
 title: "Até core devs tem atrapalhos ¯\\_(ツ)_/¯"
 layout: post
 date: '2017-02-01 00:00:00'
-img: tutorial.png
+image: "/images/tutorial.png"
 tags:
 - postgres
 - python

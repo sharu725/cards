@@ -10,7 +10,7 @@ tags:
 - django
 - pessoal
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 ### Hoje, entre um build e outro, preenchi mais um.

@@ -2,7 +2,7 @@
 title: Filas e mensagens pra que te quero
 layout: post
 date: '2018-11-05 00:00:00'
-img: click-2.png
+image: "/images/click-2.png"
 tags:
 - queue
 - mensagens

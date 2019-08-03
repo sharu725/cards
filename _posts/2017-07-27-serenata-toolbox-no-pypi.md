@@ -2,7 +2,7 @@
 layout: post
 title: Serenata Toolbox no PyPI
 date: 2017-07-27 00:00:00 -0300
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

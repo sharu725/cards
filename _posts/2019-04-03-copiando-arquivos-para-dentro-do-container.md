@@ -2,7 +2,7 @@
 layout: post
 title: Copiando arquivos para dentro do container
 date: 2019-04-03T12:00:00.000+00:00
-img: "/colinha.png"
+image: "/images/colinha.png"
 comments: true
 tags:
 - colinha

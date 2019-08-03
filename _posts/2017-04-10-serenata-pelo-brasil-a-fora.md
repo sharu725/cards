@@ -2,7 +2,7 @@
 layout: post
 title: Serenata pelo Brasil a fora
 date: 2017-04-10 00:00:00 -0300
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

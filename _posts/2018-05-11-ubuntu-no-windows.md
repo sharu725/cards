@@ -2,7 +2,7 @@
 title: Ubuntu no Windows
 layout: post
 date: '2018-05-11 00:00:00'
-img: click-2.png
+image: "/images/click-2.png"
 tags:
 - tutorial
 - windows

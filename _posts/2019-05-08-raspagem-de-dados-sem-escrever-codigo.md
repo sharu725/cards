@@ -2,7 +2,7 @@
 layout: post
 title: Raspagem de dados sem escrever código
 date: 2019-05-08 00:00:00 -0300
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

@@ -2,7 +2,7 @@
 layout: post
 title: Como ser Cientista de Dados usando um computador da Xuxa?
 date: 2019-06-03 09:00:00 -0300
-img: "/tutorial.png"
+image: "/images/tutorial.png"
 tags:
 - tutorial
 - jupyter

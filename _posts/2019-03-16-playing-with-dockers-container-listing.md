@@ -2,7 +2,7 @@
 layout: post
 title: Playing with Docker’s container listing
 date: 2019-03-16 03:00:00 +0000
-img: "/pro_tip.png"
+image: "/images/pro_tip.png"
 comments: true
 tags:
 - 'docker '

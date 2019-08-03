@@ -2,7 +2,7 @@
 title: "Forçando o rebuild de sites Jekyll hospedados no GitHub"
 layout: post
 date: '2018-01-03 10:00:00'
-img: colinha.png
+image: "/images/colinha.png"
 tags:
 - colinha
 - jekyll

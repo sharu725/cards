@@ -8,7 +8,7 @@ tags:
 - pycon
 - português
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 Enquanto eu estava preenchendo o formulário de apoio financeiro da [PyCon](https://us.pycon.org/2017/),

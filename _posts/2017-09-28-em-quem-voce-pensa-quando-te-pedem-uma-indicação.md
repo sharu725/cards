@@ -2,7 +2,7 @@
 layout: post
 title: Em quem você pensa quando te pedem uma indicação?
 date: 2017-09-21 00:00:00 -0300
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

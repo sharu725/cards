@@ -1,7 +1,7 @@
 ---
 title: "Colocando um site no ar com Jekyll: usando o terminal"
 layout: post
-img: tutorial.png
+image: "/images/tutorial.png"
 date: '2018-01-07 10:00:00'
 tags:
 - tutorial

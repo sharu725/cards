@@ -2,7 +2,7 @@
 title: "Dependências de projetos Python: requirements.txt"
 layout: post
 date: '2018-01-06 08:00:00'
-img: colinha.png
+image: "/images/colinha.png"
 tags:
 - colinha
 - python

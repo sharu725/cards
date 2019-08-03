@@ -10,7 +10,7 @@ tags:
 - eventos
 - pessoal
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 ### Uma história de amor

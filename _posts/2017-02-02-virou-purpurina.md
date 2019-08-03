@@ -8,7 +8,7 @@ tags:
 - amor
 - português
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 Porque somos tão relutantes em sentir e expressar amor? Não sei vocês. Mas eu amo

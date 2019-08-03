@@ -2,7 +2,7 @@
 title: "Introdução ao Schematics: um guia para validar dados de um JSON"
 layout: post
 date: '2018-11-20 00:00:00'
-img: click-2.png
+image: "/images/click-2.png"
 tags:
 - tutorial
 - python

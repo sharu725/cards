@@ -2,7 +2,7 @@
 layout: post
 title: Brincando com a listagem de containers Docker
 date: 2019-03-16T03:00:00.000+00:00
-img: "/colinha.png"
+image: "/images/colinha.png"
 comments: true
 tags:
 - colinha

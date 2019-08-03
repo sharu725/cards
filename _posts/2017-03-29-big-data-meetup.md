@@ -3,7 +3,7 @@ layout: post
 type: talk
 title: "Big Data Meetup: Serenata de Amor"
 date: 2017-03-29
-img: palestra.png
+image: "/images/palestra.png"
 comments: false
 ---
 

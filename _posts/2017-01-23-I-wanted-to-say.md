@@ -8,7 +8,7 @@ tags:
 - pycon
 - english
 comments: true
-img: "/pessoal.png"
+image: "/images/pessoal.png"
 
 ---
 As I was filling out PyCon’s financial aid form, I came across the following

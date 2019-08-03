@@ -2,7 +2,7 @@
 layout: post
 title: Um passeio pelo backstage de um podcast
 date: 2019-03-13 12:00:00 +0000
-img: "/click-2.png"
+image: "/images/click-2.png"
 comments: true
 tags:
 - medium

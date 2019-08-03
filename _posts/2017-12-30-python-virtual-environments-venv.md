@@ -2,7 +2,7 @@
 title: 'Python virtual environments: venv'
 layout: post
 date: 2017-12-30 00:00:00
-img: "/pro_tip.png"
+image: "/images/pro_tip.png"
 tags:
 - english
 - virtual environment

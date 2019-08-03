@@ -2,7 +2,7 @@
 title: "#SerenataDeAmor nesse Hacktoberfest"
 layout: post
 date: '2017-10-02 00:00:00'
-img: click-2.png
+image: "/images/click-2.png"
 tags:
 - serenata
 - hacktoberfest
