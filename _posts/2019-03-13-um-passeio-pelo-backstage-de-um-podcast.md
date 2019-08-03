@@ -10,7 +10,7 @@ tags:
 - pizza de dados
 - podcasting
 - dicas
-subtitle: Veja como o Pizza nasceu e quem sabe se inspire a criar o seu podcast
+description: Veja como o Pizza nasceu e quem sabe se inspire a criar o seu podcast
 
 ---
 Em conversas, algumas pessoas já me falaram a seguinte frase:

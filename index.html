@@ -24,8 +24,8 @@ img: "/profilepicgh.jpeg"
                   </div>
 
                   <div class="panel-body">
-                    {% if post.subtitle %}
-                      <small>{{ post.subtitle }}</small>
+                    {% if post.description %}
+                      <small>{{ post.description }}</small>
                    {% else %}
                     <small>{{ post.excerpt | strip_html | strip_newlines | truncate: 70 }}</small>
                    {% endif %}

@@ -12,7 +12,7 @@ tags:
 - pro tip
 - docker ps
 - containers
-subtitle: Learn to list and filter containers from the list
+description: Learn to list and filter containers from the list
 
 ---
 If you use Docker, probably the third command you learned was to list containers, but do you know that you can tailor the container listing to your needs? Well, the hint today is to show two tricks I use a lot:

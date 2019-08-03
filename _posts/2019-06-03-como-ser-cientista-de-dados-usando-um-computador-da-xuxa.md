@@ -20,7 +20,7 @@ tags:
 - vantagens
 - desvantagens
 comments: true
-subtitle: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter
+description: 'A resposta simples: Nuvem! Vamos ver na prática como é viver com seus Jupyter
   Notebooks na nuvem'
 
 ---

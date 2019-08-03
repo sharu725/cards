@@ -15,7 +15,7 @@ tags:
 - html
 - table
 - tables
-subtitle: E se eu te disser que dá pra raspar dados sem escrever uma linha de código?
+description: E se eu te disser que dá pra raspar dados sem escrever uma linha de código?
 
 ---
 Isso mesmo: existem alguns tipos de dados que conseguimos raspar sem precisar da ajuda de uma linguagem de programação. E eu vou te mostrar como fazer isso! Para esse tutorial você vai precisar dos seguintes materiais:

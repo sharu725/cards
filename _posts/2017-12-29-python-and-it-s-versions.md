@@ -10,7 +10,7 @@ tags:
 - python
 - pyenv
 comments: true
-subtitle: Learn how to install manage Python versions using pyenv
+description: Learn how to install manage Python versions using pyenv
 
 ---
 ***

@@ -12,7 +12,7 @@ tags:
 - unsupervised learning
 - unsupervised clustering
 - clusterizacao nao supervisionada
-subtitle: Aprenda a calcular a quantidade ótima de clusters para o KMeans usando o
+description: Aprenda a calcular a quantidade ótima de clusters para o KMeans usando o
   método do cotovelo
 
 ---

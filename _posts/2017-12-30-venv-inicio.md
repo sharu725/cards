@@ -15,7 +15,7 @@ tags:
 - virtualenv
 - português
 comments: true
-subtitle: Aprenda a criar ambientes virtuais Python usando o módulo venv
+description: Aprenda a criar ambientes virtuais Python usando o módulo venv
 description: Aprenda a criar ambientes virtuais Python usando o módulo venv
 
 ---

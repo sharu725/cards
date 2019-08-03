@@ -16,7 +16,7 @@ tags:
 - venv
 - virtualenv
 comments: true
-subtitle: Learn how to create virtual environments using Python's module venv
+description: Learn how to create virtual environments using Python's module venv
 
 ---
 ***

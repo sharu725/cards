@@ -4,7 +4,7 @@ type: talk
 title: Ciência de dados no mundo real com Serenata de Amor
 date: 2018-09-18 00:00:00 -0300
 image: "/images/palestra.png"
-subtitle: DevConf 2018
+description: DevConf 2018
 
 ---
 ### Vídeo

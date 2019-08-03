@@ -14,7 +14,7 @@ tags:
 - pyladies
 - pyladies br conf
 comments: true
-subtitle: Como foi ajustar um site Pelican para servir uma página pronta feita em
+description: Como foi ajustar um site Pelican para servir uma página pronta feita em
   Jekyll
 
 ---

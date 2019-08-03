@@ -10,7 +10,7 @@ tags:
 - versoes
 - português
 comments: true
-subtitle: Aprenda a instalar e gerenciar versões do Python usando pyenv
+description: Aprenda a instalar e gerenciar versões do Python usando pyenv
 description: Aprenda a instalar e gerenciar versões do Python usando pyenv
 
 ---
