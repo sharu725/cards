@@ -10,7 +10,7 @@ img: "/images/profilepicgh.jpeg"
 
         {% for post in paginator.posts %}
             <div class="col-md-4 card">
-             <a href="{{ post.baseurl | prepend: site.url }}" class="index-anchor">
+                <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
                 <div class="panel panel-default">
 
                   {% if post.image   %}
