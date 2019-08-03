@@ -2,6 +2,11 @@
 label: Pessoal
 hide_body: false
 fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
 - name: title
   label: Title
   type: text
@@ -13,7 +18,7 @@ fields:
   hidden: false
   default: '2019-03-15T03:00:00.000+00:00'
 - name: image
-  label: Img
+  label: Capa
   type: file
   hidden: false
   default: "/images/pessoal.png"
@@ -28,16 +33,11 @@ fields:
   type: boolean
   hidden: false
   default: true
-- name: layout
-  label: Layout
-  type: text
-  hidden: false
-  default: post
 pages:
-- _posts/2017-01-23-eu-quis-dizer.md
 - _posts/2017-01-26-the-moving.md
 - _posts/2017-02-02-virou-purpurina.md
 - _posts/2016-10-13-its-alive.md
 - _posts/2017-05-10-comunidade-python-rio.md
-- _posts/2017-01-23-I-wanted-to-say.md
 - _posts/2017-02-09-meu-medo-de-formularios.md
+- _posts/2017-01-23-eu-quis-dizer.md
+- _posts/2017-01-23-I-wanted-to-say.md
