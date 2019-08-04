@@ -36,7 +36,7 @@ Até agora eu não encontrei um aplicativo para isso. E considerando que eu gost
 
 ### Build "local" do site
 
-Quando estou escrevendo no meu computador tudo é mais simples, eu consigo escrever as coisas num app como o [Remarkable](https://remarkableapp.github.io/) direto na pasta do meu site e fazer um build na minha máquina para ver como ficará o artigo quando for publicado, no entanto, qualquer outro dispositivo que eu esteja usando como meu celular e meu tablet, torna impossível
+Quando estou escrevendo no meu computador eu já tenho os processos prontos, eu consigo escrever as coisas num editor de texto como o [Remarkable](https://remarkableapp.github.io/) direto na pasta do meu site e fazer um build do site na minha máquina para ver como ficará o artigo quando for publicado, no entanto, qualquer outro dispositivo que eu esteja usando como meu celular e meu tablet, torna impossível
 
 tab
 
