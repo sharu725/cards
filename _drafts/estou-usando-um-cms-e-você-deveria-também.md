@@ -6,6 +6,8 @@ img: "/colinha.png"
 comments: true
 tags:
 - colinha
+image: "/images/colinha.png"
+description: ''
 
 ---
 Essa colinha é mais um dica pra você que tem um site estático!
