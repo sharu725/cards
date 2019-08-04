@@ -7,7 +7,8 @@ comments: true
 tags:
 - colinha
 image: "/images/colinha.png"
-description: ''
+description: Com um gerenciador de conteúdo para sites estáticos tem me ajudado a
+  escrever mais
 
 ---
 Essa colinha é mais um dica pra você que tem um site estático!
