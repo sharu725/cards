@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estou usando um CMS e você deveria usar um também!
-date: 2019-03-15T03:00:00.000+00:00
+date: 2019-03-15 00:00:00 -0300
 img: "/colinha.png"
 comments: true
 tags:
@@ -26,20 +26,19 @@ Como falei existem uma série de fatores que atrapalham quando se tem um site es
 
 Okay eu passei muito tempo procurando um aplicativo que tivesse o mínimo de funcionalidade para escrever textos em markdown que tivesse duas features principais:
 
-1. visualização desses textos num formato bonitinho como o pre-visualizar do GitHub por exemplo;
+1. visualização desses textos num formato bonitinho como o pré-visualizar do GitHub por exemplo;
 2. e, sincronização desses textos com algum serviço de nuvem para que eu pudesse acessar eles de qualquer lugar independentemente se estivesse com o aplicativo perto de mim ou não.
 
 Até agora eu não encontrei um aplicativo para isso. E considerando que eu gosto de rascunhar meus textos no celular e tablet, a falta de uma ferramenta com essas características é bem limitante.
 
-1. Visualizar  build do meu site
-2. Commitar novos textos no GitHub
+### Pré-visualização do site
 
-### Build "local" do site
+Quando estou escrevendo no meu computador eu já tenho os processos prontos, eu consigo escrever os artigos num editor de texto como o [Remarkable](https://remarkableapp.github.io/) direto na pasta do meu site e fazer um build do site na minha máquina para ver como ficará o artigo quando for publicado. No entanto, qualquer outro dispositivo que eu esteja usando como meu celular e meu tablet, torna impossível a tarefa de pré-visualização do site.
 
-Quando estou escrevendo no meu computador eu já tenho os processos prontos, eu consigo escrever as coisas num editor de texto como o [Remarkable](https://remarkableapp.github.io/) direto na pasta do meu site e fazer um build do site na minha máquina para ver como ficará o artigo quando for publicado, no entanto, qualquer outro dispositivo que eu esteja usando como meu celular e meu tablet, torna impossível
-
-tab
+Ainda assim, com as configurações que tenho hoje, eu não tenho um ambiente de _staging_, se você não sabe o que é isso, imagine que você tenha uma cópia do seu site no ar, essa cópia é separada do site real e serve para você fazer testes de alterações no seu site, desde alterações estruturais como mudanças de tema ou layout, serve até mesmo como um ambiente onde você pode ter uma pré-visualização do seus posts. A falta do ambiente de _staging_ me causa um trabalho  mais frequentemente. Eu, geralmente mando meu textos para amigos e amigas revisarem depois de prontos, para fazer isso eu geralmente uso ferramentas de compartilhamento de documentos como o Google Drive ou até mesmo o medium com o texto em formato de rascunho.
 
 ### Colocar novos textos no GitHub
+
+De
 
 ## Como o CMS resolve tudo isso
