@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre
-img: logo.png
+image: logo.png
 permalink: "/about/"
 
 ---
