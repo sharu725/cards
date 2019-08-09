@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Estou usando um CMS e você deveria usar um também!
-date: 2019-03-15 00:00:00 -0300
+date: 2019-03-15T03:00:00.000+00:00
 img: "/colinha.png"
 comments: true
 tags:
@@ -44,4 +44,4 @@ A falta do ambiente de _staging_ me causa um trabalho a mais frequentemente. Eu,
 
 ### Colocar novos textos no GitHub
 
-## Como o CMS resolve tudo isso
+## Como o Forestry  resolve tudo isso
