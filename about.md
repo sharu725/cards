@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre
-image: "logo.png"
+image: logo.png
 permalink: "/about/"
 
 ---
@@ -13,6 +13,6 @@ Ao me formar, tornei-me parte do projeto[ Operação Serenata de Amor](https://s
 
 Depois de passar um ano como desenvolvedora na Nuveo, voltei a me dedicar à ciência de dados ao me tornar parte do time do Grupo Globo, onde faço estudos e análises dos dados produzidos dentro da TV Globo para gerar insights e informação em diversas áreas internas.
 
-Sou fundadora e co-host no[ Pizza de Dados](https://pizzadedados.com), o primeiro podcast sobre ciência de dados no Brasil. Desde 2017 o Pizza vem debatendo tópicos de ciência de dados com especialistas nas mais diversas áreas do ramo, tudo isso em Português para ajudar a aumentar a alfabetização em dados no país.
+Sou co-fundadora e co-host no[ Pizza de Dados](https://pizzadedados.com), o primeiro podcast sobre ciência de dados no Brasil. Desde 2017 o Pizza vem debatendo tópicos de ciência de dados com especialistas nas mais diversas áreas do ramo, tudo isso em Português para ajudar a aumentar a alfabetização em dados no país.
 
 Além disso, continuo contribuindo e mantendo projetos de código aberto no GitHub, faço parte do time de instrutores do [Data Bootcamp](https://databootcamp.com.br/) e escrevo posts técnicos sobre os mais diversos assuntos de tecnologia [no meu blog](https://jtemporal.com/) e [na revista do Pizza](https://medium.com/pizzadedados).
