@@ -37,7 +37,7 @@ Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito e, durante os
 
 ￼
 
-Bem, durante esses dois anos escrevi bastante, estudei bastante e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma tag para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar o que seus  clientes fazem nas soluções web. E uma das coisas que da pra fazer justamente é acompanhar acessos o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8mil 😂
+Bem, durante esses dois anos escrevi bastante, estudei bastante e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma tag para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar o que seus  clientes fazem nas soluções web. E uma das coisas que dá pra fazer justamente é acompanhar o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8 mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8 mil 😂
 
 ￼
 
