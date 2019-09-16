@@ -17,7 +17,7 @@ tags:
 - jekyll
 
 ---
-O primeiro web site que eu coloquei no ar era um baseado em Django. Foi num tutorial na semana acadêmica do meu curso ministrado pela comunidade Python de Ribeirão Preto. Foi a primeira vez que vi Python sendo usado de verdade e conheci pela primeira vez também o heroku, mas esse causo fica pra outro momento.
+O primeiro website que eu coloquei no ar, era um site Django. Foi num tutorial da semana acadêmica da informática biomédica e foi ministrado pela comunidade Python de Ribeirão Preto. Foi a primeira vez que vi Python sendo usado de verdade e foi o meu primeiro deploy com direito a heroku e tudo, mas esse causo fica pra outro momento.
 
 Desde então, minhas habilidades de desenvolvimento evoluíram, eu conheci novas tecnologias, aprendi a contribuir avidamente com open source, da pra dizer que, de um modo geral, melhorei como desenvolvedora.
 
