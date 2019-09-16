@@ -31,7 +31,7 @@ O meu primeiro site nunca foi pensado para ser um blog, apesar de ter uma sessã
 2. Não pode ser primariamente um blog
 3. Tem que ser bonito e mobile friendly
 
-Depois de procurar bastante achei o meu primeiro tema: o Moon. Era exatamente o que eu queria. Bonitinho, com umas animações legais, não era primariamente um blog, apesar de como disse anteriormente, ter um espaço para isso. Não era single page, não sei o motivo, mas não gosto de sites single page ¯\\_(ツ)\\_/¯. Supria todas minhas necessidades.
+Depois de procurar bastante achei o meu primeiro tema: o Moon. Era exatamente o que eu queria. Bonitinho, com umas animações legais, não era primariamente um blog, apesar de como disse anteriormente, ter um espaço para isso. Não era single page, não sei o motivo, mas não gosto de sites single page `¯\_(ツ)_/¯`. Supria todas minhas necessidades.
 
 Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito. E durante os dois primeiros anos tendo um site, e um lugar para colocar meus textos, eu aumentei consideravelmente a quantidade de artigos que escrevia. Eu desenvolvi uma habilidade e descobri uma vontade de escrever sobre conteúdos técnicos que eu não sabia que tinha, afinal de contas eu nunca quis ser escritora, Redação nunca foi meu forte na escola e, apesar de ser uma aluna aplicada e me esforçar bastante para escrever textos descentes quando necessário, não achava aquilo ali fácil.
 
