@@ -19,19 +19,19 @@ tags:
 ---
 O primeiro website que eu coloquei no ar, era um site Django. Foi num tutorial da semana acadêmica da informática biomédica e foi ministrado pela comunidade Python de Ribeirão Preto. Foi a primeira vez que vi Python sendo usado de verdade e foi o meu primeiro deploy com direito a heroku e tudo, mas esse causo fica pra outro momento.
 
-Desde então, minhas habilidades de desenvolvimento evoluíram, eu conheci novas tecnologias, aprendi a contribuir avidamente com open source, da pra dizer que, de um modo geral, melhorei como desenvolvedora.
+Desde então, minhas habilidades de desenvolvimento evoluíram, eu conheci novas tecnologias, aprendi a contribuir avidamente com open-source, da pra dizer que, de um modo geral, melhorei como desenvolvedora.
 
-entre o primeiro site que coloquei no ar e hoje, aprendi muitas coisas, entre elas formas alternativas de publicar sites. Sendo, de todas que aprendi até hoje, a minha forma favorita usar o github pages e Jekyll para isso. Inclusive eu até escrevi um tutorial de como eu coloco sites no ar com intuito de ajudar qualquer pessoa conheça github e um tiquinho de git a ter um site.
+Entre o primeiro site que coloquei no ar e hoje, aprendi muitas coisas,  e, entre elas, vi formas alternativas de publicar sites. Sendo, de todas formas que aprendi até hoje, a minha forma favorita de colocar sites no ar é usando o GitHub Pages. Inclusive, eu [até escrevi um tutorial sobre essa forma de colocar sites no ar](https://jtemporal.com/do-tema-ao-ar/) com intuito de ajudar qualquer pessoa conheça GitHub e um tiquinho de git a ter um site.
 
 ### Meu site, minhas regras
 
-O meu primeiro site nunca foi pensado para ser um blog, apesar de ter uma sessão para artigos e Ser lá onde escrevia sobre conteúdos técnicos. Mas isso, Tinha um impacto absurdo no acesso ao que escrevi. quando eu decidi colocar o meu site no ar, escolhi um tema seguindo as seguintes regras:
+A primeira versão do [jtemporal.com](https://jtemporal.com) nunca foi estruturada para ser um blog, apesar de ter uma sessão para artigos e ser lá onde escrevia sobre conteúdos técnicos. Esse pequeno detalhe teve um impacto gigante no acesso aos conteúdos que publiquei. Quando eu decidi colocar o meu site no ar, escolhi um tema seguindo as seguintes regras:
 
-1. Não pode ser single page
-2. Não pode ser primariamente um blog
-3. Tem que ser bonito e mobile friendly
+1. Não pode ser single page;
+2. Não pode ser primariamente um blog;
+3. Tem que ser bonito e amigável para plataformas mobile.
 
-Depois de procurar bastante achei o meu primeiro tema: o Moon. Era exatamente o que eu queria. Bonitinho, com umas animações legais, não era primariamente um blog, apesar de como disse anteriormente, ter um espaço para isso. Não era single page, não sei o motivo, mas não gosto de sites single page `¯\_(ツ)_/¯`. Supria todas minhas necessidades.
+Depois de procurar bastante achei o meu primeiro tema: [o Moon](http://taylantatli.github.io/Moon/). Era exatamente o que eu queria. Bonitinho, com umas animações legais, não era primariamente um blog, apesar de como disse anteriormente, ter um espaço para isso. Não era single page, não sei o motivo, mas não gosto de sites single page `¯\_(ツ)_/¯`. Supria todas minhas necessidades.
 
 Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito. E durante os dois primeiros anos tendo um site, e um lugar para colocar meus textos, eu aumentei consideravelmente a quantidade de artigos que escrevia. Eu desenvolvi uma habilidade e descobri uma vontade de escrever sobre conteúdos técnicos que eu não sabia que tinha, afinal de contas eu nunca quis ser escritora, Redação nunca foi meu forte na escola e, apesar de ser uma aluna aplicada e me esforçar bastante para escrever textos descentes quando necessário, não achava aquilo ali fácil.
 
