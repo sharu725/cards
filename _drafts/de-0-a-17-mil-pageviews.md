@@ -49,7 +49,7 @@ Escrever se tornou algo normal e parte do meu processo de aprendizado. Então, d
 
 Assim como escrever passou fazer parte do meu dia a dia, meu site precisava finalmente passar por uma mudança, afinal de contas, parte das regras que me fizeram escolher o primeiro tema já não valiam mais. Eu precisava de algo que o foco fosse o conteúdo.
 
-Então parti em busca de um novo tema. Não sei se você já reparou, mas existe uma tendência de sites onde o foco é conteúdo terem formato de cartão, o dev.to é assim, o Medium é assim também e por aí vai... Nada mais natural que, ao procurar um tema, eu encontrasse um em formato de cartões. O escolhido da vez foi o Cards por Webjeda [https://webjeda.com/cards/](https://webjeda.com/cards/ "https://webjeda.com/cards/") . Eu gostei do tema apesar de enxergar alguns pontos que precisavam de alteração pra deixar ele do jeito que eu queria. Com o novo tema escolhido, no começo desse 2019 fiz a transição entre o Moon e o Cards.
+Então parti em busca de um novo tema. Não sei se você já reparou, mas existe uma tendência de sites onde o foco é conteúdo terem formato de cartão, o dev.to é assim, o Medium é assim também e por aí vai... Nada mais natural que, ao procurar um tema, eu encontrasse um em formato de cartões. O escolhido da vez foi o [Cards por Webjeda]("https://webjeda.com/cards/") . Eu gostei do tema apesar de enxergar alguns pontos que precisavam de alteração pra deixar ele do jeito que eu queria. Com o novo tema escolhido, no começo desse 2019 fiz a transição entre o Moon e o Cards.
 
 ### Cartões pra lá, cartões pra cá
 
@@ -77,6 +77,5 @@ Passar por esse processo de mudança de foco é normal. Assim como a tecnologia 
 
 E foi bom ver o crescimento ao longo desses 3 anos.
 
-![](images/IMG_3911.PNG)
-
-<center><i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
+<center><img src="images/IMG_3911.PNG" style="max-width:50%;"><br>
+<i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
