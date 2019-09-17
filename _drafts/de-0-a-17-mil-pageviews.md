@@ -69,7 +69,7 @@ Por fim, chegou a hora de colocar o site no ar. Também bem tranquilo já que a 
 
 Depois de trocar de tema, como uma pessoa viciada em dados, eu continuei a assistir meu analytics de perto, isso é... menos no mês que esqueci de colocar a tag de rastreamento no site novo hehe
 
-<center><img src="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif"></center>
+<center><img src="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif"><br><a href="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif">Fonte</a></center>
 
 Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto bati um record! Cheguei a mais de 17mil acessos!
 
