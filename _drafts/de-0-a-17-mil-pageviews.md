@@ -35,13 +35,11 @@ Depois de procurar bastante achei o meu primeiro tema: [o Moon](http://taylantat
 
 Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito e, durante os dois primeiros anos tendo um site, tendo um lugar para colocar meus textos, eu aumentei consideravelmente a quantidade de artigos que escrevia. Eu desenvolvi uma habilidade e descobri uma vontade de escrever sobre conteúdos técnicos que eu não sabia que tinha, afinal de contas eu nunca quis ser escritora, redação nunca foi meu forte na escola e, apesar de ser uma aluna aplicada e me esforçar bastante para escrever textos descentes quando necessário, não achava aquilo ali fácil.
 
-TK gif stitch
+<center><img src="http://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif"><br><a href="http://giphygifs.s3.amazonaws.com/media/5BI679ybkAhJm/giphy.gif">Fonte</a></center>
 
 Bem, durante esses dois anos escrevi bastante, estudei bastante e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma tag para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar o que seus  clientes fazem nas soluções web. E uma das coisas que dá pra fazer justamente é acompanhar o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8 mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8 mil 😂
 
-<center>
-<img src="/images/IMG_3900.PNG" style="max-width:50%;"><br>
-<i>Imagem mostrando a quantidade de acessos ao site em Outubro de 2018</i></center>
+<center> <img src="/images/IMG_3900.PNG" style="max-width:65%;"><br> <i>Imagem mostrando a quantidade de acessos ao site em Outubro de 2018</i></center>
 
 Escrever se tornou algo normal e parte do meu processo de aprendizado. Então, durante o fim de 2018, percebi que minhas necessidades e foco para o meu site mudaram: ao invés de ser um lugar que eu usava como bloco de notas para as coisas que eu escrevia, se tornou um lugar onde eu gosto de compartilhar conteúdo. Escrever se tornou meu novo normal.
 
@@ -75,7 +73,7 @@ Depois de trocar de tema, como uma pessoa viciada em dados, eu continuei a assis
 
 Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto bati um record! Cheguei a mais de 17mil acessos!
 
-<center> <img src="/images/IMG_3901.PNG" style="max-width:100%;"><br> <i>Imagem mostrando a quantidade de acessos ao site em Agosto de 2019</i></center>
+<center> <img src="/images/IMG_3901.PNG" style="max-width:65%;"><br> <i>Imagem mostrando a quantidade de acessos ao site em Agosto de 2019</i></center>
 
 Claro que não foi só a alteração do tema que contribuiu para o crescimento nos acessos do site. O aumento de artigos de assuntos variados, o crescimento do pizza de dados, e a melhoria nas tags de SEO do tema, foram pontos que podem ter impactado no aumento de acessos. No entanto, essa é a primeira vez que o meu site é de fato um blog, onde a primeira coisa que você vê ao entrar São os meus textos, eles também tem imagens de capa detalhe faltante no tema anterior. O SEO atualmente está melhor em relação ao próprio tema, mas o Moon tinha um SEO muito mais completo (mais tags implementadas). O que me leva a crer que o formato do site de fato é o fator mais importante aqui.
 
@@ -85,5 +83,4 @@ Passar por esse processo de mudança de foco é normal. Assim como a tecnologia 
 
 E foi bom ver o crescimento ao longo desses 3 anos.
 
-<center><img src="/images/IMG_3911.PNG" style="max-width:50%;"><br>
-<i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
+<center><img src="/images/IMG_3911.PNG" style="max-width:65%;"><br> <i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
