@@ -55,25 +55,23 @@ Então parti em busca de um novo tema. Não sei se você já reparou, mas existe
 
 Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de criação de caminho para as postagens, a transição foi suave. Praticamente uma questão de copiar e colar os artigos de uma pasta para a outra. Também criei as artes para cada tipo de post para facilitar o trabalho, afinal não queria usar imagens aleatórias, por isso padronizei as imagens para corresponder ao tipo de artigo.
 
-
 <table>
-  <tr>
-    <td><img src="/images/tutorial.png"></td>
-    <td><img src="/images/variados.png"></td>
-  </tr>
-  <tr>
-    <td><img src="/images/colinha.png"></td>
-    <td><img src="/images/palestra.png"></td>
-  </tr>
+<tr>
+<td><img src="/images/tutorial.png"></td>
+<td><img src="/images/variados.png"></td>
+</tr>
+<tr>
+<td><img src="/images/colinha.png"></td>
+<td><img src="/images/palestra.png"></td>
+</tr>
 </table>
 <center><i>Algumas das capas que fiz para os artigos</i></center>
-
 
 Por fim, chegou a hora de colocar o site no ar. Também bem tranquilo já que a minha configuração é simples, bastava trocar no nome do repositório no GitHub, configurar o domínio e site novo no ar!
 
 Depois de trocar de tema, como uma pessoa viciada em dados, eu continuei a assistir meu analytics de perto, isso é... menos no mês que esqueci de colocar a tag de rastreamento no site novo hehe
 
-TK gif oops
+<img src="http://giphygifs.s3.amazonaws.com/media/GDnomdqpSHlIs/giphy.gif">
 
 Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto bati um record! Cheguei a mais de 17mil acessos!
 
