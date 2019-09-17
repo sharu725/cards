@@ -49,17 +49,27 @@ Escrever se tornou algo normal e parte do meu processo de aprendizado. Então, d
 
 Assim como escrever passou fazer parte do meu dia a dia, meu site precisava finalmente passar por uma mudança, afinal de contas, parte das regras que me fizeram escolher o primeiro tema já não valiam mais. Eu precisava de algo que o foco fosse o conteúdo.
 
-Então parti em busca de um novo tema. Não sei se você já reparou, mas existe uma tendência de sites onde o foco é conteúdo terem formato de cartão, o dev.to é assim, o Medium é assim também e por aí vai... Nada mais natural que, ao procurar um tema, eu encontrasse um em formato de cartões. O escolhido da vez foi o [Cards por Webjeda]("https://webjeda.com/cards/") . Eu gostei do tema apesar de enxergar alguns pontos que precisavam de alteração pra deixar ele do jeito que eu queria. Com o novo tema escolhido, no começo desse 2019 fiz a transição entre o Moon e o Cards.
+Então parti em busca de um novo tema. Não sei se você já reparou, mas existe uma tendência de sites onde o foco é conteúdo terem formato de cartão, o dev.to é assim, o Medium é assim também e por aí vai... Nada mais natural que, ao procurar um tema, eu encontrasse um em formato de cartões. O escolhido da vez foi o [Cards por Webjeda](%22https://webjeda.com/cards/%22) . Eu gostei do tema apesar de enxergar alguns pontos que precisavam de alteração pra deixar ele do jeito que eu queria. Com o novo tema escolhido, no começo desse 2019 fiz a transição entre o Moon e o Cards.
 
 ### Cartões pra lá, cartões pra cá
 
 Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de criação de caminho para as postagens, a transição foi suave. Praticamente uma questão de copiar e colar os artigos de uma pasta para a outra. Também criei as artes para cada tipo de post para facilitar o trabalho, afinal não queria usar imagens aleatórias, por isso padronizei as imagens para corresponder ao tipo de artigo.
 
+![](images/tutorial.png)
+
+![](images/palestra.png)
+
+![](images/colinha.png)
+
+![](images/click-2.png)
+
+![](images/variados.png)
+
 <table>
-  <tr>
-    <td><center>
+<tr>
+<td><center>
 <img src="/images/IMG_3901.PNG" style="max-width:50%;"></td>
-  </tr>
+</tr>
 </table>
 TK capas dos artigos
 
