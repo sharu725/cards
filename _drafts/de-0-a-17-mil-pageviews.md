@@ -65,8 +65,9 @@ TK gif oops
 
 Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto bati um record! Cheguei a mais de 17mil acessos!
 
-![](images/IMG_3901.PNG)
-<center><i>Imagem mostrando a quantidade de acessos ao site em Agosto de 2019</i></center>
+<center>
+<img src="/images/IMG_3901.PNG" style="max-width:50%;"><br>
+<i>Imagem mostrando a quantidade de acessos ao site em Agosto de 2019</i></center>
 
 Claro que não foi só a alteração do tema que contribuiu para o crescimento nos acessos do site. O aumento de artigos de assuntos variados, o crescimento do pizza de dados, e a melhoria nas tags de SEO do tema, foram pontos que podem ter impactado no aumento de acessos. No entanto, essa é a primeira vez que o meu site é de fato um blog, onde a primeira coisa que você vê ao entrar São os meus textos, eles também tem imagens de capa detalhe faltante no tema anterior. O SEO atualmente está melhor em relação ao próprio tema, mas o Moon tinha um SEO muito mais completo (mais tags implementadas). O que me leva a crer que o formato do site de fato é o fator mais importante aqui.
 
