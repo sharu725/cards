@@ -39,7 +39,7 @@ Eu gostei, e ainda gosto muito do Moon. Acho ele um tema bem feito e, durante os
 
 Bem, durante esses dois anos escrevi bastante, estudei bastante e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma tag para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar o que seus  clientes fazem nas soluções web. E uma das coisas que dá pra fazer justamente é acompanhar o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8 mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8 mil 😂
 
-￼
+￼![](images/IMG_3900.PNG)
 
 Escrever se tornou algo normal e parte do meu processo de aprendizado. Então, durante o fim de 2018, percebi que minhas necessidades e foco para o meu site mudaram: ao invés de ser um lugar que eu usava como bloco de notas para as coisas que eu escrevia, se tornou um lugar onde eu gosto de compartilhar conteúdo. Escrever se tornou meu novo normal.
 
@@ -67,9 +67,9 @@ Depois de trocar de tema, como uma pessoa viciada em dados, eu continuei a assis
 
 ￼
 
-Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto chegamos a mais de 17mil acessos!
+Depois de perceber que estava sem a tag e corrigir esse pequeno erro, voltamos à programação normal de assistir o analytics. E no mês de Agosto bati um record! Cheguei a mais de 17mil acessos!
 
-￼
+￼![](images/IMG_3901.PNG)
 
 Claro que não foi só a alteração do tema que contribuiu para o crescimento nos acessos do site. O aumento de artigos de assuntos variados, o crescimento do pizza de dados, e a melhoria nas tags de SEO do tema, foram pontos que podem ter impactado no aumento de acessos. No entanto, essa é a primeira vez que o meu site é de fato um blog, onde a primeira coisa que você vê ao entrar São os meus textos, eles também tem imagens de capa detalhe faltante no tema anterior. O SEO atualmente está melhor em relação ao próprio tema, mas o Moon tinha um SEO muito mais completo (mais tags implementadas). O que me leva a crer que o formato do site de fato é o fator mais importante aqui.
 
@@ -79,4 +79,4 @@ Passar por esse processo de mudança de foco é normal. Assim como a tecnologia 
 
 E foi bom ver o crescimento ao longo desses 3 anos.
 
-￼
+￼![](images/IMG_3911.PNG)
