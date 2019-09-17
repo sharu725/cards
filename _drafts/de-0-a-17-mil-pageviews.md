@@ -59,14 +59,11 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 <table>
   <tr>
     <td><img src="/images/tutorial.png"></td>
-    <td><img src="/images/palestra.png"></td>
+    <td><img src="/images/variados.png"></td>
   </tr>
   <tr>
     <td><img src="/images/colinha.png"></td>
-    <td><img src="/images/click-2.png"></td>
-  </tr>
-  <tr><center>
-    <td><img src="/images/variados.png"></td></center>
+    <td><img src="/images/palestra.png"></td>
   </tr>
 </table>
 
