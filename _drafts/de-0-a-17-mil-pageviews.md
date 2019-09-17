@@ -67,8 +67,12 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 
 <table>
 <tr>
-<td><center>
-<img src="/images/IMG_3901.PNG" style="max-width:50%;"></td>
+  <td>
+    <img src="/images/tutorial.png" style="max-width:50%;">
+  </td>
+  <td>
+    <img src="/images/palestra.png" style="max-width:50%;">
+  </td>
 </tr>
 </table>
 TK capas dos artigos
