@@ -55,6 +55,12 @@ Então parti em busca de um novo tema. Não sei se você já reparou, mas existe
 
 Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de criação de caminho para as postagens, a transição foi suave. Praticamente uma questão de copiar e colar os artigos de uma pasta para a outra. Também criei as artes para cada tipo de post para facilitar o trabalho, afinal não queria usar imagens aleatórias, por isso padronizei as imagens para corresponder ao tipo de artigo.
 
+<table>
+  <tr>
+    <td><center>
+<img src="/images/IMG_3901.PNG" style="max-width:50%;"></td>
+  </tr>
+</table>
 TK capas dos artigos
 
 Por fim, chegou a hora de colocar o site no ar. Também bem tranquilo já que a minha configuração é simples, bastava trocar no nome do repositório no GitHub, configurar o domínio e site novo no ar!
