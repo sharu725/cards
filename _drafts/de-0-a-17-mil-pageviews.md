@@ -39,7 +39,7 @@ TK gif stitch
 
 Bem, durante esses dois anos escrevi bastante, estudei bastante e aprendi inúmeras coisas. Uma dessas coisas foi como colocar uma tag para acompanhar os acessos ao meu site usando o [Google Analytics](https://marketingplatform.google.com/about/analytics/). Se você nunca ouviu falar de Google Analytics, tudo bem, por agora basta saber que é um conjunto de ferramentas do Google para acompanhar o que seus  clientes fazem nas soluções web. E uma das coisas que dá pra fazer justamente é acompanhar o comportamento de quem usa o seu site. Depois de começar a seguir altos e baixos em acessos, assisti meu site ter cerca de 8 mil acessos no mês. E tudo bem... eu não esperava ter nem 8 acessos que dirá 8 mil 😂
 
-![](images/IMG_3900.PNG)
+![](/images/IMG_3900.PNG)
 <center><i>Imagem mostrando a quantidade de acessos ao site em Outubro de 2018</i></center>
 
 Escrever se tornou algo normal e parte do meu processo de aprendizado. Então, durante o fim de 2018, percebi que minhas necessidades e foco para o meu site mudaram: ao invés de ser um lugar que eu usava como bloco de notas para as coisas que eu escrevia, se tornou um lugar onde eu gosto de compartilhar conteúdo. Escrever se tornou meu novo normal.
