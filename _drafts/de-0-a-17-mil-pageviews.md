@@ -55,10 +55,6 @@ Então parti em busca de um novo tema. Não sei se você já reparou, mas existe
 
 Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de criação de caminho para as postagens, a transição foi suave. Praticamente uma questão de copiar e colar os artigos de uma pasta para a outra. Também criei as artes para cada tipo de post para facilitar o trabalho, afinal não queria usar imagens aleatórias, por isso padronizei as imagens para corresponder ao tipo de artigo.
 
-![](images/tutorial.png)
-
-![](images/palestra.png)
-
 ![](images/colinha.png)
 
 ![](images/click-2.png)
@@ -68,10 +64,10 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 <table>
 <tr>
   <td>
-    <img src="/images/tutorial.png" style="max-width:50%;">
+    <img src="/images/tutorial.png" style="max-width:70%;">
   </td>
   <td>
-    <img src="/images/palestra.png" style="max-width:50%;">
+    <img src="/images/palestra.png" style="max-width:70%;">
   </td>
 </tr>
 </table>
