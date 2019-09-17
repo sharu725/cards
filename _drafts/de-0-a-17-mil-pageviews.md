@@ -81,6 +81,6 @@ Claro que não foi só a alteração do tema que contribuiu para o crescimento n
 
 Passar por esse processo de mudança de foco é normal. Assim como a tecnologia se transforma, as necessidades também vão mudando. E é muito gostoso perceber e permitir se ajustar às mudanças. No meu caso elas aconteceram gradativamente. Passei de uma pessoa que não tinha interesse em escrever nada pra alguém que publica artigos constantemente. Escrevi em plataformas pagas e troquei para plataformas gratuitas procurando espalhar conteúdo sem proibição causadas por paywalls. Meu site deixou de ser um bloco de notas público para se tornar oficialmente um blog.
 
-E foi bom ver o crescimento ao longo desses 3 anos.
+E foi bom ver o crescimento ao longo desses 3 anos:
 
 <center><img src="/images/IMG_3911.PNG" style="max-width:65%;"><br> <i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
