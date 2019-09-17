@@ -57,16 +57,19 @@ Como ambos temas são Jekyll, baseados em markdown e como o mesmo padrão de cri
 
 
 <table>
-<tr>
-  <td>
-    <img src="/images/tutorial.png">
-  </td>
-  <td>
-    <img src="/images/palestra.png">
-  </td>
-</tr>
+  <tr>
+    <td><img src="/images/tutorial.png"></td>
+    <td><img src="/images/palestra.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/images/colinha.png"></td>
+    <td><img src="/images/click-2.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/images/variados.png"></td>
+  </tr>
 </table>
-TK capas dos artigos
+
 
 Por fim, chegou a hora de colocar o site no ar. Também bem tranquilo já que a minha configuração é simples, bastava trocar no nome do repositório no GitHub, configurar o domínio e site novo no ar!
 
