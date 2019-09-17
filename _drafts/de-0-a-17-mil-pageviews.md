@@ -77,5 +77,5 @@ Passar por esse processo de mudança de foco é normal. Assim como a tecnologia 
 
 E foi bom ver o crescimento ao longo desses 3 anos.
 
-<center><img src="images/IMG_3911.PNG" style="max-width:50%;"><br>
+<center><img src="/images/IMG_3911.PNG" style="max-width:50%;"><br>
 <i>Imagem mostrando a quantidade de acessos ao site entre Dezembro de 2016 e Setemebro de 2019</i></center>
