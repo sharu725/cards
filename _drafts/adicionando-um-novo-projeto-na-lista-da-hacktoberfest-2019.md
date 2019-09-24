@@ -11,9 +11,7 @@ description: deixa eu te ensinar como adicionar um novo projeto na lista de 2019
 ---
 Para isso vamos usar o seguinte pedaço de código:
 
-
-
-<div>
+    <div>
       <a class="github-project-share" href="LINK DO REPOSITÓRIO" >
         <p> DESCRIÇÃO </p>
         <img src="LINK DA FOTO"/>
