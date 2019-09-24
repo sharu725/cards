@@ -6,7 +6,7 @@ image: "/images/tutorial.png"
 tags:
 - tutorial
 comments: true
-description: deixa eu te ensinar como adicionar um novo projeto na lista de 2019
+description: Vou te mostrar o passo a passo pra colocar um repo na lista de 2019
 
 ---
 
