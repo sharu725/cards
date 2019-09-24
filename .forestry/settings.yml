@@ -20,12 +20,16 @@ sections:
   create: all
   match: "**/*"
   new_doc_ext: scss
+  templates:
+  - empty
 - type: directory
   path: _layouts
   label: Layouts
   create: documents
   match: "**/*"
   new_doc_ext: html
+  templates:
+  - empty
 - type: directory
   path: _includes
   label: Includes
