@@ -14,8 +14,12 @@ comments: true
 ---
 Se não sabe ainda o que é o Hacktoberfest [da uma olhadinha nesse outro post que explico o que é e como participar](https://jtemporal.com/hacktoberfest-2017/). Pra quem já sabe e não faz ideia de quais projetos contribuir, aqui tem uma lista de alguns projetos que valem a pena dar uma mão ;)
 
----
+***
 
 Pra ver projetos Brasileiros  para contribuir clica aqui nesse botão 👇
 
-[![clique aqui para ler](/images/clique-aqui-para-ler.png)](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0)
+<center>
+<a href="https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411">
+  <img src="/images/clique-aqui-para-ler.png">
+  </a>
+</center>
