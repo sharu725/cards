@@ -9,6 +9,9 @@ comments: true
 description: deixa eu te ensinar como adicionar um novo projeto na lista de 2019
 
 ---
+
+
+
 Para isso vamos usar o seguinte pedaço de código:
 
     <div>
@@ -17,3 +20,8 @@ Para isso vamos usar o seguinte pedaço de código:
         <img src="LINK DA FOTO"/>
       </a>
     </div>
+
+
+
+
+
