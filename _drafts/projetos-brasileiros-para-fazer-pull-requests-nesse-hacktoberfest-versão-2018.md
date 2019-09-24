@@ -1,16 +1,20 @@
 ---
-title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest versão
-  2018'
+title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest o retorno'
 layout: post
-date: 2018-09-30 00:00:00 -0300
-image: "/images/click-2.png"
+date: 2019-09-24 20:00:00 -0300
+image: "/images/variados.png"
 tags:
+- pull request
+- pull requests
+- contribuitions
+- open-source
 - hacktoberfest
 - GitHub
 - Git
 - open source
 - português
 comments: true
+description: 'Versão 2019 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
 
 ---
 Ano passado eu fiz [uma lista de projetos brasileiros que estavam precisando de uma mãozinha](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0) e que qualquer pessoa poderia fazer um pull request.
