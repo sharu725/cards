@@ -19,7 +19,7 @@ sections:
   label: StyleSheets
   create: all
   match: "**/*"
-  new_doc_ext: ".scss"
+  new_doc_ext: scss
 - type: directory
   path: _layouts
   label: Layouts
