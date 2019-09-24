@@ -38,5 +38,6 @@ fields:
   hidden: false
   default: true
 pages:
+- _posts/adicionando-um-novo-projeto-na-lista-da-hacktoberfest-2019.md
 - _posts/2019-04-13-kmeans-and-elbow-method.md
 - _posts/2019-06-03-como-ser-cientista-de-dados-usando-um-computador-da-xuxa.md
