@@ -19,8 +19,8 @@ Regras
 
 Novamente temos regrinhas:
 
-    Ser um projeto criado/desenvolvido por brasileiras(os);
-    Ter pelo menos uma issue aberta.
+1. Ser um projeto criado/desenvolvido por brasileiras(os);
+1. Ter pelo menos uma issue aberta.
 
 ***
 
