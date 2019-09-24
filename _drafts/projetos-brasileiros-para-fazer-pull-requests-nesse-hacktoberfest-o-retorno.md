@@ -38,9 +38,11 @@ E diferentementemente do ano passado! Essa lista agora não está mais no Medium
 
 ## C
 
+<div>
 <a class="github-project-share" href="https://github.com/jtemporal/jtemporal.github.io" >
   <p> Meu sitezin </p>
   <img src="https://avatars3.githubusercontent.com/u/6595551?s=460&amp;v=4"/>
 </a>
+</div>
 
 ***
