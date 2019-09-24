@@ -17,7 +17,7 @@ comments: true
 description: 'Versão 2019 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
 
 ---
-Depois dos sucessos das listas de 2017 e [de 2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411), esse é o terceiro ano que estou fazendo a lista/curadoria de projetos brasileiros para contribuir no #Hacktoberfest.
+Depois dos sucessos das listas [de 2017](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0) e [de 2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411), esse é o terceiro ano que estou fazendo a lista/curadoria de projetos brasileiros para contribuir no #Hacktoberfest.
 
 Então a pedidos aqui vai! Uma lista toda repleta de projetos pra você contribuir nesse mês de Outubro!
 
@@ -39,10 +39,10 @@ E diferentementemente do ano passado! Essa lista agora não está mais no Medium
 ## C
 
 <div>
-  <a class="github-project-share" href="https://github.com/hishamhm/htop" >
-    <p> htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'. </p>
-    <img src="https://avatars1.githubusercontent.com/u/245621?s=180&v=4"/>
-  </a>
+<a class="github-project-share" href="https://github.com/hishamhm/htop" >
+<p> htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'. </p>
+<img src="https://avatars1.githubusercontent.com/u/245621?s=180&v=4"/>
+</a>
 </div>
 
 ***
