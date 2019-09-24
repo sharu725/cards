@@ -15,6 +15,12 @@ sections:
 - type: heading
   label: Tema
 - type: directory
+  path: _scss
+  label: StyleSheets
+  create: all
+  match: "**/*"
+  new_doc_ext: ".scss"
+- type: directory
   path: _layouts
   label: Layouts
   create: documents
