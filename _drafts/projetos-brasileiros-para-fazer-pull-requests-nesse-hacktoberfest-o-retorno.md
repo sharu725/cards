@@ -17,22 +17,21 @@ comments: true
 description: 'Versão 2019 da lista de projetos brasileiros para contribuir no #Hacktoberfest'
 
 ---
-Ano passado eu fiz [uma lista de projetos brasileiros que estavam precisando de uma mãozinha](https://medium.com/nossa-coletividad/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-4dc9b9b576c0) e que qualquer pessoa poderia fazer um pull request.
+Depois dos sucessos das listas de 2017 e [de 2018](https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411), esse é o terceiro ano que estou fazendo a lista/curadoria de projetos brasileiros para contribuir no #Hacktoberfest. 
 
-Então esse ano vamos fazer isso de novo! Ebaaa!
-Regras
+Então a pedidos aqui vai! Uma lista toda repleta de projetos pra você contribuir nesse mês de Outubro!
 
 Novamente temos regrinhas:
 
-1. Ser um projeto criado/desenvolvido por brasileiras(os);
-1. Ter pelo menos uma issue aberta.
+1. Ser um projeto criado/desenvolvido/mantido por brasileiras(os);
+2. Ter pelo menos uma issue aberta.
+
+## Avisos para 2019
+
+Essa lista **deve crescer** ao longo do mês de outubro e foi feita pra ser colaborativa… Então se sabe de um projeto que deveria estar aqui, só mandar o link que eu coloco, oooouuu você pode aproveitar o espírito de contribuição e mandar um PR para o site! Todo mundo ganha <3.
+
+Esse ano os projetos estão separados pela linguagem principal pra facilitar as buscas pra quem lê e também em ordem alfabética pela linguagem. Se quiser adicionar um projeto pra uma liguagem que não estiver na lista só se atentar para isso, beleza? 😉
+
+E diferentementemente do ano passado! Essa lista agora não está mais no Medium \\o/
 
 ***
-
-Pra ver projetos Brasileiros para contribuir clica aqui nesse botão 👇
-
-<center>
-<a href="https://medium.com/@jessicatemporal/projetos-brasileiros-para-contribuir-nesse-hacktoberfest-vers%C3%A3o-2018-4925959b9411">
-  <img src="/images/clique-aqui-para-ler.png">
-  </a>
-</center>
