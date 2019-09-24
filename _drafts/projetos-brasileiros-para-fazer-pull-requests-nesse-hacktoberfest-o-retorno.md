@@ -1,7 +1,7 @@
 ---
 title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest o retorno'
 layout: post
-date: 2019-09-24 20:00:00 -0300
+date: 2019-09-24T23:00:00.000+00:00
 image: "/images/variados.png"
 tags:
 - pull request
@@ -38,9 +38,9 @@ E diferentementemente do ano passado! Essa lista agora não está mais no Medium
 
 ## C
 
-<a href="github.com/jtemporal/jtemporal.github.io">
-<div class="border">
-  <p>htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'</p>
-</div>
+<a href="https://github.com/jtemporal/jtemporal.github.io" class="github-project-share">
+  <p> htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top' </p>
+  <img src="https://avatars3.githubusercontent.com/u/6595551?s=460&amp;v=4">
 </a>
+
 ***
