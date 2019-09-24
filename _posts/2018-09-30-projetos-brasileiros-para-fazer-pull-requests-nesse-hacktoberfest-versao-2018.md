@@ -1,5 +1,6 @@
 ---
-title: Projetos Brasileiros para fazer pull requests nesse Hacktoberfest
+title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest versão
+  2018'
 layout: post
 date: 2018-09-30 00:00:00 -0300
 image: "/images/click-2.png"
