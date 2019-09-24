@@ -43,7 +43,7 @@ fields:
   hidden: false
   default: true
 pages:
-- _posts/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-versão-2018.md
+- _posts/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-o-retorno.md
 - _posts/de-0-a-17-mil-pageviews.md
 - _posts/2019-03-15-diferenciando-json-loads-de-json-load-e-uma-pitade-de-bigquery.md
 - _posts/2017-11-23-benford-law.md
