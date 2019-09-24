@@ -11,6 +11,27 @@ table {
     margin-right: 25%;
 }
 
+.github-project-share {
+    display: block;
+    position: relative;
+    width: 80%;
+    border: 1px solid #1bacaf5c;
+    margin: 1em auto 1em auto;
+}
+
+.github-project-share > p {
+    width: 70%;
+    float: left;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+.github-project-share > img {
+    width: 30%;
+    border-radius: 50%;
+    padding: 3px;
+}
+
 th {
     text-align: center;
     border-bottom: 1px solid #ddd;
