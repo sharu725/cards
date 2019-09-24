@@ -1,7 +1,7 @@
 ---
 title: 'Projetos Brasileiros para fazer pull requests nesse #Hacktoberfest o retorno'
 layout: post
-date: 2019-09-24T23:00:00.000+00:00
+date: 2019-09-24 08:00:00 -0300
 image: "/images/variados.png"
 tags:
 - pull request
