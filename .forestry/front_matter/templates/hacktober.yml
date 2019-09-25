@@ -30,6 +30,7 @@ fields:
     required: true
   label: Language
 pages:
+- _hacktoberfest_projects/Swift/caronae+caronae-ios.md
 - _hacktoberfest_projects/Pearl/GouveaHeitor+nipe.md
 - _hacktoberfest_projects/Ruby/railsgirls+guides-ptbr.md
 - _hacktoberfest_projects/Scala/potigol+potigol.md
