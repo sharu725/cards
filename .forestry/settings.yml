@@ -23,14 +23,6 @@ sections:
 - type: heading
   label: Tema
 - type: directory
-  path: _sass
-  label: sass
-  create: documents
-  match: "**/*"
-  new_doc_ext: scss
-  templates:
-  - empty
-- type: directory
   path: _layouts
   label: Layouts
   create: documents
