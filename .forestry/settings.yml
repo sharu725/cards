@@ -24,10 +24,10 @@ sections:
   label: Tema
 - type: directory
   path: _sass
-  label: SCSS
+  label: scss
   create: documents
   match: "**/*"
-  new_doc_ext: scss
+  new_doc_ext: ".scss"
   templates:
   - empty
 - type: directory
