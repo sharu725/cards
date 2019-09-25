@@ -19,7 +19,7 @@ sections:
   match: "**/*"
   new_doc_ext: '20190918141452'
   templates:
-  - empty
+  - hacktober
 - type: heading
   label: Tema
 - type: directory
