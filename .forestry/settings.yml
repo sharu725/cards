@@ -12,6 +12,14 @@ sections:
 - type: jekyll-pages
   label: Pages
   create: all
+- type: directory
+  path: _hacktoberfest_prjects
+  label: Hacktoberfest
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - empty
 - type: heading
   label: Tema
 - type: directory
