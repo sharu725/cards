@@ -19,7 +19,7 @@ table {
     margin: 1em auto 1em auto;
 }
 
-.github-project-share > p {
+.github-project-share > p, h4 {
     width: 70%;
     float: left;
     padding: 3px;
@@ -28,7 +28,7 @@ table {
 
 .github-project-share > img {
     width: 30%;
-    border-radius: 50%;
+    border-radius: 5%;
     padding: 3px;
 }
 
