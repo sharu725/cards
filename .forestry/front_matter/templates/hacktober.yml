@@ -30,10 +30,10 @@ fields:
     required: true
   label: Language
 pages:
-- _hacktoberfest_projects/Scala/potigol+potigol.md
-- _hacktoberfest_projects/Ruby/railsgirls+guides-ptbr.md
-- _hacktoberfest_projects/PHP/comuREDE+core.md
 - _hacktoberfest_projects/Pearl/GouveaHeitor+nipe.md
+- _hacktoberfest_projects/Ruby/railsgirls+guides-ptbr.md
+- _hacktoberfest_projects/Scala/potigol+potigol.md
+- _hacktoberfest_projects/PHP/comuREDE+core.md
 - _hacktoberfest_projects/Kotlin/wilder+lmgtfyGen.md
 - _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ+inloco.md
 - _hacktoberfest_projects/Elixir/philss+floki.md
