@@ -30,6 +30,7 @@ fields:
     required: true
   label: Language
 pages:
+- _hacktoberfest_projects/Julia/felipenoris+JSONWebTokens.jl.md
 - _hacktoberfest_projects/TypeScript/doczjs+docz.md
 - _hacktoberfest_projects/Shell/prefeiturasp+SME-plataforma-curriculo.md
 - _hacktoberfest_projects/Swift/caronae+caronae-ios.md
