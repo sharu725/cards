@@ -13,7 +13,7 @@ sections:
   label: Pages
   create: all
 - type: directory
-  path: _hacktoberfest_prjects
+  path: _hacktoberfest_projects
   label: Hacktoberfest
   create: documents
   match: "**/*"
