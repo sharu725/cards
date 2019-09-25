@@ -12,24 +12,36 @@ table {
 }
 
 .github-project-share {
-    display: block;
-    position: relative;
-    width: 80%;
-    border: 1px solid #1bacaf5c;
-    margin: 1em auto 1em auto;
-}
-
-.github-project-share > p, h4 {
     width: 70%;
-    float: left;
-    padding: 3px;
-    vertical-align: middle;
+    margin: 0 auto;
 }
 
-.github-project-share > img {
-    width: 30%;
-    border-radius: 5%;
-    padding: 3px;
+.github-project-share-card {
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #1bacaf5c;
+    box-shadow: 1px 1px 3px #888;
+    min-height: 250px;
+    padding-: 10px;
+    margin: 10px;
+}
+
+.github-project-share-card > p, h4 {
+    margin: 10px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+.github-project-share-card > p > small {
+    text-align: left;
+}
+
+.github-project-share-card > img {
+    border-radius: 50%;
+    width: 20%;
+    margin: 10px;
 }
 
 th {
