@@ -30,4 +30,5 @@ fields:
     required: true
   label: Language
 pages:
+- _hacktoberfest_projects/C#/alexsandro-xpt+ErysDownloader.md
 - _hacktoberfest_projects/C#/code-cracker+code-cracker.md
