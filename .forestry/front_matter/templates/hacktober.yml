@@ -31,8 +31,8 @@ fields:
   label: Language
 pages:
 - _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ+inloco.md
-- _hacktoberfest_projects/Go/avelino+awesome-go.md
 - _hacktoberfest_projects/Elixir/philss+floki.md
+- _hacktoberfest_projects/Go/avelino+awesome-go.md
 - _hacktoberfest_projects/C#/alexsandro-xpt+ErysDownloader.md
 - _hacktoberfest_projects/Cpp/OtacilioN+Brasilino.md
 - _hacktoberfest_projects/C#/code-cracker+code-cracker.md
