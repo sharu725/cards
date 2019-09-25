@@ -40,8 +40,8 @@ analytics:
 tagmanager:
 
 # Comments
-disqus: yes
-disqus-shortname: jtemporal
+#disqus: yes
+#disqus-shortname: jtemporal
 
 #social
 #facebook: http://facebook.com/webjeda
@@ -55,6 +55,10 @@ email: jessicatemporal@gmail.com
 #fb-app-id: 549480635219583
 #fb-page-url: https://www.facebook.com/webjeda/
 #fb-page-title: webjeda
+
+# Collections
+collections:
+  - hacktoberfest_projects
 
 # Sass style
 sass:
