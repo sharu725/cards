@@ -30,9 +30,18 @@ fields:
     required: true
   label: Language
 pages:
+- _hacktoberfest_projects/Julia/felipenoris+JSONWebTokens.jl.md
+- _hacktoberfest_projects/TypeScript/doczjs+docz.md
+- _hacktoberfest_projects/Shell/prefeiturasp+SME-plataforma-curriculo.md
+- _hacktoberfest_projects/Swift/caronae+caronae-ios.md
+- _hacktoberfest_projects/Pearl/GouveaHeitor+nipe.md
+- _hacktoberfest_projects/Ruby/railsgirls+guides-ptbr.md
+- _hacktoberfest_projects/Scala/potigol+potigol.md
+- _hacktoberfest_projects/PHP/comuREDE+core.md
+- _hacktoberfest_projects/Kotlin/wilder+lmgtfyGen.md
 - _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ+inloco.md
-- _hacktoberfest_projects/Go/avelino+awesome-go.md
 - _hacktoberfest_projects/Elixir/philss+floki.md
+- _hacktoberfest_projects/Go/avelino+awesome-go.md
 - _hacktoberfest_projects/C#/alexsandro-xpt+ErysDownloader.md
 - _hacktoberfest_projects/Cpp/OtacilioN+Brasilino.md
 - _hacktoberfest_projects/C#/code-cracker+code-cracker.md
