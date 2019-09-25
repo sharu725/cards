@@ -17,14 +17,14 @@ sections:
   label: Hacktoberfest
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20190918141452'
   templates:
   - empty
 - type: heading
   label: Tema
 - type: directory
   path: _sass
-  label: scss
+  label: sass
   create: documents
   match: "**/*"
   new_doc_ext: scss
