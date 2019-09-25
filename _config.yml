@@ -59,6 +59,10 @@ email: jessicatemporal@gmail.com
 #fb-page-url: https://www.facebook.com/webjeda/
 #fb-page-title: webjeda
 
+# Collections
+collections:
+  - hacktoberfest_projects
+
 # Sass style
 sass:
   style: compressed
