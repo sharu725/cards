@@ -17,7 +17,7 @@ sections:
 - type: directory
   path: _scss
   label: StyleSheets
-  create: all
+  create: documents
   match: "**/*"
   new_doc_ext: scss
   templates:
