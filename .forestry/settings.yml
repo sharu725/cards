@@ -17,14 +17,14 @@ sections:
   label: Hacktoberfest
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - empty
 - type: heading
   label: Tema
 - type: directory
   path: _sass
-  label: StyleSheets
+  label: SCSS
   create: documents
   match: "**/*"
   new_doc_ext: scss
@@ -35,7 +35,7 @@ sections:
   label: Layouts
   create: documents
   match: "**/*"
-  new_doc_ext: html
+  new_doc_ext: ".html"
   templates:
   - empty
 - type: directory
