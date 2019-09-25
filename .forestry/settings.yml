@@ -15,9 +15,9 @@ sections:
 - type: directory
   path: _hacktoberfest_projects
   label: Hacktoberfest
-  create: documents
+  create: all
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ''
   templates:
   - empty
 - type: heading
@@ -27,7 +27,7 @@ sections:
   label: scss
   create: documents
   match: "**/*"
-  new_doc_ext: ".scss"
+  new_doc_ext: scss
   templates:
   - empty
 - type: directory
