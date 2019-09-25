@@ -43,7 +43,7 @@ E diferentementemente do ano passado! Essa lista agora não está mais no Medium
 <div class="github-project-share">
 <a style="text-decoration: none;" href="{{ item.repo }}">
 {% assign project_info = item.relative_path |  remove: ".md" | remove: ".yml" | split: "/"  %}
-{% assign project = project_info[2] | replace: "-", "/" %}
+{% assign project = project_info[2] | replace: "+", "/" %}
 <div class="github-project-share-card ">
 <img src="{{ item.image }}" alt="" />
 <h4>{{ project }}</h4>
