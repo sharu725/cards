@@ -30,7 +30,7 @@ fields:
     required: true
   label: Language
 pages:
-- _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ/inloco.md
+- _hacktoberfest_projects/JavaScript/MinisterioPublicoRJ+inloco.md
 - _hacktoberfest_projects/Go/avelino+awesome-go.md
 - _hacktoberfest_projects/Elixir/philss+floki.md
 - _hacktoberfest_projects/C#/alexsandro-xpt+ErysDownloader.md
