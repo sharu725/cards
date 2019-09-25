@@ -41,7 +41,7 @@ sections:
   label: Sass
   create: documents
   match: "**/*"
-  new_doc_ext: ".scss"
+  new_doc_ext: scss
   templates:
   - empty
 upload_dir: images
@@ -49,7 +49,7 @@ public_path: images
 front_matter_path: "/images"
 use_front_matter_path: true
 file_template: ":filename:"
-instant_preview: true
+instant_preview: false
 build:
   preview_env:
   - JEKYLL_ENV=staging
