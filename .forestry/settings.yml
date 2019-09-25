@@ -15,7 +15,7 @@ sections:
 - type: heading
   label: Tema
 - type: directory
-  path: _scss
+  path: _sass
   label: StyleSheets
   create: documents
   match: "**/*"
