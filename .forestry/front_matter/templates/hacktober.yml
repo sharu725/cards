@@ -29,5 +29,3 @@ fields:
   config:
     required: true
   label: Language
-pages:
-- _hacktoberfest_projects/CSS/milligram-milligram.20190918141452
