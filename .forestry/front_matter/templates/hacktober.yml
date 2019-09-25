@@ -1,4 +1,25 @@
 ---
 label: hacktober
 hide_body: true
-fields: []
+fields:
+- name: repo
+  type: text
+  config:
+    required: true
+  label: Repository
+  description: link to github
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: repo description
+- name: principal_language
+  type: text
+  config:
+    required: true
+  label: Language
