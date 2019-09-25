@@ -8,6 +8,12 @@ fields:
     required: true
   label: Repository
   description: link to github
+- name: image
+  type: text
+  config:
+    required: true
+  label: Image
+  description: repo image
 - name: description
   type: textarea
   default: ''
