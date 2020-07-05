@@ -19,7 +19,6 @@ Below elements can be used just by adding certain classes to regular html elemen
 <a href="#" class="btn btn-primary btn-lg">Large button</a>
 <a href="#" class="btn btn-primary">Default button</a>
 <a href="#" class="btn btn-primary btn-sm">Small button</a>
-<a href="#" class="btn btn-primary btn-xs">Mini button</a>
 
 {% highlight html %}
 <a href="#" class="btn btn-default">Default</a>
@@ -33,7 +32,6 @@ Below elements can be used just by adding certain classes to regular html elemen
 <a href="#" class="btn btn-primary btn-lg">Large button</a>
 <a href="#" class="btn btn-primary">Default button</a>
 <a href="#" class="btn btn-primary btn-sm">Small button</a>
-<a href="#" class="btn btn-primary btn-xs">Mini button</a>
 {% endhighlight %}
 
 

@@ -40,11 +40,11 @@ disqus: yes
 disqus-shortname: webjeda-demo
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@webjeda
-github: http://github.com/webjeda
-email: hello@webjeda.com
+facebook: http://facebook.com/
+quora: http://quora.com/
+twitter: http://twitter.com/
+github: http://github.com/
+email: your@email.com
 
 #facebook like box
 fb-like-box: yes
@@ -57,5 +57,7 @@ sass:
   style: compressed
 
 # Ruby Gems
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
 
