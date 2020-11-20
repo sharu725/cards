@@ -2,7 +2,7 @@
 layout: post
 title:  "Usage Guide"
 categories: jekyll update
-img: image-2.png
+image: /images/image-2.png
 categories: two
 ---
 

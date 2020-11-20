@@ -1,30 +1,49 @@
 <div class="col-md-4 mt20">
-        <div class="post-img">
-           {% if page.img %}
-            <img width="600" src="{{site.baseurl}}/images/{{page.img}}" alt="{{page.title}}">
-            {% else %}
-            <img width="600" src="{{site.baseurl}}/images/{{site.default-image}}" alt="webjeda">
-            {% endif %}
-        </div>
-            
-        
-        <div class="mt10 recent">
-            <h2>Recent articles</h2>        
-             <ul>
-                {% for post in site.related_posts limit:3 %}
+  <div class="post-img">
+    {% if page.image %}
+    <img
+      width="600"
+      class="rounded"
+      src="{{page.image | relative_url}}"
+      alt="{{page.title}}"
+    />
+    {% endif %}
+  </div>
 
-                      <li>
-                      <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small></p>
-                      </li>
+  <div class="mt10 recent">
+    <h2>Recent articles</h2>
+    <ul>
+      {% for post in site.related_posts limit:3 %}
 
-                {% endfor %}
-              </ul>
-        </div>
-        {% if site.fb-like-box %}
-        <div class="mt10">
-            <div class="fb-page" data-href="https://www.facebook.com/webjeda/" data-width="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/webjeda/" class="fb-xfbml-parse-ignore"><a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a></blockquote></div>
-        </div>
-        {% endif %}
-        <br>
+      <li>
+        <p>
+          <a href="{{ post.url  | relative_url }}">{{ post.title }}</a
+          ><small>&nbsp;&nbsp;{{ post.date | date_to_string }}</small>
+        </p>
+      </li>
 
+      {% endfor %}
+    </ul>
+  </div>
+  {% if site.fb-like-box %}
+  <div class="mt10">
+    <div
+      class="fb-page"
+      data-href="https://www.facebook.com/webjeda/"
+      data-width="400"
+      data-small-header="true"
+      data-adapt-container-width="true"
+      data-hide-cover="true"
+      data-show-facepile="true"
+    >
+      <blockquote
+        cite="https://www.facebook.com/webjeda/"
+        class="fb-xfbml-parse-ignore"
+      >
+        <a href="{{site.fb-page-url}}">{{site.fb-page-title}}</a>
+      </blockquote>
+    </div>
+  </div>
+  {% endif %}
+  <br />
 </div>

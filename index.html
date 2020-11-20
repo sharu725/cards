@@ -7,10 +7,10 @@ layout: default
     {% for post in paginator.posts %}   
       <div class="col-12 col-md-6 col-lg-4">
        <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
-        <div class="card">  
+        <div class="card rounded overflow-hidden">  
           <div class="image">
-            {% if post.img %}
-            <img height="220" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+            {% if post.image %}
+            <img src="{{post.image | relative_url}}" alt="{{post.title}}">
             {% endif %}
             <div class="card-body">
               <h3 class="panel-title font-weight-bold">{{ post.title | truncate: 25 }}</h3>

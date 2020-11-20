@@ -1,29 +1,38 @@
 ---
 layout: default
 ---
-<div class="row">
-<div class="col-md-8">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-          <header class="post-header">
-            <h1 class="post-title font-weight-bold" itemprop="name headline">{{ page.title }}</h1>
-            <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-          </header>
-          <div class="post-content" itemprop="articleBody">
-            {{ content }}
-          </div>
 
+<div class="row">
+  <div class="col-md-8">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header class="post-header">
+        <h1 class="post-title font-weight-bold" itemprop="name headline">
+          {{ page.title }}
+        </h1>
+        <p class="post-meta">
+          <time
+            datetime="{{ page.date | date_to_xmlschema }}"
+            itemprop="datePublished"
+            >{{ page.date | date: "%b %-d, %Y" }}</time
+          >{% if page.author %} •
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"
+            ><span itemprop="name">{{ page.author }}</span></span
+          >{% endif %}
+        </p>
+      </header>
+      <div class="post-content" itemprop="articleBody">{{ content }}</div>
     </article>
 
-  <div class="next-previous-articles">
+    <div class="next-previous-articles">
       <nav aria-label="">
         <ul class="pagination">
           {% if page.next.url %}
           <li class="page-item">
-            <a class="page-link" href="#" tabindex="-1">&laquo; {{page.next.title}}</a>
+            <a class="page-link" href="#" tabindex="-1"
+              >&laquo; {{page.next.title}}</a
+            >
           </li>
-          {% endif %}
-      
-          {% if page.previous.url %}
+          {% endif %} {% if page.previous.url %}
           <li class="page-item">
             <a class="page-link" href="#">{{page.previous.title}} &raquo;</a>
           </li>
@@ -32,18 +41,12 @@ layout: default
       </nav>
     </div>
 
-
     <div class="">
-        {% if site.disqus-shortname %}
-         {% include disqus.html %}
-        {% endif %}
+      {% if site.disqus-shortname %} {% include disqus.html %} {% endif %}
     </div>
+  </div>
 
+  {% include sidebar.html %}
 </div>
-
-{% include sidebar.html %}
-
-</div>
-
 
 {% include fb-script.html %}
