@@ -30,7 +30,7 @@ layout: default
         {% if paginator.total_pages > 1 %}
         <ul class="pagination">
           {% if paginator.previous_page %}
-            <li class="page-item active">
+            <li class="page-item">
               <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
             </li>
           {% else %}
@@ -55,11 +55,11 @@ layout: default
           {% endfor %}
 
           {% if paginator.next_page %}
-            <li class="page-item active">
+            <li class="page-item">
               <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
             </li>
           {% else %}
-            <li class="page-item">
+            <li class="page-item" disabled>
               <span class="page-link">Next</span>
             </li>
           {% endif %}

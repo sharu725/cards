@@ -28,13 +28,15 @@ layout: default
         <ul class="pagination">
           {% if page.next.url %}
           <li class="page-item">
-            <a class="page-link" href="#" tabindex="-1"
+            <a class="page-link" href="{{page.next.url}}" tabindex="-1"
               >&laquo; {{page.next.title}}</a
             >
           </li>
           {% endif %} {% if page.previous.url %}
           <li class="page-item">
-            <a class="page-link" href="#">{{page.previous.title}} &raquo;</a>
+            <a class="page-link" href="{{page.previous.url}}"
+              >{{page.previous.title}} &raquo;</a
+            >
           </li>
           {% endif %}
         </ul>

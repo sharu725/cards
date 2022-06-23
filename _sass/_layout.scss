@@ -36,10 +36,10 @@ img {
 .navbar-brand {
   font-weight: 900;
   font-size: 1.85em;
-  padding: 10px;
-  margin-left: 15px !important;
+  padding: 10px 0;
   @media screen and (max-width: $on-palm) {
     font-size: 1.5em;
+    margin-left: 0;
   }
 }
 .post-meta {
@@ -49,7 +49,7 @@ img {
 .card {
   margin-bottom: 2em;
   border: none;
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
   &:hover,
   &:focus,
