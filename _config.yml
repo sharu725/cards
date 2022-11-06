@@ -14,6 +14,17 @@ description: > # this means to ignore newlines until "baseurl:"
 #baseurl: "/cards" # the subpath of your site, e.g. /blog
 url: "https://elmundoesimperfecto.com" # the base hostname & protocol for your site
 baseurl: "/" # the subpath of your site, e.g. /blog
+  # =======
+  # title: Personal Aggregator
+  # email: your-email@domain.com
+  # description: > # this means to ignore newlines until "baseurl:"
+  #   A theme based on Webjeda.
+  # 
+  # 
+  # #baseurl: "/cards" # the subpath of your site, e.g. /blog
+  # #url: "https://elmundoesimperfecto.com" # the base hostname & protocol for your site
+  # url: "" # the base hostname & protocol for your site
+  # >>>>>>> e7648390bc741ad5b63096fff6cdb5db0c0f97ce
 
 #sidebar
 default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
@@ -22,9 +33,14 @@ default-image: webjeda-logo-big.jpg # If there is no featured image in a post th
 
 built-by: fernand0 based on webjeda's work
 
-copyright:
+  # copyright:
+  # <<<<<<< HEAD
    name: Fernando Tricas García & webjeda (for the original template)
    link: 'http://elmundoesimperfecto.com'
+     # =======
+     #    name: fernand0 / webjeda
+     #    link: 'https://elmundoesimperfecto.com/'
+     # >>>>>>> e7648390bc741ad5b63096fff6cdb5db0c0f97ce
 
 # Build settings
 permalink: /:title/
@@ -37,6 +53,7 @@ paginate_path: /page:num/
 # Comments
 # disqus: yes
 # disqus-shortname: webjeda-demo
+# disqus-shortname: some-user
 
 #social
 facebook: http://facebook.com/fernando.tricas
@@ -44,17 +61,17 @@ twitter: http://twitter.com/fernand0
 github: http://github.com/fernand0
 email: fernand0+web@elmundoesimperfecto.com
 
-#facebook like box
+# #facebook like box
 # fb-like-box: yes
-# fb-app-id: 549480635219583
-# fb-page-url: https://www.facebook.com/webjeda/
-# fb-page-title: webjeda
+# fb-app-id: 123456789012345
+# fb-page-url: https://www.facebook.com/somePage/
+# fb-page-title: someTitle
 
 # Sass style
 sass:
   style: compressed
 
 # Ruby Gems
-plugins: 
+plugins:
   - jekyll-seo-tag
-
+  #  - jekyll-paginate
