@@ -3,19 +3,38 @@ layout: default
 ---
 
 <div class="home py-4 py-md-5">
-  <div class="row">
-    {% for post in paginator.posts %}   
+  <div class="row flexRow">
+	<!--
+	<div class="grid" style="--bs-columns: 3;">
+	-->
+    {% for post in site.posts reversed %}   
       <div class="col-12 col-md-6 col-lg-4">
-       <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
+       <a href="{{ post.url | prepend: site.url }}" class="index-anchor">
+
         <div class="card rounded overflow-hidden">  
           <div class="image">
             {% if post.image %}
             <img src="{{post.image | relative_url}}" alt="{{post.title}}">
             {% endif %}
             <div class="card-body">
-              <h2 class="panel-title">{{ post.title | truncate: 25 }}</h2>
-              <p class="p-0 my-1 mx-0"><span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span></p>
-               <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+
+    {% assign cats = "twitter,mastodon,reddit,github,flickr,goodreads,youtube,wordpress,devto,tumblr" | split: "," %}
+	    
+    {% for cat in post.categories %}
+    {% if cats contains cat %}
+    	<div class="{{post.categories}}">
+    {% endif %}
+    {% endfor %}
+		    <h2 class="panel-title"><small>{{ post.title | truncate: 25 }}</small></h2>
+
+    {% for cat in post.categories %}
+    {% if cats contains cat %}
+    	</div>
+    {% endif %}
+    {% endfor %}
+		    <!-- <p class="p-0 my-1 mx-0"><span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span></p> -->
+		    <p class="p-0 my-1 mx-0"><span class="post-meta"><small>{{ post.date | date: "(%H:%M)" }}</small></span></p>
+	      <p><small>{{ post.excerpt }} </small></p>
             </div>
           </div>
         </div>
@@ -25,6 +44,7 @@ layout: default
   </div>
 </div> 
     
+<!--
   <div class="row justify-content-center">
     <div class="col-md-4">
         {% if paginator.total_pages > 1 %}
@@ -67,5 +87,6 @@ layout: default
         {% endif %}
     </div>
   </div>
+-->
 
 </div>
