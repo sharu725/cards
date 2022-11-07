@@ -18,7 +18,7 @@ layout: default
             {% endif %}
             <div class="card-body">
 
-    {% assign cats = "twitter,mastodon,reddit,github,flickr,goodreads,youtube,wordpress,devto,tumblr,imgur" | split: "," %}
+    {% assign cats = "twitter,mastodon,reddit,github,flickr,goodreads,youtube,wordpress,devto,tumblr,imgur,blipfm" | split: "," %}
 	    
     {% for cat in post.categories %}
     {% if cats contains cat %}
