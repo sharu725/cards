@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+/*
+
+Adapted from PubwichFork Default Layout
+================================================================================
+
+You can use this stylesheet to create a custom Pubwich theme. You should
+duplicate the ``app/themes/default/`` directory to ``usr/themes/yourtheme/``
+though (at least containing the CSS file), and then change the ``PUBWICH_THEME``
+constant in your configuration file.
+
+@author Michael Haschke <http://michael.haschke.biz>
+
+*/
+
+
+/*
+
+Reset
+--------------------------------------------------------------------------------
+
+@author     Eric Meyer
+@see        http://meyerweb.com/eric/tools/css/reset/
+@version    v2.0 | 20110126
+@license    none (public domain)
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+
+Helper
+--------------------------------------------------------------------------------
+
+*/
+
+.clearfix {
+    min-height: contain-floats;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hideme {
+    position: absolute;
+    left: -5000em;
+}
+
+
+/*
+
+Basic Layout
+--------------------------------------------------------------------------------
+
+*/
+
+html {
+    font-size: 100.01%;
+    font-size: calc(0.75em + 0.25vh + 0.15vw);
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    background: #f6f6f6;
+    color: #444;
+    padding: 1.4em;
+}
+
+#header,
+#main,
+#footer {
+    width: auto;
+	max-width: 80rem;
+	margin: 1.4rem auto;
+}
+
+#header {
+}
+
+#main {
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #004235;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000;
+}
+
+p {
+    margin-bottom: 0.7rem;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+a {
+    text-decoration: underline;
+    color: #004235;
+}
+a:focus,
+a:hover,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+#footer {
+    border-top: dotted 1px #999;
+	padding: 1.4rem 0;
+}
+
+#footer a.pubwich {
+	background: url('./pubwichfork_16.png') no-repeat left center transparent;
+	white-space: nowrap;
+	padding-left: 18px;
+}
+
+@media screen and (min-width: 50rem)
+{
+}
+
+@media screen and (min-width: 75rem)
+{
+}
+
+/*
+
+Container
+--------------------------------------------------------------------------------
+
+*/
+
+/*
+
+[class*="container"] {
+    margin-bottom: 1.4rem;
+}
+
+@media screen and (min-width: 50rem)
+{
+    [class*="container"] {
+        box-sizing: border-box;
+        float: left;
+        clear: none;
+        width: 50%;
+    }
+
+    [class*="container"]:nth-child(2n+1) {
+        clear: left;
+        padding-right: 0.7rem;
+    }
+
+    [class*="container"]:nth-child(2n+2) {
+        clear: none;
+        padding-left: 0.7rem;
+    }
+
+}
+
+@media screen and (min-width: 75rem)
+{
+    [class*="container"] {
+        width: 33.33%;
+    }
+
+    [class*="container"]:nth-child(3n+1) {
+        clear: left;
+        padding-right: 0.9333rem;
+    }
+
+    [class*="container"]:nth-child(3n+2) {
+        clear: none;
+        padding-left: 0.4667rem;
+        padding-right: 0.4667rem;
+    }
+
+    [class*="container"]:nth-child(3n+3) {
+        clear: none;
+        padding-left: 0.9333rem;
+    }
+
+}
+
+*/
+
+
+/*
+
+Boxes default
+--------------------------------------------------------------------------------
+
+*/
+
+.box {
+    margin-bottom: 1.4rem;
+    background: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    border: solid 1px #ddd;
+}
+
+.boxheader {
+    padding: 0.35rem 0.7rem;
+    background: #f3f3f3;
+    border-bottom: 1px dotted #999;
+}
+
+.boxheader h2 {
+    display: inline;
+}
+
+.boxheader p {
+    display: inline;
+}
+
+.boxcontent {
+	padding: 0.7rem;
+}
+
+.boxcontent > li {
+    margin-bottom: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-bottom: dotted 1px #ddd;
+    overflow: hidden;
+}
+
+.boxcontent > li:last-child {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.item-media-thumbnail {
+    float: left;
+    vertical-align: baseline;
+    margin: 0.35rem 0.7rem 0.35rem 0;
+    width: auto;
+    height: auto;
+    max-height: 7rem;
+    min-width: 4.2rem;
+    max-width: 25%;
+}
+
+.item-media-thumbnail + strong {
+    display: block;
+}
+
+.nodata {
+	opacity: 0.65;
+}
+
+.box.no-title h2 {
+	display: none;
+}
+
+
+/*
+
+Boxes special
+--------------------------------------------------------------------------------
+
+*/
+
+/* use branding colors
+
+@see http://brandcolors.net/?brands=50,58,68,70,72,76,92,93,98,111,121,150,155,168,323
+
+*/
+
+.dribbble h2,
+.dribbble a {
+    color: #8aba56;
+}
+
+.facebookpage h2,
+.facebookpage a {
+    color: #3b5998;
+}
+
+.goodreads h2,
+.goodreads a {
+	color: #553b08;
+}
+.flickr h2,
+.flickr a {
+	color: #0063dc;
+}
+
+.mastodon h2,
+.mastodon a, {
+	color:#8c8dff
+}
+
+.github h2,
+.github a,
+.githubfeed h2,
+.githubfeed a {
+    color: #4183c4;
+}
+
+.imgur h2,
+.imgur a {
+	color: #85bf25;
+}
+
+.blipfm h2,
+.blipfm a {
+	color: #ffa500;
+}
+
+
+.instagram h2,
+.instagram a {
+	color: #3f729b;
+}
+
+.lastfm h2,
+.lastfm a {
+	color: #d51007;
+}
+
+.pinboard h2,
+.pinboard a {
+	color: #0000e6;
+}
+
+.reddit h2,
+.reddit a {
+	color: #5f99cf;
+}
+
+.twitter h2,
+.twitter a {
+	color: #55acee;
+}
+
+.vimeo h2,
+.vimeo a {
+	color: #1ab7ea;
+}
+
+
+.tumblr h2,
+.tumblr a {
+	color: #001935;
+}
+
+.devto h2,
+.devto a {
+	color: #0a0a0a;
+}
+.wordpress h2,
+.wordpress a {
+	color: #21759b;
+}
+.youtube h2,
+.youtube a {
+	color: #cd201f;
+}
+
+/* list item layout
+
+*/
+
+.instagram .boxcontent,
+.flickr .boxcontent,
+.dribbble .boxcontent {
+	padding-right: 0.35rem;
+}
+
+.instagram .boxcontent li,
+.flickr .boxcontent li,
+.dribbble .boxcontent li {
+    padding:0;
+    margin: 0;
+    float: left;
+    width: 25%;
+    border: none;
+}
+
+.instagram .boxcontent li a,
+.flickr .boxcontent li a,
+.dribbble .boxcontent li a {
+    display: block;
+    margin: 0 0.35rem 0.35rem 0;
+    border: none;
+}
+
+.instagram .boxcontent li img,
+.flickr .boxcontent li img,
+.dribbble .boxcontent li img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
